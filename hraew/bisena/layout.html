@@ -1,0 +1,10 @@
+<!doctype html>
+<title>Hrǽw :: {{ entry.name }}</title>
+<div class=page>
+
+  <img src="{{url_for('static', filename='bilitha/logos/autophagy-logo-dark.svg')}}">
+
+  <h1>{{ entry.name }}</h1>
+  <div class="head">{{ entry.head }}</div>
+  {{ entry.to_html()|safe }}
+</div>

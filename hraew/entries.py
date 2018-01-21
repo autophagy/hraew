@@ -11,10 +11,7 @@ class Entry(object):
         self.body = body
 
     def to_html(self):
-        # Create head
-        rst_head = "{0}\n{1}\n\n".format(self.head, "="*len(self.head))
-
-        return publish_parts(rst_head + self.body, writer_name="html")["html_body"]
+        return publish_parts(self.body, writer_name="html")["html_body"]
 
 with open(join(dirname(__file__), "entries.yml"), "r") as entries_yml:
     entries = yaml.load(entries_yml)
