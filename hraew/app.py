@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask, abort, render_template
-from .entries import entries
+from .trametas import trametas
 
 application = Flask(__name__, static_folder='faestlic', template_folder='bisena')
 
 @application.route("/")
 def index():
-    return render_template('layout.html', entry=entries['index'])
+    return render_template('layout.html', tramet=trametas['index'])
 
-@application.route("/<entry>")
-def entry(entry):
-    if entry in entries:
-        return render_template('layout.html', entry=entries[entry])
+@application.route("/<tramet_key>")
+def tramet(tramet_key):
+    if tramet_key in trametas:
+        return render_template('layout.html', tramet=trametas[tramet_key])
     else:
         abort(404)
 
