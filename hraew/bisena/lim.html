@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block body %}
+    <div id="lim-head">
+        {{ lim.head }}
+    </div>
+    {{ lim.to_html()|safe}}
+{% endblock %}

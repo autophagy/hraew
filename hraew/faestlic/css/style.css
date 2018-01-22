@@ -65,18 +65,18 @@ p {
     margin-bottom: 1em;
 }
 
-#tramet, body, html {
+#lim, body, html {
     height: 100%;
     line-height: 150%;
 }
 
-#tramet-header {
+#lim-header {
     position: relative;
     height: 100%;
     z-index: 4
 }
 
-#tramet-image {
+#lim-image {
     background-color: #2d2d2d;
     width: 100%;
     height: calc(100% - 120px);
@@ -84,7 +84,7 @@ p {
     background-position: 50%;
 }
 
-#tramet-detail {
+#lim-detail {
     position: absolute;
     bottom: 0px;
     display: flex;
@@ -97,7 +97,7 @@ p {
     font-size: 40px;
 }
 
-#logo, #tramet-name {
+#logo, #lim-name {
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -108,13 +108,13 @@ p {
 }
 
 
-#tramet-head {
+#lim-head {
     font-size: 2em;
     color: #3b3b3b;
     margin-bottom: 40px;
 }
 
-#tramet-content {
+#lim-content {
     padding: 40px;
     max-width: 1280px;
     margin-left: auto;

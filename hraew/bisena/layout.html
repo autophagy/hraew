@@ -5,35 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#2D2D2D" />
 
-    <title>Hrǽw :: {{ tramet.name }}</title>
+    <title>Hrǽw :: {{ lim.name }}</title>
 
     <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}"/>
 
     <style type="text/css" media="screen">
-        #tramet-image {
-            background-image: url({{url_for('static', filename='bilitha/trametas/{0}/header.jpg'.format(tramet_key))}});
+        #lim-image {
+            background-image: url({{url_for('static', filename='bilitha/leomu/{0}/header.jpg'.format(lim_key))}});
         }
     </style>
 </head>
 
 <body>
-    <div id="tramet">
-        <header id="tramet-header">
-            <div id="tramet-image">
+    <div id="lim">
+        <header id="lim-header">
+            <div id="lim-image">
             </div>
-            <div id="tramet-detail">
+            <div id="lim-detail">
                 <div id="logo">
                     <a href="{{url_for('index')}}">
                         <img src="{{url_for('static', filename='bilitha/logos/autophagy-logo-light.svg')}}" />
                     </a>
                 </div>
-                <div id="tramet-name" class="sans">
-                    {{ tramet.name }}
+                <div id="lim-name" class="sans">
+                    {{ lim.name }}
                 </div>
             </div>
         </header>
 
-        <div id="tramet-content">
+        <div id="lim-content">
             {% block body %}{% endblock %}
         </div>
 
