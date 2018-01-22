@@ -65,6 +65,30 @@ p {
     margin-bottom: 1em;
 }
 
+a.icon {
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+a.icon.github {
+    background-image: url('../bilitha/logos/github.svg');
+}
+
+a.icon.twitter {
+    background-image: url('../bilitha/logos/twitter.svg');
+}
+
+a.icon.rotonde {
+    background-image: url('../bilitha/logos/rotonde.svg');
+}
+
+a.icon.itchio {
+    background-image: url('../bilitha/logos/itchio.svg');
+}
+
 #lim, body, html {
     height: 100%;
     line-height: 150%;
@@ -122,13 +146,30 @@ p {
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #2d2d2d;
     color: #f2f2f2;
-    height: 40px;
     font-family: 'Quicksand', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer #footer-wrapper {
+    max-width: 1280px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer #externals {
+    display: flex;
+    align-items: center;
+}
+
+footer #externals a.icon {
+    margin-right: 15px;
 }
 
 footer .version {
