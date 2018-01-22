@@ -3,6 +3,8 @@
 from flask import Flask, abort, render_template
 from .trametas import trametas
 
+VERSION = '0.1.0'
+
 application = Flask(__name__, static_folder='faestlic', template_folder='bisena')
 
 @application.route("/")
@@ -17,6 +19,10 @@ def tramet(tramet_key):
                                               tramet=trametas[tramet_key])
     else:
         abort(404)
+
+@application.context_processor
+def inject_version():
+    return dict(version=VERSION)
 
 if __name__ == "__main__":
     application.run(host='0.0.0.0')

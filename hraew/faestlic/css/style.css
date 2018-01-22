@@ -126,3 +126,7 @@ footer {
     height: 40px;
     font-family: 'Quicksand', sans-serif;
 }
+
+footer .version {
+    font-size: 0.75em;
+}
