@@ -103,6 +103,13 @@ body {
     height: 40px;
 }
 
+
+#tramet-head {
+    font-size: 2em;
+    color: #3b3b3b;
+    margin-bottom: 40px;
+}
+
 #tramet-content {
     padding: 40px;
     max-width: 1280px;
