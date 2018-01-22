@@ -7,12 +7,14 @@ application = Flask(__name__, static_folder='faestlic', template_folder='bisena'
 
 @application.route("/")
 def index():
-    return render_template('layout.html', tramet=trametas['index'])
+    return render_template('tramet.html', tramet_key='index',
+                                          tramet=trametas['index'])
 
 @application.route("/<tramet_key>")
 def tramet(tramet_key):
     if tramet_key in trametas:
-        return render_template('layout.html', tramet=trametas[tramet_key])
+        return render_template('tramet.html', tramet_key=tramet_key,
+                                              tramet=trametas[tramet_key])
     else:
         abort(404)
 
