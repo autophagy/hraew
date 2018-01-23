@@ -145,6 +145,16 @@ a.icon.itchio {
     margin-right: auto;
 }
 
+#lim-content .img-container {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#lim-content .img-container img {
+    max-width: 100%;
+}
+
 footer {
     background-color: #2d2d2d;
     color: #f2f2f2;

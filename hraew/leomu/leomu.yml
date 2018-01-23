@@ -23,6 +23,9 @@ hwaete:
   name: Hwǣte
   head: Hwǣte is a project to document my bread baking.
   body: |
+        [BILIÞ]
+        [logo.png :: a logo for the time being]
+
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis urna
         tortor, vitae volutpat elit maximus nec. Sed sit amet ligula gravida, congue
         felis at, molestie tortor. Class aptent taciti sociosqu ad litora torquent per
