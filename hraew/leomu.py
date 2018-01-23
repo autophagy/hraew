@@ -3,7 +3,7 @@ import yaml
 from os.path import dirname, join
 import bleach
 import re
-from flask import url_for
+from flask import url_for, render_template
 
 class Lim(object):
 
@@ -45,9 +45,6 @@ class Lim(object):
         # [BILIÞ]
         # [image.format :: optional caption]
 
-        image_tag = "<div class='img-container'> <img src='{image_src}' alt='{image_alt}' /> </div>"
-        image_loc = 'bilitha/leomu/{key}/{image_uri}'
-
         regex = '\[(.*?)\]'
 
         try:
@@ -62,9 +59,9 @@ class Lim(object):
             else:
                 image_uri = image_definition
 
-            image_uri = url_for('static', filename=image_loc.format(key=self.key, image_uri=image_uri.strip()))
-
-            return image_tag.format(image_src=image_uri, image_alt=image_alt.strip())
+            return render_template('bilith.html', lim_key=self.key,
+                                                  image_uri=image_uri.strip(),
+                                                  image_alt=image_alt.strip())
         except Exception as e:
             print(e)
             print("{0} is an invalid image definition.".format(image_definition))

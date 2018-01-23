@@ -1,7 +1,13 @@
+bleach==2.1.2
 click==6.7
+docutils==0.14
 Flask==0.12.2
 gunicorn==19.7.1
+html5lib==1.0.1
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
 PyYAML==3.12
+six==1.11.0
+webencodings==0.5.1
+Werkzeug==0.14.1
