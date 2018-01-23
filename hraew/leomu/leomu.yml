@@ -2,7 +2,8 @@ index:
   name: Hrǽwinfær
   head: Wilcume on Hrǽw.
   body: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis urna
+        Lorem ipsum [GEÞEODAN :: hwaete :: Hwǣte] dolor sit amet, consectetur
+        adipiscing elit. Maecenas convallis urna
         tortor, vitae volutpat elit maximus nec. Sed sit amet ligula gravida, congue
         felis at, molestie tortor. Class aptent taciti sociosqu ad litora torquent per
         conubia nostra, per inceptos himenaeos.
@@ -31,7 +32,8 @@ hwaete:
         felis at, molestie tortor. Class aptent taciti sociosqu ad litora torquent per
         conubia nostra, per inceptos himenaeos.
 
-        Aliquam id lectus fermentum, gravida massa eget, euismod nulla. Praesent quis
+        Aliquam [GEÞEODAN :: https://github.com/autophagy/hwaete :: Github]
+        id lectus fermentum, gravida massa eget, euismod nulla. Praesent quis
         blandit nibh, non efficitur lorem.
 
         Phasellus tellus lectus, dapibus at est vitae, mollis pellentesque urna. Donec

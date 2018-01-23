@@ -37,7 +37,12 @@ class Lim(object):
 
     def _create_paragraph(self, element):
         paragraph_wrap = "<p>{0}</p>"
-        paragraph = paragraph_wrap.format(bleach.clean(element))
+        element = bleach.clean(element)
+
+        # Parse geþeodan
+        geþeodanified_element = self._create_geþeodan(element)
+
+        paragraph = paragraph_wrap.format(geþeodanified_element)
         return paragraph
 
     def _create_image(self, element):
@@ -62,10 +67,33 @@ class Lim(object):
             return render_template('bilith.html', lim_key=self.key,
                                                   image_uri=image_uri.strip(),
                                                   image_alt=image_alt.strip())
-        except Exception as e:
-            print(e)
+        except Exception:
             print("{0} is an invalid image definition.".format(image_definition))
             return ''
+
+    def _create_geþeodan(self, element):
+        # Geþeodan tags will be in the form
+        # [GEÞEODAN :: uri :: geþeodan]
+
+        def get_geþeodan_elements(geþeodan_string):
+            try:
+                if '::' in geþeodan_string:
+                    geþeodan_uri, geþeodan_text = geþeodan_string.split('::')
+                else:
+                    geþeodan_uri = geþeodan_string
+                    geþeodan_text = geþeodan_string
+                return {'uri': geþeodan_uri.strip(),
+                        'text': geþeodan_text.strip()}
+            except Exception:
+                print("{0} is an invalid getheodan definition.".format(geþeodan_string))
+
+        regex = re.compile('\[GEÞEODAN :: (.*?)\]')
+
+        # Create innan geþeodan
+        element = regex.sub(lambda x: render_template('getheodan.html',
+                            geþeodan=get_geþeodan_elements(x.group(1))), element)
+
+        return element
 
 
 with open(join(dirname(__file__), "leomu/leomu.yml"), "r") as leomu_yml:
