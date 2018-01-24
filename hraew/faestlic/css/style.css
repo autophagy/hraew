@@ -54,6 +54,7 @@ table {
 
 .sans {
     font-family: 'Quicksand', sans-serif;
+    line-height: 1em;
 }
 
 body {
@@ -190,4 +191,26 @@ footer #externals a.icon {
 
 footer .version {
     font-size: 0.75em;
+}
+
+
+/* Exception Page */
+
+#gedwola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(100% - 60px);
+    background-color: #2d2d2d;
+    color: #f2f2f2;
+}
+
+#gedwola-logo img {
+    width: 200px;
+}
+
+#gedwola-message {
+    margin-top: 1em;
+    font-size: 4em;
 }

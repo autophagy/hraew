@@ -20,6 +20,14 @@ def lim(lim_key):
     else:
         abort(404)
 
+@application.errorhandler(404)
+def pageNotFound(error):
+    return render_template('gedwola.html', error_code='404', error_message='Not Found'), 404
+
+@application.errorhandler(500)
+def internalServerError(error):
+    return render_template('gedwola.html', error_code='500', error_message='Internal Server Error'), 500
+
 @application.context_processor
 def inject_version():
     return dict(version=VERSION)
