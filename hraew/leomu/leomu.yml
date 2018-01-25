@@ -22,6 +22,7 @@ index:
 
 hwaete:
   name: Hwǣte
+  project: true
   head: Hwǣte is a project to document my bread baking.
   body: |
         [BILIÞ]
@@ -44,3 +45,6 @@ hwaete:
         blandit facilisis, tortor erat laoreet sapien, ut rutrum massa est quis ex. Ut
         bibendum diam vel consectetur molestie. Fusce tincidunt, diam in scelerisque
         bibendum, tellus elit congue risus, eu tempus ipsum est quis dolor.
+  externals:
+      source: https://github.com/autophagy/hwaete
+      website: http://hwaete.autophagy.io/

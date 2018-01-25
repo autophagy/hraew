@@ -7,11 +7,13 @@ from flask import url_for, render_template
 
 class Lim(object):
 
-    def __init__(self, key, name, head, body):
+    def __init__(self, key, lim):
         self.key = key
-        self.name = name
-        self.head = head
-        self.body = body
+        self.name = lim.get('name', "")
+        self.project = lim.get('project', False)
+        self.head = lim.get('head', "")
+        self.body = lim.get('body', "")
+        self.externals = lim.get('externals', None)
 
     def to_html(self):
         return self._parse_body()
@@ -99,4 +101,4 @@ class Lim(object):
 with open(join(dirname(__file__), "leomu/leomu.yml"), "r") as leomu_yml:
     leomu = yaml.load(leomu_yml)
     for key, value in leomu.items():
-        leomu[key] = Lim(key, value['name'], value['head'], value['body'])
+        leomu[key] = Lim(key, value)

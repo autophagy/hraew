@@ -1,7 +1,22 @@
 {% extends "layout.html" %}
 {% block body %}
-    <div id="lim-head">
-        {{ lim.head }}
+    {% if lim.project %}
+    <div id="lim-side-content">
+        {% if lim.externals %}
+            <h3 class="sans">Externals</h3>
+            <ul>
+            {% for external_key, external_link in lim.externals.items() %}
+                <li><a href="{{external_link}}">{{external_key.title()}}</a>
+            {% endfor %}
+            </ul>
+        {% endif %}
     </div>
-    {{ lim.to_html()|safe}}
+    {% endif %}
+
+    <div id="lim-main-content">
+        <div id="lim-head">
+            {{ lim.head }}
+        </div>
+        {{ lim.to_html()|safe}}
+    </div>
 {% endblock %}

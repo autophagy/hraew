@@ -138,6 +138,16 @@ a.icon.itchio {
     height: 40px;
 }
 
+#lim-side-content {
+    width: 150px;
+    margin-right: 40px;
+}
+
+#lim-side-content h3 {
+    color: #888888;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
 
 #lim-head {
     font-size: 2em;
@@ -146,6 +156,7 @@ a.icon.itchio {
 }
 
 #lim-content {
+    display: flex;
     padding: 40px;
     max-width: 1280px;
     margin-left: auto;
@@ -160,6 +171,10 @@ a.icon.itchio {
 
 #lim-content .img-container img {
     max-width: 100%;
+}
+
+#lim-main-content {
+    flex: 1;
 }
 
 footer {
