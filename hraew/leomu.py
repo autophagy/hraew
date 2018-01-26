@@ -106,22 +106,29 @@ class Lim(object):
         # [ row1    | row2    | row3    ]
 
         def create_element_list(cunnungarc_string):
-            regex = '\[(.*?)\]'
+            try:
+                regex = '\[(.*?)\]'
 
-            element_list = re.match(regex, cunnungarc_string).group(1).split('|')
-            return list(map(lambda x: bleach.clean(x.strip()), element_list))
+                element_list = re.match(regex, cunnungarc_string).group(1).split('|')
+                return list(map(lambda x: bleach.clean(x.strip()), element_list))
+            except Exception:
+                print("{0} is an invalid cunnungarc row definition.".format(cunnungarc_string))
 
+        try:
+            # Discard the header tag
+            cunnungarc_rows = element.split('\n')
+            cunnungarc_rows.pop(0)
 
-        # Discard the header tag
-        cunnungarc_rows = element.split('\n')
-        cunnungarc_rows.pop(0)
+            cunnungarc_rows = list(filter(lambda x: x != '', cunnungarc_rows))
+            cunnungarc_head = cunnungarc_rows.pop(0)
+            headers = create_element_list(cunnungarc_head)
+            rows = list(map(lambda x: create_element_list(x), cunnungarc_rows))
 
-        cunnungarc_rows = list(filter(lambda x: x != '', cunnungarc_rows))
-        cunnungarc_head = cunnungarc_rows.pop(0)
-        headers = create_element_list(cunnungarc_head)
-        rows = list(map(lambda x: create_element_list(x), cunnungarc_rows))
-
-        return render_template('cunnungarc.html', headers=headers, rows=rows)
+            return render_template('cunnungarc.html', headers=headers, rows=rows)
+        except Exception:
+            print(cunnungarc_string)
+            print("is an invalid cunnungarc definition.")
+            return ''
 
 with open(join(dirname(__file__), "leomu/leomu.yml"), "r") as leomu_yml:
     leomu = yaml.load(leomu_yml)
