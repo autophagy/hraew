@@ -27,6 +27,8 @@ class Lim(object):
 
             if ele_head.strip() == '[BILIÞ]':
                 html_elements.append(self._create_image(element))
+            elif ele_head.strip() == '[CUNNUNGARC]':
+                html_elements.append(self._create_cunnungarc(element))
             else:
                 # Just treat it as a paragraph
                 html_elements.append(self._create_paragraph(element))
@@ -97,6 +99,29 @@ class Lim(object):
 
         return element
 
+    def _create_cunnungarc(self, element):
+        # Cunnungarc tags in the form:
+        # [CUNNUNGARC]
+        # [ HEADER1 | HEADER2 | HEADER3 ]
+        # [ row1    | row2    | row3    ]
+
+        def create_element_list(cunnungarc_string):
+            regex = '\[(.*?)\]'
+
+            element_list = re.match(regex, cunnungarc_string).group(1).split('|')
+            return list(map(lambda x: bleach.clean(x.strip()), element_list))
+
+
+        # Discard the header tag
+        cunnungarc_rows = element.split('\n')
+        cunnungarc_rows.pop(0)
+
+        cunnungarc_rows = list(filter(lambda x: x != '', cunnungarc_rows))
+        cunnungarc_head = cunnungarc_rows.pop(0)
+        headers = create_element_list(cunnungarc_head)
+        rows = list(map(lambda x: create_element_list(x), cunnungarc_rows))
+
+        return render_template('cunnungarc.html', headers=headers, rows=rows)
 
 with open(join(dirname(__file__), "leomu/leomu.yml"), "r") as leomu_yml:
     leomu = yaml.load(leomu_yml)

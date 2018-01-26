@@ -95,6 +95,25 @@ a.icon.itchio {
     background-image: url('../bilitha/logos/itchio.svg');
 }
 
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+    max-width: 100%;
+}
+
+table thead th {
+    font-weight: bold;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 0.5em;
+}
+
+table tbody tr:nth-of-type(odd) {
+    background-color: #DADADA
+}
+
 #lim, body, html {
     height: 100%;
     line-height: 150%;

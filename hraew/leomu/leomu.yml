@@ -48,3 +48,33 @@ hwaete:
   externals:
       source: https://github.com/autophagy/hwaete
       website: http://hwaete.autophagy.io/
+
+datarum:
+  name: Datárum
+  project: true
+  head: Datárum is a calendar system based on the French Republican Calendar.
+  body: |
+        [CUNNUNGARC]
+        [               | FRENCH         | OLD ENGLISH | TRANSLATION                 ]
+        [ Autumn        | Vendémiaire    | Hærfest     | Harvest, autumn             ]
+        [               | Brumaire       | Mist        | Mist, fog                   ]
+        [               | Frimaire       | Forst       | Frost                       ]
+        [ Winter        | Nivôse         | Snáw        | Snow                        ]
+        [               | Pluviôse       | Reg         | Rain                        ]
+        [               | Ventôse        | Wind        | Wind                        ]
+        [ Spring        | Germinal       | Sǽd         | Seed                        ]
+        [               | Floréal        | Blóstm      | Blossom, flower             ]
+        [               | Prairial       | Mǽdland     | Meadow-land                 ]
+        [ Summer        | Messidor       | Ríp         | Reaping, harvest            ]
+        [               | Thermidor      | Hát         | Heat                        ]
+        [               | Fructidor      | Wæstm       | Growth, produce, fruit      ]
+        [ Complementary | Sansculottides | Wending     | A turning round, revolution ]
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis urna
+        tortor, vitae volutpat elit maximus nec. Sed sit amet ligula gravida, congue
+        felis at, molestie tortor. Class aptent taciti sociosqu ad litora torquent per
+        conubia nostra, per inceptos himenaeos.
+  externals:
+      source: https://github.com/Autophagy/datarum
+      package: https://pypi.python.org/pypi/datarum/
+      documentation: https://datarum.readthedocs.io/en/latest/

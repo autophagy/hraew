@@ -1,0 +1,14 @@
+<table>
+    <thead>
+    {% for header in headers %}
+        <th>{{ header.title() }}</th>
+    {% endfor %}
+    </thead>
+    {% for row in rows %}
+        <tr>
+        {% for element in row %}
+            <td>{{ element }}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+</table>
