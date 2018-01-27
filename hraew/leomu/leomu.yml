@@ -2,26 +2,14 @@ index:
   name: Hrǽwinfær
   head: Wilcume on Hrǽw.
   body: |
-        Lorem ipsum [GEÞEODAN :: hwaete :: Hwǣte] dolor sit amet, consectetur
-        adipiscing elit. Maecenas convallis urna
-        tortor, vitae volutpat elit maximus nec. Sed sit amet ligula gravida, congue
-        felis at, molestie tortor. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos.
-
-        Aliquam id lectus fermentum, gravida massa eget, euismod nulla. Praesent quis
-        blandit nibh, non efficitur lorem.
-
-        Phasellus tellus lectus, dapibus at est vitae, mollis pellentesque urna. Donec
-        sollicitudin lorem et sapien elementum, vel mattis nisl scelerisque. Mauris at
-        pulvinar ante, eget interdum justo. Vivamus eget urna nec enim elementum
-        placerat ac sed turpis. Cras laoreet orci vitae elit consequat venenatis. Nunc
-        at orci dictum, lobortis nisi ac, convallis ligula. Vestibulum commodo, leo eu
-        blandit facilisis, tortor erat laoreet sapien, ut rutrum massa est quis ex. Ut
-        bibendum diam vel consectetur molestie. Fusce tincidunt, diam in scelerisque
-        bibendum, tellus elit congue risus, eu tempus ipsum est quis dolor.
+        Wilcume on Hrǽw, my project information and documentation repository. Here
+        is contained information about each of my projects, as well as my
+        [GEÞEODAN :: faereld-summary :: Færeld summary]. Hrǽw was first invoked
+        on 8 Regn 226.
 
 hwaete:
   name: Hwǽte
+  brief: Bread Diary
   project: true
   head: Hwǽte is a project to document my bread baking.
   body: |
@@ -51,6 +39,7 @@ hwaete:
 
 datarum:
   name: Datárum
+  brief: Calendar System
   project: true
   head: Datárum is a calendar system based on the French Republican Calendar.
   body: |
@@ -81,6 +70,7 @@ datarum:
 
 hraew:
   name: Hrǽw
+  brief: Project Information Engine
   project: true
   head: Hrǽw is a project information & documentation engine.
   body: |

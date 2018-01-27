@@ -10,6 +10,7 @@ class Lim(object):
     def __init__(self, key, lim):
         self.key = key
         self.name = lim.get('name', "")
+        self.brief = lim.get('brief', "")
         self.project = lim.get('project', False)
         self.head = lim.get('head', "")
         self.body = lim.get('body', "")

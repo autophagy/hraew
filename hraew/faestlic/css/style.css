@@ -226,6 +226,39 @@ footer .version {
 }
 
 
+/* Index */
+
+ul#index-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+ul#index-list li {
+    margin: 0 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+ul#index-list li a{
+    padding: 10px;
+    display: block;
+}
+
+ul#index-list li a:hover{
+    background-color: #dadada;
+}
+
+ul#index-list span {
+    display: block;
+}
+
+ul#index-list .lim-brief {
+    font-weight: normal;
+    font-size: 75%;
+    margin-top: -5px;
+}
+
 /* Exception Page */
 
 #gedwola {

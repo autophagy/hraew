@@ -9,8 +9,9 @@ application = Flask(__name__, static_folder='faestlic', template_folder='bisena'
 
 @application.route("/")
 def index():
-    return render_template('lim.html', lim_key='index',
-                                          lim=leomu['index'])
+    return render_template('index.html', lim_key='index',
+                                          lim=leomu['index'],
+                                          leomu=leomu)
 
 @application.route("/<lim_key>")
 def lim(lim_key):

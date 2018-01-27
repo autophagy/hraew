@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block body %}
+    <div id="lim-main-content">
+        <div id="lim-head">
+            {{ lim.head }}
+        </div>
+
+        {{ lim.to_html()|safe}}
+
+        <ul id="index-list">
+        {% for lim_k, lim_v in leomu.items() %}
+            {% if lim_v.project %}
+                <li><a href="{{lim_k}}">
+                    <span class="lim-name">{{lim_v.name}}</span>
+                    <span class="lim-brief">{{lim_v.brief}}</span>
+                </a></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+{% endblock %}
