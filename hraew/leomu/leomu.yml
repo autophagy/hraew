@@ -78,3 +78,17 @@ datarum:
       source: https://github.com/Autophagy/datarum
       package: https://pypi.python.org/pypi/datarum/
       documentation: https://datarum.readthedocs.io/en/latest/
+
+hraew:
+  name: Hrǽw
+  project: true
+  head: Hrǽw is a project information & documentation engine.
+  body: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis urna
+        tortor, vitae volutpat elit maximus nec. Sed sit amet ligula gravida, congue
+        felis at, molestie tortor. Class aptent taciti sociosqu ad litora torquent per
+        conubia nostra, per inceptos himenaeos.
+  externals:
+      source: https://github.com/Autophagy/hraew
+      website: https://hraew.autophagy.io/
+
