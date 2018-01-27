@@ -49,8 +49,6 @@ table {
 
 /* Main CSS */
 
- @import url('https://fonts.googleapis.com/css?family=Quicksand|Noto+Serif&subset=latin-ext');
-
 .sans {
     font-family: 'Quicksand', sans-serif;
     line-height: 1em;
