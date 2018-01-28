@@ -7,6 +7,18 @@ index:
         [GEÞEODAN :: faereld-summary :: Færeld summary]. Hrǽw was first invoked
         on 8 Regn 226.
 
+wisdomhord:
+  name: Wísdómhord
+  brief: Flat File DB
+  project: true
+  head: Wísdómhord is a flat file database tool for internal project use.
+  body: |
+        The main goal of Wísdómhord is to create a flat file db format that
+        produces files that are in line with my aesthetics, are easy to read and
+        create meaningful diffs when examined in git.
+  externals:
+      source: https://github.com/autophagy/wisdomhord
+
 hwaete:
   name: Hwǽte
   brief: Bread Diary

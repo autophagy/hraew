@@ -1,0 +1,27 @@
+<svg width="70" height="70" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Frame 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-171 4064)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 171 -4064L 241 -4064L 241 -3994L 171 -3994L 171 -4064Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Frame 2" clip-path="url(#clip-0)">
+<g id="Rectangle">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(171 -4064)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(171 -4064)" fill="#2D2D2D"/>
+</g>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="translate(171 -4034)" fill="#2D2D2D"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 3C 0 1.34315 1.34315 0 3 0L 67 0C 68.6569 0 70 1.34315 70 3L 70 67C 70 68.6569 68.6569 70 67 70L 3 70C 1.34315 70 0 68.6569 0 67L 0 3Z"/>
+<path id="path1_stroke_2x" d="M 3 11L 67 11L 67 -11L 3 -11L 3 11ZM 59 3L 59 67L 81 67L 81 3L 59 3ZM 67 59L 3 59L 3 81L 67 81L 67 59ZM 11 67L 11 3L -11 3L -11 67L 11 67ZM 3 59C 7.41827 59 11 62.5817 11 67L -11 67C -11 74.732 -4.73198 81 3 81L 3 59ZM 59 67C 59 62.5817 62.5817 59 67 59L 67 81C 74.732 81 81 74.732 81 67L 59 67ZM 67 11C 62.5817 11 59 7.41829 59 3L 81 3C 81 -4.732 74.732 -11 67 -11L 67 11ZM 3 -11C -4.732 -11 -11 -4.73198 -11 3L 11 3C 11 7.41827 7.41829 11 3 11L 3 -11Z"/>
+<path id="path2_fill" d="M 0 0L 70 0L 70 10L 0 10L 0 0Z"/>
+</defs>
+</svg>
