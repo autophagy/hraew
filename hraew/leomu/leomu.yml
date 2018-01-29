@@ -15,7 +15,30 @@ wisdomhord:
   body: |
         The main goal of Wísdómhord is to create a flat file db format that
         produces files that are in line with my aesthetics, are easy to read and
-        create meaningful diffs when examined in git.
+        make sense to check into Github.
+
+        An example hord looks like:
+
+        [GEWISSUNG]
+        // INVOKER :: Wísdómhord
+        // DESCRIPTION :: An example hord
+        // INCEPT :: 10 Regn 226 // 05.00
+        // UPDATED :: 10 Regn 226 // 05.40
+        // COUNT :: 7
+
+        [ COL1          | COL2  | COL3  | COL4        ]
+        [ Hello world   | 12345 | True  | Wé          ]
+        [ Wes Hál       | 67890 | False | Gárdena     ]
+        [ Hallo Welt    | 123   | True  | in          ]
+        [ Saluton mondo | 34.2  | False | géardagum   ]
+        [ qo' vIvan     | 42    | True  | þéodcyninga ]
+        [ Suilad ambar  | 1968  |       | þrym        ]
+        [ Ada mūnok     |       | True  | gefrúnon    ]
+        [GEWISSUNGENDE]
+
+        Wísdómhord is intended to be the primary data store of
+        [GEÞEODAN :: faereld :: Færeld], and subsequently the data store that
+        [GEÞEODAN :: hraew :: Hrǽw] uses to display task data for each project.
   externals:
       source: https://github.com/autophagy/wisdomhord
 

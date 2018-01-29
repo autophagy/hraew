@@ -23,22 +23,42 @@ class Lim(object):
         elements = self.body.split('\n\n')
         html_elements = []
 
+        gewissung_mode = False
+        gewissung_block = None
+
         for element in elements:
             ele_head = self._get_element_head(element)
 
-            if ele_head.strip() == '[BILIÞ]':
-                html_elements.append(self._create_image(element))
-            elif ele_head.strip() == '[CUNNUNGARC]':
-                html_elements.append(self._create_cunnungarc(element))
+            if gewissung_mode:
+                ele_foot = self._get_element_foot(element)
+                if ele_foot.strip() == '[GEWISSUNGENDE]':
+                    gewissung_block = "{0}\n\n{1}".format(gewissung_block, element.replace(ele_foot, ''))
+                    html_elements.append(self._create_gewissung(gewissung_block))
+                    gewissung_mode = False
+                    gewissung_block = None
+                else:
+                    gewissung_block = "{0}\n\n{1}".format(gewissung_block, element)
             else:
-                # Just treat it as a paragraph
-                html_elements.append(self._create_paragraph(element))
+                if ele_head.strip() == '[BILIÞ]':
+                    html_elements.append(self._create_image(element))
+                elif ele_head.strip() == '[CUNNUNGARC]':
+                    html_elements.append(self._create_cunnungarc(element))
+                elif ele_head.strip() == '[GEWISSUNG]':
+                    gewissung_mode = True
+                    gewissung_block = element.replace("{}\n".format(ele_head), '')
+                else:
+                    # Just treat it as a paragraph
+                    html_elements.append(self._create_paragraph(element))
 
         return '\n'.join(html_elements)
 
     def _get_element_head(self, element):
-        element_lines = element.split('\n')
+        element_lines = element.strip().split('\n')
         return element_lines[0]
+
+    def _get_element_foot(self, element):
+        element_lines = element.strip().split('\n')
+        return element_lines[-1]
 
     def _create_paragraph(self, element):
         paragraph_wrap = "<p>{0}</p>"
@@ -130,6 +150,10 @@ class Lim(object):
             print(cunnungarc_string)
             print("is an invalid cunnungarc definition.")
             return ''
+
+    def _create_gewissung(self, gewissung_block):
+        return render_template('gewissung.html', gewissung=gewissung_block)
+
 
 with open(join(dirname(__file__), "leomu/leomu.yml"), "r") as leomu_yml:
     leomu = yaml.load(leomu_yml)
