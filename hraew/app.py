@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask, abort, render_template
-from .leomu import leomu
+from .leomu import leomu, faereld_data
 
 VERSION = '0.1.0'
 
@@ -17,7 +17,8 @@ def index():
 def lim(lim_key):
     if lim_key in leomu:
         return render_template('lim.html', lim_key=lim_key,
-                                              lim=leomu[lim_key])
+                                              lim=leomu[lim_key],
+                                              faereld_data=faereld_data.get(lim_key))
     else:
         abort(404)
 

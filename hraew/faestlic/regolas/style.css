@@ -163,7 +163,7 @@ pre {
 }
 
 #lim-side-content {
-    width: 150px;
+    width: 200px;
     margin-right: 40px;
 }
 
@@ -171,6 +171,45 @@ pre {
     color: #888888;
     margin-bottom: 1em;
     font-size: 1.5em;
+}
+
+#lim-side-content .project-activity {
+    margin-bottom: 20px;
+}
+
+#lim-side-content .faereld-activity {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lim-side-content .faereld-area {
+    font-family: 'Inconsolata', monospace;
+    width: 40px;
+}
+
+.faereld-bar {
+    width: calc(100% - 40px);
+}
+
+.faereld-bar progress {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 0px;
+  height: 16px;
+  background-color: transparent;
+}
+
+.faereld-bar progress[value]::-webkit-progress-bar  {
+  background-color: transparent;
+}
+
+.faereld-bar progress[value]::-webkit-progress-value {
+  background-color: #2D2D2D;
+}
+
+.faereld-bar progress::-moz-progress-bar {
+    background-color: #2D2D2D;
 }
 
 #lim-head {

@@ -2,6 +2,33 @@
 {% block body %}
     {% if lim.project %}
     <div id="lim-side-content">
+        {% if faereld_data %}
+            <h3 class="sans">Project Activity</h3>
+            <div class="project-activity">
+            {% for area, percentage in faereld_data.percentages.items() %}
+                <div class="faereld-activity">
+                    <div class="faereld-area">{{area}}</div>
+                    <div class="faereld-bar"><progress value="{{percentage}}"" max="1"></progress></div>
+                </div>
+            {% endfor %}
+            </div>
+
+            <div class="project-activity">
+                <div class="faereld-activity">
+                    <div class="time-label">Total</div>
+                    <div class="time-info">{{faereld_data.formatted_total_time()}}</div>
+                </div>
+                <div class="faereld-activity">
+                    <div class="time-label">First</div>
+                    <div class="time-info">{{faereld_data.first_entry}}</div>
+                </div>
+                <div class="faereld-activity">
+                    <div class="time-label">Last</div>
+                    <div class="time-info">{{faereld_data.last_entry}}</div>
+                </div>
+            </div>
+        {% endif %}
+
         {% if lim.externals %}
             <h3 class="sans">Externals</h3>
             <ul>
