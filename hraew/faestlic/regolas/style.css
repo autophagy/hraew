@@ -93,6 +93,10 @@ a.icon.itchio {
     background-image: url('../bilitha/logos/itchio.svg');
 }
 
+a.icon.hraew {
+    background-image: url('../bilitha/logos/leomu/hraew-logo-light.svg');
+}
+
 table {
     margin: 0 0 1.5em;
     width: 100%;
@@ -259,7 +263,7 @@ footer #footer-wrapper {
     justify-content: space-between;
 }
 
-footer #externals {
+footer #externals, footer #hraew-icon {
     display: flex;
     align-items: center;
 }
@@ -267,11 +271,6 @@ footer #externals {
 footer #externals a.icon {
     margin-right: 15px;
 }
-
-footer .version {
-    font-size: 0.75em;
-}
-
 
 /* Index */
 
