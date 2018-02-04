@@ -97,6 +97,14 @@ a.icon.hraew {
     background-image: url('../bilitha/logos/leomu/hraew-logo-light.svg');
 }
 
+a.icon.autophagy-dark {
+    background-image: url('../bilitha/logos/autophagy-logo-dark.svg');
+}
+
+a.icon.autophagy-light {
+    background-image: url('../bilitha/logos/autophagy-logo-light.svg');
+}
+
 table {
     margin: 0 0 1.5em;
     width: 100%;
@@ -273,6 +281,16 @@ footer #externals a.icon {
 }
 
 /* Index */
+
+#lim-content.index {
+    height: calc(100% - 140px);
+}
+
+#index-icon a {
+    width: 64px;
+    height: 63px;
+    margin-bottom: 20px;
+}
 
 ul#index-list {
     display: flex;

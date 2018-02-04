@@ -1,21 +1,62 @@
-{% extends "layout.html" %}
-{% block body %}
-    <div id="lim-main-content">
-        <div id="lim-head">
-            {{ lim.head }}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2D2D2D" />
+
+      <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='bilitha/logos/favicon-32x32.png') }}">
+      <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='bilitha/logos/favicon-16x16.png') }}">
+
+    <title>Hrǽw :: {{ lim.name }}</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Quicksand|Inconsolata&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='regolas/style.css')}}"/>
+</head>
+
+<body>
+    <div id="lim">
+        <div id="lim-content" class="index">
+            {% block body %}
+                <div id="lim-main-content">
+                    <div id="index-icon">
+                        <a href="#" class="icon autophagy-dark"></a>
+                    </div>
+                    <div id="lim-head">
+                        {{ lim.head }}
+                    </div>
+
+                    {{ lim.to_html()|safe}}
+
+                    <ul id="index-list">
+                    {% for lim_k, lim_v in leomu.items() %}
+                        {% if lim_v.project %}
+                            <li><a href="{{lim_k}}">
+                                <span class="lim-name">{{lim_v.name}}</span>
+                                <span class="lim-brief">{{lim_v.brief}}</span>
+                            </a></li>
+                        {% endif %}
+                    {% endfor %}
+                    </ul>
+                </div>
+            {% endblock %}
         </div>
 
-        {{ lim.to_html()|safe}}
+        <footer>
+            <div id="footer-wrapper">
+                <div id="externals">
+                    <a href="https://github.com/Autophagy" class="icon github"></a>
+                    <a href="https://autophagy.itch.io/" class="icon itchio"></a>
+                    <a href="dat://92878d8f24d76c96c7beecf8ac45b41d53483bdf3cc50d62423b3c9b9531e97d" class="icon rotonde"></a>
+                    <a href="https://twitter.com/autophagyDev" class="icon twitter"></a>
+                </div>
 
-        <ul id="index-list">
-        {% for lim_k, lim_v in leomu.items() %}
-            {% if lim_v.project %}
-                <li><a href="{{lim_k}}">
-                    <span class="lim-name">{{lim_v.name}}</span>
-                    <span class="lim-brief">{{lim_v.brief}}</span>
-                </a></li>
-            {% endif %}
-        {% endfor %}
-        </ul>
+                <div id="hraew-icon">
+                    <a href="/hraew" class="icon hraew"></a>
+                </div>
+            </div>
+        </footer>
     </div>
-{% endblock %}
+</body>
+</html>
