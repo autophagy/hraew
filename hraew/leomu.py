@@ -15,6 +15,7 @@ class Lim(object):
         self.name = lim.get('name', "")
         self.brief = lim.get('brief', "")
         self.project = lim.get('project', False)
+        self.status = lim.get('status', "n/a")
         self.head = lim.get('head', "")
         self.body = lim.get('body', "")
         self.externals = lim.get('externals', None)

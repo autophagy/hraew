@@ -189,7 +189,7 @@ pre {
     margin-bottom: 20px;
 }
 
-#lim-side-content .faereld-activity {
+#lim-side-content .activity-line {
     display: flex;
     justify-content: space-between;
 }

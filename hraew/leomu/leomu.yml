@@ -11,6 +11,7 @@ wisdomhord:
   name: Wísdómhord
   brief: Flat File DB
   project: true
+  status: In Dev
   head: Wísdómhord is a flat file database tool for internal project use.
   body: |
         The main goal of Wísdómhord is to create a flat file db format that
@@ -46,6 +47,7 @@ hwaete:
   name: Hwǽte
   brief: Bread Diary
   project: true
+  status: Ongoing
   head: Hwǽte is a project to document my bread baking.
   body: |
         [BILIÞ]
@@ -76,6 +78,7 @@ datarum:
   name: Datárum
   brief: Calendar System
   project: true
+  status: 0.2.0
   head: Datárum is a calendar system based on the French Republican Calendar.
   body: |
         [CUNNUNGARC]
@@ -107,6 +110,7 @@ hraew:
   name: Hrǽw
   brief: Project Information Engine
   project: true
+  status: In Dev
   head: Hrǽw is a project information & documentation engine.
   body: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis urna
