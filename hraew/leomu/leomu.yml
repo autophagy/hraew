@@ -16,7 +16,7 @@ ametan:
   status: 1.0.0
   head: Ametan is an Android app for scrum estimation planning poker.
   body: |
-        Planning poker is an exercise I regularily take part in with my
+        Planning poker is an exercise I regularly take part in with my
         colleagues in order to determine the complexity of stories that we will
         undertake during a sprint. The procedure is to estimate the complexity
         of a story from a set of 0, 1/2, 1, 2, 3, 5, 8, 13, 20, 40, 100, ∞ and ?.
@@ -85,7 +85,7 @@ getheode:
         way, allowing us to add functionality to the tool in order to support more
         and more language creation aspects.
 
-        It is being built with React and in the future will be an independant
+        It is being built with React and in the future will be an independent
         Electron app.
   externals:
     source: https://github.com/autophagy/getheode
@@ -132,12 +132,12 @@ hraew:
         data produced by [GEÞEODAN :: faereld :: Færeld] so that summaries of
         project activity can be built and visualised.
 
-        Hrǽw is intended to fulfill several functions. The first is to act as a
+        Hrǽw is intended to fulfil several functions. The first is to act as a
         portfolio of sorts - a consistent catalogue of my personal projects.
         Secondly, it is intended as a way of generating Færeld visualisations in
-        a way that would be inpractical with its CLI. Lastly, it is intended to
+        a way that would be impractical with its CLI. Lastly, it is intended to
         function as a self-esteem booster, an indicator that I am spending my time
-        on useful and intereting stuff.
+        on useful and interesting stuff.
 
         In the future, Hrǽw may expand to contain not only information about my
         personal projects, but perhaps more information about me generally.
@@ -268,7 +268,7 @@ completable-futures:
   brief: Writing
   project: true
   status: Ongoing
-  head: Completable Futures is a blog for miscellanious writing.
+  head: Completable Futures is a blog for miscellaneous writing.
   body: |
         Completable Futures is an ongoing project where I put writing on topics
         like tech, labour politics, automation and cyberpunk. It also uses a
@@ -342,7 +342,7 @@ multitimer:
   brief: Egg Timers
   project: true
   status: 2.0
-  head: Multi/Timer is a tool for timing multiple cooking processes simultaniously.
+  head: Multi/Timer is a tool for timing multiple cooking processes simultaneously.
   body: |
         Multi/Timer is a tool I built while at Chaos Communication Camp 2015,
         born out of frustration with the age and jankyness of a lot of the
