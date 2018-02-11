@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../staefgecynda/Quicksand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../staefgecynda/NotoSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('../staefgecynda/Inconsolata-Regular.ttf') format('truetype');
+}
