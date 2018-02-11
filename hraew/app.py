@@ -22,6 +22,10 @@ def lim(lim_key):
     else:
         abort(404)
 
+@application.route("/.well-known/dat")
+def dat_well_known():
+  return application.send_static_file('regolas/dat')
+
 @application.errorhandler(404)
 def pageNotFound(error):
     return render_template('gedwola.html', error_code='404', error_message='Not Found'), 404
