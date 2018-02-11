@@ -13,7 +13,7 @@ def index():
                                           lim=leomu['index'],
                                           leomu=leomu)
 
-@application.route("/<lim_key>")
+@application.route("/<lim_key>/")
 def lim(lim_key):
     if lim_key in leomu:
         return render_template('lim.html', lim_key=lim_key,

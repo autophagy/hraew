@@ -32,7 +32,7 @@
                     <ul id="index-list">
                     {% for lim_k, lim_v in leomu.items() %}
                         {% if lim_v.project %}
-                            <li><a href="{{lim_k}}">
+                            <li><a href="{{url_for('lim', lim_key=lim_k)}}">
                                 <span class="lim-name">{{lim_v.name}}</span>
                                 <span class="lim-brief">{{lim_v.brief}}</span>
                             </a></li>
