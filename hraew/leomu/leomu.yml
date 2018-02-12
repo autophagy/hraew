@@ -131,6 +131,12 @@ hraew:
         data produced by [GEÞEODAN :: faereld :: Færeld] so that summaries of
         project activity can be built and visualised.
 
+        Although intended to be served as a Flask instance (currently on Heroku),
+        Hrǽw also has the ability to be "frozen" into a static site. This allows
+        me to also have a static version of Hrǽw in
+        [GEÞEODAN :: dat://hraew.autophagy.io :: the P2P web] via the
+        [GEÞEODAN :: https://datproject.org/ :: Dat Protocol].
+
         Hrǽw is intended to fulfil several functions. The first is to act as a
         portfolio of sorts - a consistent catalogue of my personal projects.
         Secondly, it is intended as a way of generating Færeld visualisations in
@@ -143,6 +149,7 @@ hraew:
   externals:
       source: https://github.com/Autophagy/hraew
       website: https://hraew.autophagy.io/
+      P2P: dat://hraew.autophagy.io/
 
 faereld:
   name: Færeld
