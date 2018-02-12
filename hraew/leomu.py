@@ -10,6 +10,9 @@ from math import floor
 
 
 class Lim(object):
+
+    _body_html = None
+
     def __init__(self, key, lim):
         self.key = key
         self.name = lim.get('name', "")
@@ -21,7 +24,10 @@ class Lim(object):
         self.externals = lim.get('externals', None)
 
     def to_html(self):
-        return self._parse_body()
+        if self._body_html is None:
+            self._body_html = self._parse_body()
+
+        return self._body_html
 
     def _parse_body(self):
         elements = self.body.split('\n\n')
