@@ -70,6 +70,7 @@ wisdomhord:
         [GEÞEODAN :: hraew :: Hrǽw] uses to display task data for each project.
   externals:
       source: https://github.com/autophagy/wisdomhord
+      documentation: https://wisdomhord.readthedocs.io/en/latest/
 
 getheode:
   name: Geþeóde
