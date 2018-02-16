@@ -12,4 +12,4 @@ PyYAML==3.12
 six==1.11.0
 webencodings==0.5.1
 Werkzeug==0.14.1
-https://github.com/autophagy/wisdomhord/archive/9e3697b5bd3ccb58f2193432eac3f1f1ef789d3c.zip
+wisdomhord==0.1.0

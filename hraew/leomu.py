@@ -8,6 +8,8 @@ import wisdomhord
 import datetime as dt
 from math import floor
 
+import wisdomhord
+from wisdomhord import Bisen, Sweor
 
 class Lim(object):
 
@@ -183,8 +185,8 @@ class FaereldLim(object):
         area_time_map = dict(map(lambda x: (x, dt.timedelta()), self.PROJECT_AREAS))
 
         for row in faereld_data:
-            start = dt.datetime.strptime(row['START'], "%x %X")
-            end = dt.datetime.strptime(row['END'], "%x %X")
+            start = row['START']
+            end = row['END']
 
             if first_entry is None:
                 first_entry = start
@@ -216,6 +218,15 @@ class FaereldLim(object):
 
         return "{0}h{1}m".format(floor(hours), minutes)
 
+class FaereldBisen(Bisen):
+
+    __invoker__ = 'Færeld'
+    __description__ = 'Productive task time tracking data produced by Færeld'
+
+    col1 = Sweor('AREA',   wisdomhord.String)
+    col2 = Sweor('OBJECT', wisdomhord.String)
+    col3 = Sweor('START',  wisdomhord.DateTime)
+    col4 = Sweor('END',    wisdomhord.DateTime)
 
 
 def get_projects_faereld_data(faereld_rows):
@@ -239,7 +250,7 @@ with open(join(dirname(__file__), "leomu/leomu.yml"), "r") as leomu_yml:
     for key, value in leomu.items():
         leomu[key] = Lim(key, value)
 
-hord = wisdomhord.hladan(join(dirname(__file__), "faereld/faereld.hord"))
+hord = wisdomhord.hladan(join(dirname(__file__), "faereld/faereld.hord"), bisen=FaereldBisen)
 
 project_areas = ['RES', 'DES', 'DEV', 'DOC', 'TST']
 
