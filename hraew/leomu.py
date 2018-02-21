@@ -208,8 +208,8 @@ class FaereldLim(object):
 
         self.percentages = dict(map(lambda x: (x[0], x[1]/max(area_time_map.values())),
                                     area_time_map.items()))
-        self.first_entry = first_entry.strftime('%d %b %y')
-        self.last_entry = last_entry.strftime('%d %b %y')
+        self.first_entry = first_entry.strftime('{daeg} {month} {gere}')
+        self.last_entry = last_entry.strftime('{daeg} {month} {gere}')
 
 
     def formatted_total_time(self):
@@ -225,8 +225,8 @@ class FaereldBisen(Bisen):
 
     col1 = Sweor('AREA',   wisdomhord.String)
     col2 = Sweor('OBJECT', wisdomhord.String)
-    col3 = Sweor('START',  wisdomhord.DateTime)
-    col4 = Sweor('END',    wisdomhord.DateTime)
+    col3 = Sweor('START',  wisdomhord.Wending)
+    col4 = Sweor('END',    wisdomhord.Wending)
 
 
 def get_projects_faereld_data(faereld_rows):

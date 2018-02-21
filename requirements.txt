@@ -1,6 +1,5 @@
 bleach==2.1.2
 click==6.7
-datarum==0.2.0
 docutils==0.14
 Flask==0.12.2
 gunicorn==19.7.1
@@ -12,4 +11,4 @@ PyYAML==3.12
 six==1.11.0
 webencodings==0.5.1
 Werkzeug==0.14.1
-wisdomhord==0.1.0
+wisdomhord==0.2.2
