@@ -6,6 +6,26 @@ index:
         generated with [GEÞEODAN :: faereld :: Færeld]. Hrǽw was first invoked
         on 8 Regn 226.
 
+mika:
+  name: Bio
+  head: Hi, I'm Sun-Earther Mika Autophagy Naylor of Berlin.
+  body: |
+        Professionally, I am an engineer at [GEÞEODAN :: https://crate.io/ :: Crate.io],
+        a start-up building a horizontally scalable SQL based on technologies like
+        Elasticsearch, Netty and Apache Lucene. Currently, my work focuses on
+        building scalable and robust infrastructure using SaltStack, Kubernetes
+        and Docker containers.
+
+        In my free time, I am working on a series of tools (usually with Python),
+        such as [GEÞEODAN :: faereld :: Færeld] and [GEÞEODAN :: aerende :: Ærende].
+
+        I'm also interested in reading on nonlinear dynamics, cybernetics,
+        the impact of technology on labour dynamics (both contemporary and
+        historically) and philosophy of computation.
+
+        I'm also learning German full time, as well as Old English.
+
+
 # Project Leomu
 
 ametan:
