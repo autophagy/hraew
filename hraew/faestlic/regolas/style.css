@@ -270,13 +270,18 @@ footer #footer-wrapper {
     justify-content: space-between;
 }
 
-footer #externals, footer #hraew-icon {
+footer #externals {
     display: flex;
     align-items: center;
 }
 
 footer #externals a.icon {
     margin-right: 15px;
+}
+
+footer .minor {
+    font-size: 14px;
+    opacity: 0.75;
 }
 
 /* Index */
