@@ -13,6 +13,12 @@ def index():
                                           lim=leomu['index'],
                                           leomu=leomu)
 
+@application.route("/mika/")
+def bio():
+    return render_template('lim.html', lim_key='mika',
+                                       lim=leomu['mika'],
+                                       faereld_data=faereld_data.get('mika'))
+
 @application.route("/<lim_key>/")
 def lim(lim_key):
     if lim_key in leomu:
