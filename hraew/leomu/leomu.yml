@@ -3,7 +3,7 @@ index:
   body: |
         Wilcume on Hrǽw, my project information and documentation repository. Here
         is contained information about each of my projects, including information
-        generated with [GEÞEODAN :: faereld :: Færeld]. Hrǽw was first invoked
+        generated with [GEÞEODAN :: /faereld :: Færeld]. Hrǽw was first invoked
         on 8 Regn 226.
 
 mika:
@@ -17,7 +17,7 @@ mika:
         and Docker containers.
 
         In my free time, I am working on a series of tools (usually with Python),
-        such as [GEÞEODAN :: faereld :: Færeld] and [GEÞEODAN :: aerende :: Ærende].
+        such as [GEÞEODAN :: /faereld :: Færeld] and [GEÞEODAN :: /aerende :: Ærende].
 
         I'm also interested in reading on nonlinear dynamics, cybernetics,
         the impact of technology on labour dynamics (both contemporary and
@@ -86,8 +86,8 @@ wisdomhord:
         [GEWISSUNGENDE]
 
         Wísdómhord is intended to be the primary data store of
-        [GEÞEODAN :: faereld :: Færeld], and subsequently the data store that
-        [GEÞEODAN :: hraew :: Hrǽw] uses to display task data for each project.
+        [GEÞEODAN :: /faereld :: Færeld], and subsequently the data store that
+        [GEÞEODAN :: /hraew :: Hrǽw] uses to display task data for each project.
   externals:
       source: https://github.com/autophagy/wisdomhord
       documentation: https://wisdomhord.readthedocs.io/en/latest/
@@ -149,7 +149,7 @@ hraew:
         Hrǽw is a project information engine built with Flask to facilitate
         cataloguing of my projects. It uses a custom parsing engine to translate
         simple texts with tags into HTML. It is also designed to incorporate
-        data produced by [GEÞEODAN :: faereld :: Færeld] so that summaries of
+        data produced by [GEÞEODAN :: /faereld :: Færeld] so that summaries of
         project activity can be built and visualised.
 
         Although intended to be served as a Flask instance (currently on Heroku),
@@ -209,7 +209,7 @@ insegel:
 
         It provides a mobile-friendly, monochrome 2 column layout with an
         emphasis on typographical legibility and consistency. It also, optionally,
-        integrates [GEÞEODAN :: datarum :: Datárum] for displaying the last
+        integrates [GEÞEODAN :: /datarum :: Datárum] for displaying the last
         built date of the documentation.
   externals:
     source: https://github.com/autophagy/insegel
@@ -246,8 +246,8 @@ datarum:
         [ Complementary | Sansculottides | Wending     | A turning round, revolution ]
 
         It is deployed as a Python 3 library so that it can be integrated into
-        projects such as [GEÞEODAN :: faereld :: Færeld],
-        [GEÞEODAN :: insegel :: Insegel] and [GEÞEODAN :: hraew :: Hrǽw].
+        projects such as [GEÞEODAN :: /faereld :: Færeld],
+        [GEÞEODAN :: /insegel :: Insegel] and [GEÞEODAN :: /hraew :: Hrǽw].
   externals:
       source: https://github.com/Autophagy/datarum
       package: https://pypi.python.org/pypi/datarum/
