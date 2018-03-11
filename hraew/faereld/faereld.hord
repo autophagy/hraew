@@ -1,10 +1,30 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 13 Wind 226 // 18.31
-// COUNT :: 279
+// UPDATED :: 21 Wind 226 // 16.30
+// COUNT :: 299
 
 [ AREA | OBJECT                                                                      | START                    | END                      ]
+[ DEV  | faereld                                                                     | 21 Wind 226 // 15.42.00  | 21 Wind 226 // 16.30.00  ]
+[ DEV  | faereld                                                                     | 21 Wind 226 // 01.38.00  | 21 Wind 226 // 02.45.00  ]
+[ DEV  | faereld                                                                     | 20 Wind 226 // 23.00.00  | 21 Wind 226 // 00.29.00  ]
+[ LNG  | German                                                                      | 20 Wind 226 // 22.22.00  | 20 Wind 226 // 22.44.00  ]
+[ DEV  | faereld                                                                     | 19 Wind 226 // 23.40.00  | 20 Wind 226 // 00.22.00  ]
+[ LNG  | German                                                                      | 19 Wind 226 // 23.07.00  | 19 Wind 226 // 23.21.00  ]
+[ DEV  | faereld                                                                     | 19 Wind 226 // 21.45.00  | 19 Wind 226 // 22.30.00  ]
+[ DEV  | faereld                                                                     | 19 Wind 226 // 19.42.00  | 19 Wind 226 // 21.20.00  ]
+[ RDG  | Benjamin H. Bratton's The Stack: On Software and Sovereignty                | 18 Wind 226 // 23.49.00  | 19 Wind 226 // 00.49.00  ]
+[ DEV  | faereld                                                                     | 18 Wind 226 // 01.19.00  | 18 Wind 226 // 01.39.00  ]
+[ LNG  | German                                                                      | 17 Wind 226 // 22.17.00  | 17 Wind 226 // 22.44.00  ]
+[ DEV  | faereld                                                                     | 17 Wind 226 // 18.40.00  | 17 Wind 226 // 20.15.00  ]
+[ DEV  | ametan                                                                      | 16 Wind 226 // 22.50.00  | 16 Wind 226 // 23.34.00  ]
+[ DEV  | ametan                                                                      | 16 Wind 226 // 19.51.00  | 16 Wind 226 // 20.28.00  ]
+[ DEV  | faereld                                                                     | 15 Wind 226 // 18.28.00  | 15 Wind 226 // 18.59.00  ]
+[ DEV  | faereld                                                                     | 15 Wind 226 // 14.00.00  | 15 Wind 226 // 14.41.00  ]
+[ LNG  | German                                                                      | 14 Wind 226 // 23.23.00  | 14 Wind 226 // 23.41.00  ]
+[ RDG  | Robert B. Brandon's Articulating Reasons: An Introduction to Inferentialism | 14 Wind 226 // 17.04.00  | 14 Wind 226 // 18.11.00  ]
+[ RDG  | Robert B. Brandon's Articulating Reasons: An Introduction to Inferentialism | 14 Wind 226 // 01.48.00  | 14 Wind 226 // 02.30.00  ]
+[ LNG  | German                                                                      | 13 Wind 226 // 23.25.00  | 13 Wind 226 // 23.47.00  ]
 [ DEV  | faereld                                                                     | 13 Wind 226 // 17.40.00  | 13 Wind 226 // 18.21.06  ]
 [ RES  | datarum                                                                     | 13 Wind 226 // 16.00.00  | 13 Wind 226 // 16.29.51  ]
 [ DEV  | datarum                                                                     | 13 Wind 226 // 14.38.41  | 13 Wind 226 // 15.56.13  ]
