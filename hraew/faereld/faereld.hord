@@ -1,10 +1,32 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 21 Wind 226 // 16.30
-// COUNT :: 299
+// UPDATED :: 4 Sǽd 226 // 22.06
+// COUNT :: 321
 
 [ AREA | OBJECT                                                                      | START                    | END                      ]
+[ DEV  | black                                                                       | 4 Sǽd 226 // 21.39.00    | 4 Sǽd 226 // 22.06.00    ]
+[ RDG  | Sunvault: Stories of Solarpunk and Eco-Speculation                          | 4 Sǽd 226 // 20.05.00    | 4 Sǽd 226 // 20.54.00    ]
+[ RDG  | Sunvault: Stories of Solarpunk and Eco-Speculation                          | 1 Sǽd 226 // 17.40.00    | 1 Sǽd 226 // 18.30.00    ]
+[ RDG  | Sunvault: Stories of Solarpunk and Eco-Speculation                          | 30 Wind 226 // 23.35.00  | 1 Sǽd 226 // 00.30.00    ]
+[ IRL  | Xenofeminism - A Politics for Alienation                                    | 30 Wind 226 // 19.00.00  | 30 Wind 226 // 21.00.00  ]
+[ RDG  | Sunvault: Stories of Solarpunk and Eco-Speculation                          | 29 Wind 226 // 12.26.00  | 29 Wind 226 // 13.40.00  ]
+[ RDG  | Sunvault: Stories of Solarpunk and Eco-Speculation                          | 28 Wind 226 // 23.55.00  | 29 Wind 226 // 01.23.00  ]
+[ RES  | hraew                                                                       | 28 Wind 226 // 17.25.00  | 28 Wind 226 // 17.55.00  ]
+[ RDG  | Sunvault: Stories of Solarpunk and Eco-Speculation                          | 28 Wind 226 // 14.50.00  | 28 Wind 226 // 16.14.00  ]
+[ TST  | faereld                                                                     | 27 Wind 226 // 14.50.00  | 27 Wind 226 // 15.52.00  ]
+[ DEV  | black                                                                       | 27 Wind 226 // 02.55.00  | 27 Wind 226 // 04.22.00  ]
+[ TST  | faereld                                                                     | 27 Wind 226 // 02.00.00  | 27 Wind 226 // 02.42.00  ]
+[ DEV  | faereld                                                                     | 26 Wind 226 // 22.17.00  | 26 Wind 226 // 23.03.00  ]
+[ DEV  | faereld                                                                     | 26 Wind 226 // 21.13.00  | 26 Wind 226 // 21.58.00  ]
+[ RES  | faereld                                                                     | 26 Wind 226 // 13.25.00  | 26 Wind 226 // 14.05.00  ]
+[ DEV  | faereld                                                                     | 26 Wind 226 // 00.55.00  | 26 Wind 226 // 01.35.00  ]
+[ DEV  | faereld                                                                     | 25 Wind 226 // 23.35.00  | 26 Wind 226 // 00.50.00  ]
+[ LNG  | German                                                                      | 25 Wind 226 // 13.37.00  | 25 Wind 226 // 13.48.00  ]
+[ DEV  | wisdomhord                                                                  | 23 Wind 226 // 21.35.00  | 23 Wind 226 // 22.19.00  ]
+[ DEV  | wisdomhord                                                                  | 23 Wind 226 // 20.15.00  | 23 Wind 226 // 21.04.00  ]
+[ RDG  | Benjamin H. Bratton's The Stack: On Software and Sovereignty                | 21 Wind 226 // 21.50.00  | 21 Wind 226 // 22.46.00  ]
+[ DOC  | faereld                                                                     | 21 Wind 226 // 16.50.00  | 21 Wind 226 // 17.24.00  ]
 [ DEV  | faereld                                                                     | 21 Wind 226 // 15.42.00  | 21 Wind 226 // 16.30.00  ]
 [ DEV  | faereld                                                                     | 21 Wind 226 // 01.38.00  | 21 Wind 226 // 02.45.00  ]
 [ DEV  | faereld                                                                     | 20 Wind 226 // 23.00.00  | 21 Wind 226 // 00.29.00  ]
