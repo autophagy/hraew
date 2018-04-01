@@ -1,10 +1,19 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 4 Sǽd 226 // 22.06
-// COUNT :: 321
+// UPDATED :: 12 Sǽd 226 // 15.47
+// COUNT :: 330
 
 [ AREA | OBJECT                                                                      | START                    | END                      ]
+[ DES  | regn                                                                        | 12 Sǽd 226 // 15.00.00   | 12 Sǽd 226 // 15.47.00   ]
+[ DEV  | black                                                                       | 11 Sǽd 226 // 01.10.00   | 11 Sǽd 226 // 02.15.00   ]
+[ TST  | black                                                                       | 11 Sǽd 226 // 00.55.00   | 11 Sǽd 226 // 01.28.00   ]
+[ DEV  | black                                                                       | 10 Sǽd 226 // 23.11.00   | 11 Sǽd 226 // 00.44.00   ]
+[ RDG  | Sophie Lee's Living with Plants                                             | 7 Sǽd 226 // 17.16.00    | 7 Sǽd 226 // 17.32.00    ]
+[ RDG  | Iraq + 100: Stories from a Century After the Invasion                       | 7 Sǽd 226 // 12.30.00    | 7 Sǽd 226 // 13.26.00    ]
+[ DOC  | hwaete                                                                      | 7 Sǽd 226 // 09.54.00    | 7 Sǽd 226 // 10.32.00    ]
+[ RDG  | Iraq + 100: Stories from a Century After the Invasion                       | 5 Sǽd 226 // 21.56.00    | 5 Sǽd 226 // 22.49.00    ]
+[ RDG  | Sunvault: Stories of Solarpunk and Eco-Speculation                          | 5 Sǽd 226 // 00.41.00    | 5 Sǽd 226 // 01.40.00    ]
 [ DEV  | black                                                                       | 4 Sǽd 226 // 21.39.00    | 4 Sǽd 226 // 22.06.00    ]
 [ RDG  | Sunvault: Stories of Solarpunk and Eco-Speculation                          | 4 Sǽd 226 // 20.05.00    | 4 Sǽd 226 // 20.54.00    ]
 [ RDG  | Sunvault: Stories of Solarpunk and Eco-Speculation                          | 1 Sǽd 226 // 17.40.00    | 1 Sǽd 226 // 18.30.00    ]
