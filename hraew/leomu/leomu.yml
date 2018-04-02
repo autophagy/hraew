@@ -28,6 +28,27 @@ mika:
 
 # Project Leomu
 
+regn:
+  name: Regn
+  brief: Arduino Weather Station
+  project: true
+  status: In Dev
+  head: Regn is an Arduino based weather station.
+  body: |
+        Currently being prototyped, it uses
+        an [GEÞEODAN :: https://store.arduino.cc/usa/arduino-uno-rev3 :: Arduino Uno],
+        a [GEÞEODAN :: https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf :: DHT22 temperature + humidity sensor],
+        a [GEÞEODAN :: https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf :: BMP180 barometric pressure sensor]
+        and a [GEÞEODAN :: https://cdn-shop.adafruit.com/datasheets/TSL2561.pdf :: TSL2561 luminosity/lux/light sensor]
+        to read various environmental properties.
+
+        At the moment, this data is then sent out via a serial connection, but
+        in the future it will POST it's data to an internet endpoint. After
+        hardware prototyping is done, I'll create a Flask based dashboard
+        for weather data visualisation.
+  externals:
+    source: https://github.com/autophagy/regn
+
 ametan:
   name: Ametan
   brief: Android Scrum App

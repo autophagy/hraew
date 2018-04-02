@@ -1,10 +1,12 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 12 Sǽd 226 // 15.47
-// COUNT :: 330
+// UPDATED :: 13 Sǽd 226 // 02.39
+// COUNT :: 332
 
 [ AREA | OBJECT                                                                      | START                    | END                      ]
+[ DES  | regn                                                                        | 13 Sǽd 226 // 01.25.00   | 13 Sǽd 226 // 02.39.00   ]
+[ DES  | regn                                                                        | 12 Sǽd 226 // 21.10.00   | 12 Sǽd 226 // 22.37.00   ]
 [ DES  | regn                                                                        | 12 Sǽd 226 // 15.00.00   | 12 Sǽd 226 // 15.47.00   ]
 [ DEV  | black                                                                       | 11 Sǽd 226 // 01.10.00   | 11 Sǽd 226 // 02.15.00   ]
 [ TST  | black                                                                       | 11 Sǽd 226 // 00.55.00   | 11 Sǽd 226 // 01.28.00   ]
