@@ -287,7 +287,7 @@ footer .minor {
 /* Index */
 
 #lim-content.index {
-    height: calc(100% - 140px);
+    min-height: calc(100% - 140px);
 }
 
 #index-icon a {
