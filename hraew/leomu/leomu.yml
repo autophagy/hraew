@@ -30,24 +30,32 @@ mika:
 
 regn:
   name: Regn
-  brief: Arduino Weather Station
+  brief: Weather Station
   project: true
   status: In Dev
-  head: Regn is an Arduino based weather station.
+  head: Regn is a microcontroller based weather station.
   body: |
-        Currently being prototyped, it uses
-        an [GEÞEODAN :: https://store.arduino.cc/usa/arduino-uno-rev3 :: Arduino Uno],
+        This project consists of 2 main components, the server side and the
+        weather station.
+
+        The weather station is a small, WiFi enabled IoT device built with
+        an [GEÞEODAN :: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-huzzah-esp8266-breakout.pdf :: Adafruit HUZZAH ESP8266],
         a [GEÞEODAN :: https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf :: DHT22 temperature + humidity sensor],
         a [GEÞEODAN :: https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf :: BMP180 barometric pressure sensor]
         and a [GEÞEODAN :: https://cdn-shop.adafruit.com/datasheets/TSL2561.pdf :: TSL2561 luminosity/lux/light sensor]
-        to read various environmental properties.
+        to read various environmental properties. It then connects to a
+        predefined endpoint and posts a JSON payload, with an API token.
 
-        At the moment, this data is then sent out via a serial connection, but
-        in the future it will POST it's data to an internet endpoint. After
-        hardware prototyping is done, I'll create a Flask based dashboard
-        for weather data visualisation.
+        The server side is a Flask instance serving up both a dashboard and an
+        api. Using the api (such as [GEÞEODAN :: https://regn.autophagy.io/api/latest :: /api/latest])
+        the dashboard constructs a real time graph of temperature/humidity/pressure/luminosity
+        over a day/week/month/year.
+
+        At the moment, the weather station is powered via the mains, but I will
+        soon make it autonomous with a LiPo battery and solar panel set up.
   externals:
     source: https://github.com/autophagy/regn
+    website: https://regn.autophagy.io
 
 ametan:
   name: Ametan
