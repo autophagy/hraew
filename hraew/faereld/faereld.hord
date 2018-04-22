@@ -1,10 +1,18 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 26 Sǽd 226 // 19.47
-// COUNT :: 359
+// UPDATED :: 3 Blóstm 226 // 23.30
+// COUNT :: 367
 
 [ AREA | OBJECT                                                                      | START                    | END                      ]
+[ RDG  | Mathematics: Its Content, Methods and Meaning                               | 3 Blóstm 226 // 22.16.00 | 3 Blóstm 226 // 23.30.00 ]
+[ DES  | regn                                                                        | 2 Blóstm 226 // 23.30.00 | 3 Blóstm 226 // 01.17.00 ]
+[ DES  | regn                                                                        | 2 Blóstm 226 // 18.30.00 | 2 Blóstm 226 // 19.23.00 ]
+[ DES  | regn                                                                        | 2 Blóstm 226 // 12.49.00 | 2 Blóstm 226 // 13.58.00 ]
+[ DES  | regn                                                                        | 1 Blóstm 226 // 21.08.00 | 1 Blóstm 226 // 22.06.00 ]
+[ DES  | regn                                                                        | 28 Sǽd 226 // 16.14.00   | 28 Sǽd 226 // 16.37.00   ]
+[ DEV  | regn                                                                        | 27 Sǽd 226 // 20.30.00   | 27 Sǽd 226 // 21.28.00   ]
+[ DEV  | regn                                                                        | 26 Sǽd 226 // 20.30.00   | 26 Sǽd 226 // 21.17.00   ]
 [ DEV  | regn                                                                        | 26 Sǽd 226 // 19.11.00   | 26 Sǽd 226 // 19.47.00   ]
 [ DEV  | regn                                                                        | 25 Sǽd 226 // 21.30.00   | 25 Sǽd 226 // 22.09.00   ]
 [ DEV  | regn                                                                        | 25 Sǽd 226 // 15.34.00   | 25 Sǽd 226 // 16.54.00   ]
