@@ -1,10 +1,20 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 10 Blóstm 226 // 16.35
-// COUNT :: 373
+// UPDATED :: 24 Blóstm 226 // 16.34
+// COUNT :: 383
 
 [ AREA | OBJECT                                                                      | START                     | END                       ]
+[ RDG  | Italo Calvino's The Complete Cosmicomics                                    | 24 Blóstm 226 // 15.39.00 | 24 Blóstm 226 // 16.34.00 ]
+[ RDG  | Ursula K. Le Guin's The Word for World is Forest                            | 23 Blóstm 226 // 23.54.00 | 24 Blóstm 226 // 01.50.00 ]
+[ RDG  | Ursula K. Le Guin's The Word for World is Forest                            | 23 Blóstm 226 // 15.22.00 | 23 Blóstm 226 // 16.11.00 ]
+[ RDG  | Beowulf                                                                     | 21 Blóstm 226 // 18.10.00 | 21 Blóstm 226 // 19.30.00 ]
+[ DES  | regn                                                                        | 21 Blóstm 226 // 17.00.00 | 21 Blóstm 226 // 17.38.00 ]
+[ DEV  | hraew                                                                       | 20 Blóstm 226 // 23.07.00 | 20 Blóstm 226 // 23.56.00 ]
+[ DES  | hraew                                                                       | 20 Blóstm 226 // 22.39.00 | 20 Blóstm 226 // 23.05.00 ]
+[ IRL  | Peer-To-Peer Web / Berlin                                                   | 16 Blóstm 226 // 15.00.00 | 16 Blóstm 226 // 18.00.00 ]
+[ RDG  | Reza Negarestani's Cyclonopedia: Complicity with Anonymous Materials        | 15 Blóstm 226 // 13.17.00 | 15 Blóstm 226 // 14.12.00 ]
+[ DES  | hraew                                                                       | 14 Blóstm 226 // 14.30.00 | 14 Blóstm 226 // 15.16.00 ]
 [ RDG  | Helen Hester's Xenofeminism                                                 | 10 Blóstm 226 // 15.29.00 | 10 Blóstm 226 // 16.35.00 ]
 [ IRL  | A MAZE. / Berlin 2018                                                       | 9 Blóstm 226 // 18.00.00  | 9 Blóstm 226 // 21.15.00  ]
 [ RDG  | Helen Hester's Xenofeminism                                                 | 9 Blóstm 226 // 17.00.00  | 9 Blóstm 226 // 18.00.00  ]
