@@ -40,21 +40,7 @@
         <div id="lim-content">
             {% block body %}{% endblock %}
         </div>
-
-        <footer>
-            <div id="footer-wrapper">
-                <div id="externals">
-                    <a href="https://github.com/Autophagy" class="icon github"></a>
-                    <a href="https://autophagy.itch.io/" class="icon itchio"></a>
-                    <a href="dat://92878d8f24d76c96c7beecf8ac45b41d53483bdf3cc50d62423b3c9b9531e97d" class="icon rotonde"></a>
-                    <a href="https://twitter.com/autophagyDev" class="icon twitter"></a>
-                </div>
-
-                <div id="hraew-info">
-                    <span><a href="/mika/">Mika Naylor</a> <span class="minor">© 226</span></span>
-                </div>
-            </div>
-        </footer>
+        {% include 'fot.html' %}
     </div>
 </body>
 </html>
