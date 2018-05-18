@@ -1,14 +1,14 @@
 index:
   head: Hi, I'm Mika.
   body: |
-        I’m a software developer currently instantiated in Berlin, Germany.
+        I’m a software developer currently alive in Berlin, Germany.
         Professionally, I am an engineer at
         [GEÞEODAN :: https://crate.io/ :: Crate.io], a start-up building a
         horizontally scalable SQL database based on technologies like Elasticsearch,
-        Netty and Apache Lucene. Currently, I work a lot with scalable infrastructure,
+        Netty and Apache Lucene. At the moment I work a lot with scalable infrastructure,
         using Kubernetes, SaltStack, Docker and CrateDB.
 
-        In my free time, I’m currently working on building my own small
+        In my free time, I’m working on building my own small and self-indulgent
         productivity tools, of which this project documentation repository is
         one. I am also an occasional contributor to the
         [GEÞEODAN :: https://github.com/ambv/black :: Black] python formatter
