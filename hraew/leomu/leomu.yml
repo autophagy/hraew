@@ -1,29 +1,22 @@
 index:
-  head: Wilcume on Hrǽw.
+  head: Hi, I'm Mika.
   body: |
-        Wilcume on Hrǽw, my project information and documentation repository. Here
-        is contained information about each of my projects, including information
-        generated with [GEÞEODAN :: /faereld :: Færeld]. Hrǽw was first invoked
-        on 8 Regn 226.
+        I’m a software developer currently instantiated in Berlin, Germany.
+        Professionally, I am an engineer at Crate.io, a start-up building a
+        horizontally scalable SQL based on technologies like Elasticsearch,
+        Netty and Apache Lucene. Currently, my work focuses on building scalable
+        and robust infrastructure using SaltStack, Kubernetes and Docker
+        containers.
 
-mika:
-  name: Bio
-  head: Hi, I'm Sun-Earther Mika Autophagy Naylor of Berlin.
-  body: |
-        Professionally, I am an engineer at [GEÞEODAN :: https://crate.io/ :: Crate.io],
-        a start-up building a horizontally scalable SQL based on technologies like
-        Elasticsearch, Netty and Apache Lucene. Currently, my work focuses on
-        building scalable and robust infrastructure using SaltStack, Kubernetes
-        and Docker containers.
+        In my free time, I’m currently working on building my own small
+        productivity tools, of which this project documentation repository is
+        one. I am also an occasional contributor to the
+        [GEÞEODAN :: https://github.com/ambv/black :: Black] python formatter
+        project.
 
-        In my free time, I am working on a series of tools (usually with Python),
-        such as [GEÞEODAN :: /faereld :: Færeld] and [GEÞEODAN :: /aerende :: Ærende].
-
-        I'm also interested in reading on nonlinear dynamics, cybernetics,
-        the impact of technology on labour dynamics (both contemporary and
-        historically) and philosophy of computation.
-
-        I'm also learning German full time, as well as Old English.
+        Outside of cobbling together software, I mostly like to read on
+        technology, infrastructure, cybernetics and solarpunk.
+  foot: Heorot eardode, sincfáge sel sweartum nihtum.
 
 
 # Project Leomu

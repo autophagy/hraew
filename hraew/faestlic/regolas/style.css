@@ -290,6 +290,10 @@ footer .minor {
     min-height: calc(100% - 140px);
 }
 
+#index-desc {
+    margin-bottom: 40px;
+}
+
 #index-icon a {
     width: 64px;
     height: 63px;
@@ -325,6 +329,10 @@ ul#index-list .lim-brief {
     font-weight: normal;
     font-size: 75%;
     margin-top: -5px;
+}
+
+.shadow {
+    opacity: 0.5;
 }
 
 /* Exception Page */

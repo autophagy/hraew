@@ -19,14 +19,16 @@
         <div id="lim-content" class="index">
             {% block body %}
                 <div id="lim-main-content">
-                    <div id="index-icon">
-                        <a href="#" class="icon autophagy-dark"></a>
+                    <div id="index-desc">
+                        <div id="index-icon">
+                            <a href="#" class="icon autophagy-dark"></a>
+                        </div>
+                        <div id="lim-head">
+                            {{ lim.head }}
+                        </div>
+                        {{ lim.to_html()|safe}}
+                        <span class="shadow">{{ lim.foot }}</span>
                     </div>
-                    <div id="lim-head">
-                        {{ lim.head }}
-                    </div>
-
-                    {{ lim.to_html()|safe}}
 
                     <ul id="index-list">
                     {% for lim_k, lim_v in leomu.items() %}

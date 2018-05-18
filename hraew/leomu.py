@@ -23,6 +23,7 @@ class Lim(object):
         self.status = lim.get('status', "n/a")
         self.head = lim.get('head', "")
         self.body = lim.get('body', "")
+        self.foot = lim.get('foot', "")
         self.externals = lim.get('externals', None)
 
     def to_html(self):
