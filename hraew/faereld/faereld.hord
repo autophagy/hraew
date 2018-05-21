@@ -1,10 +1,19 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 24 Blóstm 226 // 16.34
-// COUNT :: 383
+// UPDATED :: 2 Mǽdland 226 // 22.56
+// COUNT :: 392
 
 [ AREA | OBJECT                                                                      | START                     | END                       ]
+[ DEV  | hraew                                                                       | 2 Mǽdland 226 // 21.20.00 | 2 Mǽdland 226 // 22.56.00 ]
+[ DEV  | hraew                                                                       | 2 Mǽdland 226 // 20.26.00 | 2 Mǽdland 226 // 21.06.00 ]
+[ DEV  | hraew                                                                       | 2 Mǽdland 226 // 19.20.00 | 2 Mǽdland 226 // 19.57.00 ]
+[ RDG  | Mark Fisher's Ghosts of My Life                                             | 2 Mǽdland 226 // 14.00.00 | 2 Mǽdland 226 // 15.21.00 ]
+[ RDG  | Mark Fisher's Ghosts of My Life                                             | 2 Mǽdland 226 // 01.55.00 | 2 Mǽdland 226 // 02.22.00 ]
+[ RDG  | Mark Fisher's Ghosts of My Life                                             | 1 Mǽdland 226 // 21.31.00 | 1 Mǽdland 226 // 22.05.00 ]
+[ RDG  | Mark Fisher's Ghosts of My Life                                             | 1 Mǽdland 226 // 13.30.00 | 1 Mǽdland 226 // 14.39.00 ]
+[ DEV  | hraew                                                                       | 29 Blóstm 226 // 18.00.00 | 29 Blóstm 226 // 19.16.00 ]
+[ RDG  | Italo Calvino's The Complete Cosmicomics                                    | 25 Blóstm 226 // 21.24.00 | 25 Blóstm 226 // 21.58.00 ]
 [ RDG  | Italo Calvino's The Complete Cosmicomics                                    | 24 Blóstm 226 // 15.39.00 | 24 Blóstm 226 // 16.34.00 ]
 [ RDG  | Ursula K. Le Guin's The Word for World is Forest                            | 23 Blóstm 226 // 23.54.00 | 24 Blóstm 226 // 01.50.00 ]
 [ RDG  | Ursula K. Le Guin's The Word for World is Forest                            | 23 Blóstm 226 // 15.22.00 | 23 Blóstm 226 // 16.11.00 ]
