@@ -8,6 +8,10 @@ data produced by `Færeld`_ into its project view.
 
 Built with Flask.
 
+.. image:: http://scieldas.autophagy.io/travis/Autophagy/hraew.png
+   :target: https://travis-ci.org/Autophagy/hraew
+   :alt: Build Status
+
 .. image:: http://scieldas.autophagy.io/licenses/MIT.png
    :target: LICENSE
    :alt: MIT License
