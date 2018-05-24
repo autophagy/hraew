@@ -304,6 +304,7 @@ ul#index-list {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -20px;
+	justify-content: space-between;
 }
 
 ul#index-list li {
