@@ -332,10 +332,6 @@ ul#index-list .lim-brief {
     margin-top: -5px;
 }
 
-.shadow {
-    opacity: 0.5;
-}
-
 /* Exception Page */
 
 #gedwola {
@@ -355,4 +351,18 @@ ul#index-list .lim-brief {
 #gedwola-message {
     margin-top: 1em;
     font-size: 4em;
+}
+
+/* Decorators */
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.gast {
+    opacity: 0.5;
 }

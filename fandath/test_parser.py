@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 import unittest
-from hraew import Geþeodan, Biliþ, Cunnungarc, Gewissung, Paragraph
+from hraew import Geþeodan, Biliþ, Cunnungarc, Gewissung, Frætwe, Paragraph
 
 
 class TestParagraphParse(unittest.TestCase):
 
     paragraph_definition = (
-        "hello [GEÞEODAN :: https://hraew.autophagy.io :: Test] world"
+        "hello [GEÞEODAN :: https://hraew.autophagy.io :: Test] to the [FRÆTWE :: BRÆSNA :: world]"
     )
     expected_geþeodan = {"uri": "https://hraew.autophagy.io", "text": "Test"}
+    expected_frætwe = {'decorator': 'BRÆSNA', 'text': 'world'}
 
     def test_paragraph(self):
         p = Paragraph("lim", self.paragraph_definition)
@@ -17,8 +18,32 @@ class TestParagraphParse(unittest.TestCase):
         self.assertTrue(isinstance(paragraph_options[0], str))
         self.assertTrue(isinstance(paragraph_options[1], Geþeodan))
         self.assertTrue(isinstance(paragraph_options[2], str))
+        self.assertTrue(isinstance(paragraph_options[3], Frætwe))
         self.assertEqual(paragraph_options[1].template_options, self.expected_geþeodan)
+        self.assertEqual(paragraph_options[3].template_options, self.expected_frætwe)
 
+class TestFrætweParser(unittest.TestCase):
+
+    def test_bræsna(self):
+        frætwe_definition = "[FRÆTWE :: BRÆSNA :: hello world]"
+        f = Frætwe("lim", frætwe_definition)
+        f.parse()
+        self.assertEqual(f.template_options['decorator'], "BRÆSNA")
+        self.assertEqual(f.template_options['text'], "hello world")
+
+    def test_geap(self):
+        frætwe_definition = "[FRÆTWE :: GEAP :: hello world]"
+        f = Frætwe("lim", frætwe_definition)
+        f.parse()
+        self.assertEqual(f.template_options['decorator'], "GEAP")
+        self.assertEqual(f.template_options['text'], "hello world")
+
+    def test_gást(self):
+        frætwe_definition = "[FRÆTWE :: GÁST :: hello world]"
+        f = Frætwe("lim", frætwe_definition)
+        f.parse()
+        self.assertEqual(f.template_options['decorator'], "GÁST")
+        self.assertEqual(f.template_options['text'], "hello world")
 
 class TestGeþeodanParser(unittest.TestCase):
 

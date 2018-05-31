@@ -27,7 +27,6 @@ class Element(ABC):
 
 
 class HeadElement(Element):
-
     @property
     @abstractmethod
     def head(self):
@@ -35,7 +34,6 @@ class HeadElement(Element):
 
 
 class BlockElement(HeadElement):
-
     def __init__(self, key, text):
         self.elements = []
         self.elements.append(text)
@@ -60,7 +58,7 @@ class Geþeodan(Element):
 
     def parse(self):
         regex = re.compile("\[GEÞEODAN :: (.*?)\]")
-        geþeodan_string = re.search(regex, self.text.strip()).group(1)
+        geþeodan_string = regex.search(self.text.strip()).group(1)
 
         if "::" in geþeodan_string:
             geþeodan_uri, geþeodan_text = geþeodan_string.split("::")
@@ -72,6 +70,34 @@ class Geþeodan(Element):
             "uri": geþeodan_uri.strip(),
             "text": geþeodan_text.strip(),
         }
+
+    @staticmethod
+    def match(text):
+        regex = re.compile("\[GEÞEODAN :: (.*?)\]")
+        if regex.search(str(text)):
+            return True
+        return False
+
+
+class Frætwe(Element):
+
+    html_template = "fraetwe.html"
+
+    def parse(self):
+        decorators = ["BRÆSNA", "GEAP", "GÁST"]
+        regex = re.compile("\[FRÆTWE :: (.*? :: .*?)\]")
+        decorator, text = map(
+            str.strip, regex.search(self.text.strip()).group(1).split("::")
+        )
+        if decorator in decorators:
+            self.template_options = {"decorator": decorator, "text": text.strip()}
+
+    @staticmethod
+    def match(text):
+        regex = re.compile("\[FRÆTWE :: (.*? :: .*?)\]")
+        if regex.search(str(text)):
+            return True
+        return False
 
 
 class Biliþ(HeadElement):
@@ -106,7 +132,6 @@ class Cunnungarc(HeadElement):
     head = "[CUNNUNGARC]"
 
     def parse(self):
-
         def create_element_list(cunnungarc_string):
             regex = "\[(.*?)\]"
 
@@ -144,15 +169,19 @@ class Paragraph(Element):
 
     def parse(self):
         element = bleach.clean(self.text)
-        regex = re.compile("(\[GEÞEODAN :: .*?\])")
+        regex = re.compile("(\[GEÞEODAN :: .*?\]|\[FRÆTWE :: .*? :: .*?\])")
 
         paragraph_elements = re.split(regex, element)
         paragraph = []
         for paragraph_element in paragraph_elements:
-            if re.match(regex, paragraph_element):
+            if Geþeodan.match(paragraph_element):
                 geþeodan = Geþeodan(self.key, paragraph_element)
                 geþeodan.parse()
                 paragraph.append(geþeodan)
+            elif Frætwe.match(paragraph_element):
+                frætwe = Frætwe(self.key, paragraph_element)
+                frætwe.parse()
+                paragraph.append(frætwe)
             else:
                 paragraph.append(paragraph_element)
 
@@ -163,14 +192,13 @@ class Paragraph(Element):
         for paragraph_element in self.template_options["paragraph"]:
             if isinstance(paragraph_element, Element):
                 rendered_paragraph += paragraph_element.render_html()
-            else:
+            elif paragraph_element is not None:
                 rendered_paragraph += paragraph_element
         self.template_options["paragraph"] = rendered_paragraph
         return super().render_html()
 
 
 class Parser(object):
-
     def __init__(self, key, text):
         self.key = key
         self.text = text

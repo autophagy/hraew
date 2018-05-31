@@ -1,0 +1,7 @@
+{% if decorator == 'BRÆSNA' %}
+<strong>{{ text }}</strong>
+{% elif decorator == 'GEAP' %}
+<em>{{ text }}</em>
+{% elif decorator == 'GÁST' %}
+<span class="gast">{{ text }}</span>
+{% endif %}
