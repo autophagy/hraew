@@ -29,15 +29,89 @@ tid:
   status: In Dev
   head: Tíd is a timer and general purpose cooking tool.
   body: |
-        This project is aiming to be a successor to [GEÞEODAN :: /multitimer :: Multi/Timer],
-        a cooking timer tool I made several years ago.
+        This project is a successor to [GEÞEODAN :: /multitimer :: Multi/Timer],
+        a cooking timer tool I made several years ago. The primary motivation
+        behind this remake was to aesthetically unify it with my other projects,
+        while at the same time removing superfluous features and strengthening
+        those that remained.
 
-        This iteration aims to be more aesthetically on point, stripping out some
-        features I never used (like resetting timers) and adding some general
-        purpose functionality that I use frequently (notes on what I'm cooking,
-        a rapid conversion tool, etc).
+        It is a tool that, primarily, allows you to time multiple cooking
+        processes at once. This can be done with the UI, but a more expressive
+        form of control has been implemented with a built in console.
+
+        The console can be used to add, start, stop and delete specific timers,
+        using commands such as:
+
+        [GEWISSUNG]
+        :add 00.30.00 Preferment
+        Preferment [00.30.00] timer added
+
+        :play 3
+        Timer 3 deleted
+
+        :delete all
+        All timers deleted
+        [GEWISSUNGENDE]
+
+        The console also contains a basic ingredient amount conversion tool,
+        which converts (mainly) between cups and metric units, though I will add
+        more conversions to it as I encounter them in my cooking:
+
+        [GEWISSUNG]
+        :convert 3.5 cups flour to grams
+
+        3.5 cups flour :: 437.50 grams
+        [GEWISSUNGENDE]
+
+        The console also implements a help functionality, aiming to explain
+        what each function does and how to perform them:
+
+        [GEWISSUNG]
+        :help
+
+        Valid commands:
+        help    :: Shows this help
+        add     :: Add a new timer
+        delete  :: Delete an existing timer
+        play    :: Play an existing timer
+        pause   :: Pause an existing timer
+        convert :: Convert ingredient measures between units
+
+        For help about a specific command, type :: help [command]
+
+        :help add
+
+        add :: Add a new timer
+
+        SIGNATURES
+        :add [TIME] [NAME] play
+        :add [TIME] [NAME]
+        :add [NAME]
+        :add
+
+        HELP
+        Adding a timer can be done in several ways. The most basic is with [add], which
+        will add a new paused timer with the default text of "New Timer" and a time of
+        0.0.0.
+
+        [add NAME] will add a paused timer with a time of 0.0.0, but with a defined name.
+        e.g. :add My New Timer
+
+        [add TIME NAME] will add a paused timer with a defined time and name. The time
+        must be defined in the format [hours.minutes.seconds].
+        e.g. :add 2.15.30 My New Timer
+
+        [add TIME NAME play] will add a timer with a defined time and name, which will
+        immediately start playing.
+        e.g. :add 2.15.30 My New Timer play
+        [GEWISSUNGENDE]
+
+        This console based method of controlling the timers is more in line with
+        my day-to-day workflow, and it's design is general enough that I may
+        re-use it in other projects.
   externals:
     source: https://github.com/autophagy/tid
+    website: https://tid.autophagy.io/
 
 regn:
   name: Regn
