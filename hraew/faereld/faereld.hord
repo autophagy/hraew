@@ -1,12 +1,39 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 28 Mǽdland 226 // 13.28
-// COUNT :: 409
+// UPDATED :: 13 Ríp 226 // 16.24
+// COUNT :: 437
 
 [ AREA | OBJECT                                                                      | START                      | END                        ]
+[ DEV  | tid                                                                         | 13 Ríp 226 // 15.14.00     | 13 Ríp 226 // 16.24.00     ]
+[ DEV  | tid                                                                         | 13 Ríp 226 // 13.17.00     | 13 Ríp 226 // 13.59.00     ]
+[ DEV  | tid                                                                         | 12 Ríp 226 // 19.40.00     | 12 Ríp 226 // 22.04.00     ]
+[ EXR  | Bouldering (Boulderhal Sterk)                                               | 11 Ríp 226 // 16.00.00     | 11 Ríp 226 // 18.00.00     ]
+[ DEV  | tid                                                                         | 11 Ríp 226 // 10.30.00     | 11 Ríp 226 // 10.46.00     ]
+[ DEV  | tid                                                                         | 10 Ríp 226 // 21.25.00     | 10 Ríp 226 // 22.50.00     ]
+[ DEV  | tid                                                                         | 10 Ríp 226 // 19.17.00     | 10 Ríp 226 // 19.59.00     ]
+[ RDG  | Kim Stanley Robinson's Red Mars                                             | 10 Ríp 226 // 12.58.00     | 10 Ríp 226 // 13.41.00     ]
+[ RDG  | Ian M. Banks' The Hydrogen Sonata                                           | 9 Ríp 226 // 12.58.00      | 9 Ríp 226 // 14.53.00      ]
+[ RDG  | Ian M. Banks' The Hydrogen Sonata                                           | 8 Ríp 226 // 22.36.00      | 9 Ríp 226 // 00.09.00      ]
+[ EXR  | Bouldering (Boulderhal Sterk)                                               | 8 Ríp 226 // 16.00.00      | 8 Ríp 226 // 17.00.00      ]
+[ DEV  | tid                                                                         | 7 Ríp 226 // 17.59.00      | 7 Ríp 226 // 19.27.00      ]
+[ DEV  | tid                                                                         | 6 Ríp 226 // 23.40.00      | 7 Ríp 226 // 00.45.00      ]
+[ RDG  | Ian M. Banks' The Hydrogen Sonata                                           | 6 Ríp 226 // 22.08.00      | 6 Ríp 226 // 23.29.00      ]
+[ DEV  | tid                                                                         | 6 Ríp 226 // 20.28.00      | 6 Ríp 226 // 21.44.00      ]
+[ DES  | tid                                                                         | 6 Ríp 226 // 19.58.00      | 6 Ríp 226 // 20.28.00      ]
+[ RDG  | Ian M. Banks' The Hydrogen Sonata                                           | 5 Ríp 226 // 21.23.00      | 5 Ríp 226 // 23.06.00      ]
+[ RDG  | Ian M. Banks' The Hydrogen Sonata                                           | 5 Ríp 226 // 10.00.00      | 5 Ríp 226 // 10.40.00      ]
+[ RDG  | Ian M. Banks' The Hydrogen Sonata                                           | 4 Ríp 226 // 21.45.00      | 4 Ríp 226 // 23.20.00      ]
+[ DEV  | tid                                                                         | 4 Ríp 226 // 17.44.00      | 4 Ríp 226 // 18.57.00      ]
+[ DES  | tid                                                                         | 3 Ríp 226 // 22.54.00      | 3 Ríp 226 // 23.30.00      ]
+[ RDG  | Ian M. Banks' The Hydrogen Sonata                                           | 3 Ríp 226 // 21.52.00      | 3 Ríp 226 // 22.53.00      ]
+[ DEV  | tid                                                                         | 3 Ríp 226 // 21.15.00      | 3 Ríp 226 // 21.52.00      ]
+[ DES  | tid                                                                         | 3 Ríp 226 // 20.56.00      | 3 Ríp 226 // 21.14.00      ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 29 Mǽdland 226 // 19.00.00 | 29 Mǽdland 226 // 20.30.00 ]
+[ DOC  | hraew                                                                       | 28 Mǽdland 226 // 22.41.00 | 28 Mǽdland 226 // 23.00.00 ]
 [ DES  | tid                                                                         | 28 Mǽdland 226 // 13.03.00 | 28 Mǽdland 226 // 13.53.00 ]
 [ DES  | tid                                                                         | 24 Mǽdland 226 // 21.00.00 | 24 Mǽdland 226 // 22.10.00 ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 24 Mǽdland 226 // 19.00.00 | 24 Mǽdland 226 // 20.00.00 ]
 [ IRL  | Berlin Buzzwords                                                            | 24 Mǽdland 226 // 10.30.00 | 24 Mǽdland 226 // 18.00.00 ]
 [ IRL  | Berlin Buzzwords                                                            | 23 Mǽdland 226 // 10.30.00 | 23 Mǽdland 226 // 18.00.00 ]
 [ RDG  | Ian M. Banks' The Hydrogen Sonata                                           | 22 Mǽdland 226 // 19.07.00 | 22 Mǽdland 226 // 19.49.00 ]
@@ -14,6 +41,7 @@
 [ RDG  | Ian M. Banks' The Hydrogen Sonata                                           | 22 Mǽdland 226 // 01.05.00 | 22 Mǽdland 226 // 03.03.00 ]
 [ RDG  | Ian M. Banks' The Hydrogen Sonata                                           | 17 Mǽdland 226 // 16.05.00 | 17 Mǽdland 226 // 17.33.00 ]
 [ RDG  | Ian M. Banks' The Hydrogen Sonata                                           | 15 Mǽdland 226 // 23.25.00 | 16 Mǽdland 226 // 00.36.00 ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 15 Mǽdland 226 // 19.00.00 | 15 Mǽdland 226 // 20.00.00 ]
 [ TST  | black                                                                       | 13 Mǽdland 226 // 01.25.00 | 13 Mǽdland 226 // 02.21.00 ]
 [ DEV  | black                                                                       | 12 Mǽdland 226 // 23.53.00 | 13 Mǽdland 226 // 00.53.00 ]
 [ DEV  | black                                                                       | 12 Mǽdland 226 // 22.45.00 | 12 Mǽdland 226 // 23.29.00 ]
