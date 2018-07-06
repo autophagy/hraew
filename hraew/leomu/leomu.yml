@@ -26,7 +26,7 @@ tid:
   name: Tíd
   brief: Cooking Tool
   project: true
-  status: In Dev
+  status: 0.1.0
   head: Tíd is a timer and general purpose cooking tool.
   body: |
         This project is a successor to [GEÞEODAN :: /multitimer :: Multi/Timer],
