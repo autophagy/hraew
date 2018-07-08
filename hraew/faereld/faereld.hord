@@ -1,10 +1,16 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 13 Ríp 226 // 16.24
-// COUNT :: 437
+// UPDATED :: 20 Ríp 226 // 16.36
+// COUNT :: 443
 
 [ AREA | OBJECT                                                                      | START                      | END                        ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 20 Ríp 226 // 13.12.00     | 20 Ríp 226 // 14.40.00     ]
+[ DEV  | tid                                                                         | 18 Ríp 226 // 11.45.00     | 18 Ríp 226 // 11.59.00     ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 17 Ríp 226 // 18.00.00     | 17 Ríp 226 // 20.30.00     ]
+[ RDG  | Ian M. Banks' Consider Phlebas                                              | 15 Ríp 226 // 12.38.00     | 15 Ríp 226 // 13.37.00     ]
+[ DOC  | hraew                                                                       | 13 Ríp 226 // 21.40.00     | 13 Ríp 226 // 22.20.00     ]
+[ RDG  | Ian M. Banks' Consider Phlebas                                              | 13 Ríp 226 // 16.43.00     | 13 Ríp 226 // 18.58.00     ]
 [ DEV  | tid                                                                         | 13 Ríp 226 // 15.14.00     | 13 Ríp 226 // 16.24.00     ]
 [ DEV  | tid                                                                         | 13 Ríp 226 // 13.17.00     | 13 Ríp 226 // 13.59.00     ]
 [ DEV  | tid                                                                         | 12 Ríp 226 // 19.40.00     | 12 Ríp 226 // 22.04.00     ]
