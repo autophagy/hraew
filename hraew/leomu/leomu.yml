@@ -63,6 +63,14 @@ tid:
         3.5 cups flour :: 437.50 grams
         [GEWISSUNGENDE]
 
+        The conversion rules are modelled as an undirected and unweighted graph,
+        so that I can then use the
+        [GEÞEODAN :: https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm :: Floyd-Warshall algorithm]
+        upon it order to find the shortest path between vertices. If I add a
+        conversion rule for butter between grams and cups, and another between
+        grams and sticks, the converter will automatically be able to convert
+        between cups and sticks via the path cups ➡ grams ➡ sticks.
+
         The console also implements a help functionality, aiming to explain
         what each function does and how to perform them:
 
