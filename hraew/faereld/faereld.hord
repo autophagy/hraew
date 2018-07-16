@@ -1,10 +1,17 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 20 Ríp 226 // 16.36
-// COUNT :: 443
+// UPDATED :: 28 Ríp 226 // 22.07
+// COUNT :: 450
 
 [ AREA | OBJECT                                                                      | START                      | END                        ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 28 Ríp 226 // 17.30.00     | 28 Ríp 226 // 20.30.00     ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 24 Ríp 226 // 19.00.00     | 24 Ríp 226 // 20.10.00     ]
+[ RDG  | Herman Hesse's Steppenwolf                                                  | 22 Ríp 226 // 15.53.00     | 22 Ríp 226 // 16.16.00     ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 21 Ríp 226 // 18.40.00     | 21 Ríp 226 // 20.30.00     ]
+[ DEV  | tid                                                                         | 20 Ríp 226 // 22.25.00     | 20 Ríp 226 // 23.13.00     ]
+[ DEV  | tid                                                                         | 20 Ríp 226 // 20.37.00     | 20 Ríp 226 // 21.13.00     ]
+[ RES  | tid                                                                         | 20 Ríp 226 // 20.00.00     | 20 Ríp 226 // 20.37.00     ]
 [ EXR  | Bouldering (Bouldergarten)                                                  | 20 Ríp 226 // 13.12.00     | 20 Ríp 226 // 14.40.00     ]
 [ DEV  | tid                                                                         | 18 Ríp 226 // 11.45.00     | 18 Ríp 226 // 11.59.00     ]
 [ EXR  | Bouldering (Bouldergarten)                                                  | 17 Ríp 226 // 18.00.00     | 17 Ríp 226 // 20.30.00     ]
