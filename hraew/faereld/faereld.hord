@@ -1,10 +1,19 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 28 Ríp 226 // 22.07
-// COUNT :: 450
+// UPDATED :: 11 Hát 226 // 12.26
+// COUNT :: 460
 
 [ AREA | OBJECT                                                                      | START                      | END                        ]
+[ RES  | regn                                                                        | 11 Hát 226 // 12.03.00     | 11 Hát 226 // 12.35.00     ]
+[ DEV  | regn                                                                        | 10 Hát 226 // 17.46.00     | 10 Hát 226 // 18.32.00     ]
+[ DEV  | regn                                                                        | 10 Hát 226 // 11.30.00     | 10 Hát 226 // 12.13.00     ]
+[ DES  | hraew                                                                       | 9 Hát 226 // 16.26.00      | 9 Hát 226 // 16.45.00      ]
+[ DES  | hraew                                                                       | 9 Hát 226 // 10.31.00      | 9 Hát 226 // 10.57.00      ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 7 Hát 226 // 17.30.00      | 7 Hát 226 // 19.00.00      ]
+[ IRL  | Kafka, KSQL & IoT meetup with Crate.io and Confluent                        | 6 Hát 226 // 19.15.00      | 6 Hát 226 // 21.30.00      ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 4 Hát 226 // 13.00.00      | 4 Hát 226 // 17.00.00      ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 1 Hát 226 // 18.00.00      | 1 Hát 226 // 19.20.00      ]
 [ EXR  | Bouldering (Bouldergarten)                                                  | 28 Ríp 226 // 17.30.00     | 28 Ríp 226 // 20.30.00     ]
 [ EXR  | Bouldering (Bouldergarten)                                                  | 24 Ríp 226 // 19.00.00     | 24 Ríp 226 // 20.10.00     ]
 [ RDG  | Herman Hesse's Steppenwolf                                                  | 22 Ríp 226 // 15.53.00     | 22 Ríp 226 // 16.16.00     ]
