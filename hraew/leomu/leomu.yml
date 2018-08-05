@@ -27,6 +27,7 @@ tid:
   brief: Cooking Tool
   project: true
   status: 0.1.0
+  bleoh: deorc
   head: Tíd is a timer and general purpose cooking tool.
   body: |
         This project is a successor to [GEÞEODAN :: /multitimer :: Multi/Timer],
@@ -126,6 +127,7 @@ regn:
   brief: Weather Station
   project: true
   status: In Dev
+  bleoh: deorc
   head: Regn is a microcontroller based weather station.
   body: |
         This project consists of 2 main components, the server side and the
@@ -155,6 +157,7 @@ ametan:
   brief: Android Scrum App
   project: true
   status: 1.1.0
+  bleoh: bearht
   head: Ametan is an Android app for scrum estimation planning poker.
   body: |
         Planning poker is an exercise I regularly take part in with my
@@ -182,6 +185,7 @@ wisdomhord:
   brief: Flat File DB
   project: true
   status: 0.2.3
+  bleoh: deorc
   head: Wísdómhord is a flat file database tool for internal project use.
   body: |
         The main goal of Wísdómhord is to create a flat file db format that
@@ -219,6 +223,7 @@ getheode:
   brief: Conlanging Tool
   project: true
   status: In Dev
+  bleoh: deorc
   head: Geþeóde is a tool for language construction.
   body: |
         Geþeóde is a conlanging tool I am building with
@@ -237,6 +242,7 @@ scieldas:
   brief: Metadata Badges
   project: true
   status: 0.1.0
+  bleoh: deorc
   head: Scieldas is a service to provide metadata badges for Open Source projects.
   body: |
         Inspired by services like [GEÞEODAN :: https://shields.io/ :: Shields.io],
@@ -263,6 +269,7 @@ hraew:
   brief: Project Information Engine
   project: true
   status: In Dev
+  bleoh: deorc
   head: Hrǽw is a project information & documentation engine.
   body: |
         Inspired by projects such as
@@ -299,6 +306,7 @@ faereld:
   brief: Time Tracker
   project: true
   status: In Dev
+  bleoh: bearht
   head: Færeld is a CLI time tracking tool.
   body: |
         Færeld is a tool built to facilitate tracking the time I spend on my own
@@ -322,6 +330,7 @@ insegel:
   brief: Sphinx Theme
   project: true
   status: 0.2.1
+  bleoh: deorc
   head: Insegel is a theme for the Sphinx documentation engine.
   body: |
         Insegel is a theme for [GEÞEODAN :: http://www.sphinx-doc.org/en/stable/ :: Sphinx],
@@ -343,6 +352,7 @@ datarum:
   brief: Calendar System
   project: true
   status: 0.5.0
+  bleoh: bearht
   head: Datárum is a calendar system based on the French Republican Calendar.
   body: |
         Datárum is is a modified version of the French Republican Calendar,
@@ -380,6 +390,7 @@ aerende:
   brief: Console Notes
   project: true
   status: 0.2.0
+  bleoh: deorc
   head: Ærende is a CLI note taking application.
   body: |
         Ærende is designed to slot seamlessly into my terminal window workflow,
@@ -397,6 +408,7 @@ antimber:
   brief: Arch Linux Themes
   project: true
   status: Ongoing
+  bleoh: deorc
   head: Antimber is a set of configuration files for Arch Linux.
   body: |
         Antimber is a collection of themes that I built for my current
@@ -417,6 +429,7 @@ completable-futures:
   brief: Writing
   project: true
   status: Ongoing
+  bleoh: bearht
   head: Completable Futures is a blog for miscellaneous writing.
   body: |
         Completable Futures is an ongoing project where I put writing on topics
@@ -431,6 +444,7 @@ hwaete:
   brief: Bread Diary
   project: true
   status: Ongoing
+  bleoh: bearht
   head: Hwǽte is a project to document my bread baking.
   body: |
         [BILIÞ]
@@ -452,6 +466,7 @@ avari:
   brief: Wordpress Theme
   project: true
   status: Released
+  bleoh: bearht
   head: Avari is a minimalist, emerald green wordpress theme.
   body: |
         Avari is a custom built 2-column Wordpress theme built for
@@ -470,6 +485,7 @@ mainframe:
   brief: Cyberpunk Game
   project: true
   status: 1.0
+  bleoh: bearht
   head: MAINFRAME is a web game, inspired by Warioware and bad 90s movies about hacking.
   body: |
         MAINFRAME is a tongue-in-cheek cyberpunk game about cracking the
@@ -491,6 +507,7 @@ multitimer:
   brief: Egg Timers
   project: true
   status: 2.0
+  bleoh: deorc
   head: Multi/Timer is a tool for timing multiple cooking processes simultaneously.
   body: |
         Multi/Timer is a tool I built while at Chaos Communication Camp 2015,
@@ -510,6 +527,7 @@ twitter-bg-restorer:
   brief: Chrome Extension
   project: true
   status: 2.0.3
+  bleoh: deorc
   head: Twitter Bg Restorer is a chrome extension to restore Twitter's background.
   body: |
         The extension was created when Twitter removed the ability to set the

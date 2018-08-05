@@ -25,11 +25,9 @@
         <header id="lim-header">
             <div id="lim-image">
             </div>
-            <div id="lim-detail">
+            <div id="lim-detail" class="{{ lim.bleoh }}">
                 <div id="logo">
-                    <a href="{{url_for('index')}}">
-                        <img src="{{url_for('static', filename='bilitha/logos/autophagy-logo-light.svg')}}" />
-                    </a>
+                    <a href="{{url_for('index')}}"></a>
                 </div>
                 <div id="lim-name" class="sans">
                     {{ lim.name }}

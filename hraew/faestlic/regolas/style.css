@@ -96,11 +96,11 @@ a.icon.hraew {
     background-image: url('../bilitha/logos/leomu/hraew-logo-light.svg');
 }
 
-a.icon.autophagy-dark {
+a.icon.autophagy-deorc {
     background-image: url('../bilitha/logos/autophagy-logo-dark.svg');
 }
 
-a.icon.autophagy-light {
+a.icon.autophagy-bearht {
     background-image: url('../bilitha/logos/autophagy-logo-light.svg');
 }
 
@@ -138,14 +138,14 @@ pre {
 
 #lim-header {
     position: relative;
-    height: 100%;
+    height: calc(100% - 120px);
     z-index: 4
 }
 
 #lim-image {
     background-color: #2d2d2d;
     width: 100%;
-    height: calc(100% - 120px);
+    height: 100%;
     background-size: cover;
     background-position: 50%;
 }
@@ -156,11 +156,17 @@ pre {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2d2d2d;
-    color: #f2f2f2;
     height: 120px;
     width: 100%;
     font-size: 40px;
+}
+
+#lim-detail.deorc {
+    color: #2d2d2d;
+}
+
+#lim-detail.bearht {
+    color: #f2f2f2;
 }
 
 #logo, #lim-name {
@@ -168,9 +174,19 @@ pre {
     padding-right: 40px;
 }
 
-#logo img {
+#logo a {
     width: 40px;
     height: 40px;
+    background-size: contain;
+    display: block;
+}
+
+.deorc #logo a {
+    background-image: url('../bilitha/logos/autophagy-logo-dark.svg');
+}
+
+.bearht #logo a {
+    background-image: url('../bilitha/logos/autophagy-logo-light.svg');
 }
 
 #lim-side-content {
@@ -253,8 +269,7 @@ pre {
 }
 
 footer {
-    background-color: #2d2d2d;
-    color: #f2f2f2;
+    color: #2d2d2d;
     font-family: 'Quicksand', sans-serif;
     padding-left: 20px;
     padding-right: 20px;

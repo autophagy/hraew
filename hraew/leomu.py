@@ -27,6 +27,7 @@ class Lim(object):
         self.head = lim.get("head", "")
         self.body = lim.get("body", "")
         self.externals = lim.get("externals", None)
+        self.bleoh = lim.get("bleoh", "deorc");
 
     def to_html(self):
         if self._body_html is None:
