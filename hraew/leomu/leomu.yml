@@ -27,7 +27,7 @@ tid:
   brief: Cooking Tool
   project: true
   status: 0.1.0
-  bleoh: deorc
+  bleoh: bearht
   head: Tíd is a timer and general purpose cooking tool.
   body: |
         This project is a successor to [GEÞEODAN :: /multitimer :: Multi/Timer],
