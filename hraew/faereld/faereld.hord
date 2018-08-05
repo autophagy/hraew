@@ -1,10 +1,21 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 11 Hát 226 // 12.26
-// COUNT :: 460
+// UPDATED :: 18 Hát 226 // 13.58
+// COUNT :: 471
 
 [ AREA | OBJECT                                                                      | START                      | END                        ]
+[ DES  | hraew                                                                       | 18 Hát 226 // 13.00.00     | 18 Hát 226 // 13.58.00     ]
+[ EXR  | Bouldering (Boulderklub)                                                    | 16 Hát 226 // 15.30.00     | 16 Hát 226 // 18.00.00     ]
+[ EXR  | Bouldering (Boulderklub)                                                    | 15 Hát 226 // 15.30.00     | 15 Hát 226 // 17.10.00     ]
+[ DEV  | regn                                                                        | 12 Hát 226 // 23.08.00     | 13 Hát 226 // 01.19.00     ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 12 Hát 226 // 18.50.00     | 12 Hát 226 // 19.40.00     ]
+[ DEV  | regn                                                                        | 12 Hát 226 // 18.08.00     | 12 Hát 226 // 18.50.00     ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 12 Hát 226 // 16.40.00     | 12 Hát 226 // 18.04.00     ]
+[ DEV  | regn                                                                        | 12 Hát 226 // 11.30.00     | 12 Hát 226 // 12.59.00     ]
+[ DEV  | regn                                                                        | 11 Hát 226 // 20.16.00     | 11 Hát 226 // 21.43.00     ]
+[ EXR  | Bouldering (Bouldergarten)                                                  | 11 Hát 226 // 16.20.00     | 11 Hát 226 // 19.00.00     ]
+[ DES  | regn                                                                        | 11 Hát 226 // 13.10.00     | 11 Hát 226 // 14.33.00     ]
 [ RES  | regn                                                                        | 11 Hát 226 // 12.03.00     | 11 Hát 226 // 12.35.00     ]
 [ DEV  | regn                                                                        | 10 Hát 226 // 17.46.00     | 10 Hát 226 // 18.32.00     ]
 [ DEV  | regn                                                                        | 10 Hát 226 // 11.30.00     | 10 Hát 226 // 12.13.00     ]
