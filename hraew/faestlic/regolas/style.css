@@ -48,13 +48,8 @@ table {
 }
 
 /* Main CSS */
-.sans {
-    font-family: 'Quicksand', sans-serif;
-    line-height: 1em;
-}
-
 body {
-    font-family: 'Noto Serif', serif;
+    font-family: 'plex', sans-serif;
     background-color: #f2f2f2;
 }
 
@@ -65,7 +60,7 @@ p {
 a {
     color: inherit;
     text-decoration: none;
-    font-weight: bold;
+    font-family: 'plex-bold';
 }
 
 a.icon {
@@ -111,7 +106,7 @@ table {
 }
 
 table thead th {
-    font-weight: bold;
+    font-family: 'plex-bold';
     text-align: left;
 }
 
@@ -172,6 +167,7 @@ pre {
 #logo, #lim-name {
     padding-left: 40px;
     padding-right: 40px;
+    font-family: 'plex-light';
 }
 
 #logo a {
@@ -196,6 +192,7 @@ pre {
 
 #lim-side-content h3 {
     color: #888888;
+    font-family: 'plex-light';
     margin-bottom: 1em;
     font-size: 1.5em;
 }
@@ -241,9 +238,11 @@ pre {
 
 #lim-head {
     font-size: 2em;
+    font-family: 'plex-light';
     color: #3b3b3b;
     margin-bottom: 40px;
     line-height: 125%;
+    margin-top: -0.2em;
 }
 
 #lim-content {
@@ -270,7 +269,6 @@ pre {
 
 footer {
     color: #2d2d2d;
-    font-family: 'Quicksand', sans-serif;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -342,7 +340,7 @@ ul#index-list span {
 }
 
 ul#index-list .lim-brief {
-    font-weight: normal;
+    font-family: 'plex';
     font-size: 75%;
     margin-top: -5px;
 }
@@ -371,7 +369,7 @@ ul#index-list .lim-brief {
 /* Decorators */
 
 strong {
-    font-weight: bold;
+    font-family: 'plex-bold';
 }
 
 em {

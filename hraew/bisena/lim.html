@@ -2,7 +2,7 @@
 {% block body %}
     {% if lim.project %}
     <div id="lim-side-content">
-            <h3 class="sans">Project Activity</h3>
+            <h3>Project Activity</h3>
             <div class="project-activity">
                 <div class="activity-line">
                     <div class="label">Status</div>
@@ -37,7 +37,7 @@
         {% endif %}
 
         {% if lim.externals %}
-            <h3 class="sans">Externals</h3>
+            <h3>Externals</h3>
             <ul>
             {% for external_key, external_link in lim.externals.items() %}
                 <li><a href="{{external_link}}">{{external_key.title()}}</a>
