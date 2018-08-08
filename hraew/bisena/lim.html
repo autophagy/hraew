@@ -18,21 +18,6 @@
                 </div>
             {% endfor %}
             </div>
-
-            <div class="project-activity">
-                <div class="activity-line">
-                    <div class="label">Total</div>
-                    <div class="info">{{faereld_data.formatted_total_time()}}</div>
-                </div>
-                <div class="activity-line">
-                    <div class="label">First</div>
-                    <div class="info">{{faereld_data.first_entry}}</div>
-                </div>
-                <div class="activity-line">
-                    <div class="label">Last</div>
-                    <div class="info">{{faereld_data.last_entry}}</div>
-                </div>
-            </div>
         {% endif %}
 
         {% if lim.externals %}
@@ -49,6 +34,11 @@
         <div id="lim-head">
             {{ lim.head }}
         </div>
+        {% if faereld_data %}
+        <p id="faereld-string" class="gast">
+            {{faereld_data.formatted_total_time()}} ({{faereld_data.count}} logs) from {{faereld_data.first_entry}} to {{faereld_data.last_entry}}.
+        </p>
+        {% endif %}
         {{ lim.to_html()|safe}}
     </div>
 {% endblock %}

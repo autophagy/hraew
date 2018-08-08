@@ -82,6 +82,7 @@ class FaereldLim(object):
                 area_time_map.items(),
             )
         )
+        self.count = len(faereld_data)
         self.first_entry = first_entry.strftime("{daeg} {month} {gere}")
         self.last_entry = last_entry.strftime("{daeg} {month} {gere}")
 
