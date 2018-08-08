@@ -18,6 +18,11 @@
                 </div>
             {% endfor %}
             </div>
+            <div id="heatmap" class="project-activity">
+                {% for time in faereld_data.daily_times %}
+                <div class="square {{ time[2] }}" node-data="{{ time[1] }}"></div>
+                {% endfor %}
+            </div>
         {% endif %}
 
         {% if lim.externals %}

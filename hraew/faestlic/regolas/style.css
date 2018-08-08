@@ -229,6 +229,34 @@ pre {
     background-color: #2D2D2D;
 }
 
+#heatmap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#heatmap .square {
+    height: 10px;
+    width:  10px;
+    margin: 2px;
+}
+
+#heatmap .no-activity {
+    background-color: #ebebeb;
+}
+
+#heatmap .low-activity {
+    background-color: #a9a9a9;
+}
+
+#heatmap .medium-activity {
+    background-color: #6B6B6B;
+}
+
+#heatmap .high-activity {
+    background-color: #2d2d2d;
+}
+
 #lim-head {
     font-size: 2em;
     font-family: 'plex-light';

@@ -6,6 +6,7 @@ import re
 from flask import url_for, render_template
 import wisdomhord
 import datetime as dt
+import datarum
 from math import floor
 
 import wisdomhord
@@ -27,7 +28,7 @@ class Lim(object):
         self.head = lim.get("head", "")
         self.body = lim.get("body", "")
         self.externals = lim.get("externals", None)
-        self.bleoh = lim.get("bleoh", "deorc");
+        self.bleoh = lim.get("bleoh", "deorc")
 
     def to_html(self):
         if self._body_html is None:
@@ -52,11 +53,27 @@ class FaereldLim(object):
         last_entry = None
         self.total_time = dt.timedelta()
 
+        today = datarum.wending.now()
+        today_ord = today.toordinal()
+
         area_time_map = dict(map(lambda x: (x, dt.timedelta()), self.PROJECT_AREAS))
+
+        daily_times = [None] * 365
+
+        for i in range(365):
+            daily_times[i] = (today - dt.timedelta(i), {"TOTAL": 0}, "no-activity")
 
         for row in faereld_data:
             start = row["START"]
             end = row["END"]
+
+            if 0 <= today_ord - start.toordinal() < 365:
+                days = today_ord - start.toordinal()
+                if daily_times[days][1].get(row["AREA"]) is None:
+                    daily_times[days][1][row["AREA"]] = (end - start).seconds
+                else:
+                    daily_times[days][1][row["AREA"]] += (end - start).seconds
+                daily_times[days][1]["TOTAL"] += (end - start).seconds
 
             if first_entry is None:
                 first_entry = start
@@ -82,7 +99,21 @@ class FaereldLim(object):
                 area_time_map.items(),
             )
         )
+
+        def threshold(amnt):
+
+            if amnt >= 90 * 60:
+                return "high-activity"
+            elif 60 <= amnt < 90 * 60:
+                return "medium-activity"
+            elif 0 > amnt < 30 * 60:
+                return "low-activity"
+            return "no-activity"
+
         self.count = len(faereld_data)
+        self.daily_times = list(
+            map(lambda x: (x[0], x[1], threshold(x[1]["TOTAL"])), daily_times)
+        )
         self.first_entry = first_entry.strftime("{daeg} {month} {gere}")
         self.last_entry = last_entry.strftime("{daeg} {month} {gere}")
 
