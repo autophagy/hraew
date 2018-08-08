@@ -242,7 +242,7 @@ scieldas:
   brief: Metadata Badges
   project: true
   status: 0.1.0
-  bleoh: deorc
+  bleoh: bearht
   head: Scieldas is a service to provide metadata badges for Open Source projects.
   body: |
         Inspired by services like [GEÞEODAN :: https://shields.io/ :: Shields.io],
