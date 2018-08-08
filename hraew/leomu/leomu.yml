@@ -185,7 +185,7 @@ wisdomhord:
   brief: Flat File DB
   project: true
   status: 0.2.3
-  bleoh: deorc
+  bleoh: bearht
   head: Wísdómhord is a flat file database tool for internal project use.
   body: |
         The main goal of Wísdómhord is to create a flat file db format that
