@@ -20,7 +20,18 @@
             </div>
             <div id="heatmap" class="project-activity">
                 {% for time in faereld_data.daily_times %}
-                <div class="square {{ time[2] }}" node-data="{{ time[1] }}"></div>
+                {% if time[2] != "no-activity" %}
+                <div id="day-{{loop.index-1}}" class="square {{ time[2] }}">
+                    <div class="tooltip" id="tooltip-{{loop.index-1}}">
+                        <div class="tooltip-date">{{ time[0].strftime('{daeg_zero}.{tid_zero}.{gere}') }}</div>
+                        {% for area, duration in time[1].items() %}
+                            <div class="tooltip-area">{{area}} :: {{duration}}</div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% else %}
+                <div id="day-{{loop.index-1}}" class="square {{ time[2] }}" node-data="{{ time[1] }}"></div>
+                {% endif %}
                 {% endfor %}
             </div>
         {% endif %}
@@ -41,7 +52,7 @@
         </div>
         {% if faereld_data %}
         <p id="faereld-string" class="gast">
-            {{faereld_data.formatted_total_time()}} ({{faereld_data.count}} logs) from {{faereld_data.first_entry}} to {{faereld_data.last_entry}}.
+            {{faereld_data.formatted_time(faereld_data.total_time.total_seconds())}} ({{faereld_data.count}} logs) from {{faereld_data.first_entry}} to {{faereld_data.last_entry}}.
         </p>
         {% endif %}
         {{ lim.to_html()|safe}}

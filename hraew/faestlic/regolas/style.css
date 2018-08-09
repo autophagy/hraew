@@ -235,10 +235,39 @@ pre {
     flex-wrap: wrap;
 }
 
+#heatmap:hover > .square {
+    opacity: 0.6;
+}
+
+#heatmap:hover > .square:hover {
+    opacity: 1;
+}
+
 #heatmap .square {
     height: 10px;
     width:  10px;
     margin: 2px;
+    position: relative;
+}
+
+#heatmap .tooltip {
+    position: absolute;
+    background-color: #2d2d2d;
+    color: #f6f6f6;
+    z-index: 999;
+    padding: 1em;
+    display: none;
+    font-family: 'Inconsolata', monospace;
+    top: 15px;
+    min-width: 100px;
+}
+
+#heatmap .tooltip-date {
+    color: #939393;
+}
+
+#heatmap:hover > .square:hover > .tooltip {
+    display: block;
 }
 
 #heatmap .no-activity {

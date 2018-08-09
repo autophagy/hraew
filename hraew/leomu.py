@@ -61,7 +61,7 @@ class FaereldLim(object):
         daily_times = [None] * 365
 
         for i in range(365):
-            daily_times[i] = (today - dt.timedelta(i), {"TOTAL": 0}, "no-activity")
+            daily_times[i] = [today - dt.timedelta(i), {}, 0]
 
         for row in faereld_data:
             start = row["START"]
@@ -73,7 +73,7 @@ class FaereldLim(object):
                     daily_times[days][1][row["AREA"]] = (end - start).seconds
                 else:
                     daily_times[days][1][row["AREA"]] += (end - start).seconds
-                daily_times[days][1]["TOTAL"] += (end - start).seconds
+                daily_times[days][2] += (end - start).seconds
 
             if first_entry is None:
                 first_entry = start
@@ -110,17 +110,21 @@ class FaereldLim(object):
                 return "low-activity"
             return "no-activity"
 
+        def format_time_dict(dict):
+            for key, item in dict.items():
+                dict[key] = self.formatted_time(item)
+            return dict
+
         self.count = len(faereld_data)
         self.daily_times = list(
-            map(lambda x: (x[0], x[1], threshold(x[1]["TOTAL"])), daily_times)
+            map(lambda x: (x[0], format_time_dict(x[1]), threshold(x[2])), daily_times)
         )
         self.first_entry = first_entry.strftime("{daeg} {month} {gere}")
         self.last_entry = last_entry.strftime("{daeg} {month} {gere}")
 
-    def formatted_total_time(self):
-        hours, remainder = divmod(self.total_time.total_seconds(), 3600)
+    def formatted_time(self, seconds):
+        hours, remainder = divmod(seconds, 3600)
         minutes = floor(remainder / 60)
-
         return "{0}h{1}m".format(floor(hours), minutes)
 
 
