@@ -25,7 +25,7 @@
                     <div class="tooltip" id="tooltip-{{loop.index-1}}">
                         <div class="tooltip-date">{{ "{}.{}.{}".format(time[0].day, time[0].month, time[0].year) }}</div>
                         {% for area, duration in time[1].items() %}
-                            <div class="tooltip-area">{{area}} :: {{duration}}</div>
+                        <span class="tooltip-area">{{area}} :: {{duration}}</span>
                         {% endfor %}
                     </div>
                 </div>

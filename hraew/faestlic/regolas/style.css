@@ -259,11 +259,14 @@ pre {
     display: none;
     font-family: 'Inconsolata', monospace;
     top: 15px;
-    min-width: 100px;
 }
 
 #heatmap .tooltip-date {
     color: #939393;
+}
+
+#heatmap .tooltip-area {
+    white-space: nowrap;
 }
 
 #heatmap:hover > .square:hover > .tooltip {
