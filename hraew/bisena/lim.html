@@ -23,7 +23,7 @@
                 {% if time[2] != "no-activity" %}
                 <div id="day-{{loop.index-1}}" class="square {{ time[2] }}">
                     <div class="tooltip" id="tooltip-{{loop.index-1}}">
-                        <div class="tooltip-date">{{ time[0].strftime('{daeg_zero}.{tid_zero}.{gere}') }}</div>
+                        <div class="tooltip-date">{{ "{}.{}.{}".format(time[0].day, time[0].month, time[0].year) }}</div>
                         {% for area, duration in time[1].items() %}
                             <div class="tooltip-area">{{area}} :: {{duration}}</div>
                         {% endfor %}

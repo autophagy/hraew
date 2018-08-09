@@ -12,3 +12,4 @@ six==1.11.0
 webencodings==0.5.1
 Werkzeug==0.14.1
 wisdomhord==0.2.2
+datarum==0.5.0
