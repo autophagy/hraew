@@ -20,18 +20,16 @@
             </div>
             <div id="heatmap" class="project-activity">
                 {% for time in faereld_data.daily_times %}
-                {% if time[2] != "no-activity" %}
                 <div id="day-{{loop.index-1}}" class="square {{ time[2] }}">
+                {% if time[2] != "no-activity" %}
                     <div class="tooltip" id="tooltip-{{loop.index-1}}">
                         <div class="tooltip-date">{{ "{}.{}.{}".format(time[0].day, time[0].month, time[0].year) }}</div>
                         {% for area, duration in time[1].items() %}
                         <span class="tooltip-area">{{area}} :: {{duration}}</span>
                         {% endfor %}
                     </div>
-                </div>
-                {% else %}
-                <div id="day-{{loop.index-1}}" class="square {{ time[2] }}" node-data="{{ time[1] }}"></div>
                 {% endif %}
+                </div>
                 {% endfor %}
             </div>
         {% endif %}
