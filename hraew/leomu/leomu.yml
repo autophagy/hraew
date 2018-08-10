@@ -1,5 +1,13 @@
 index:
-  head: Hi, I'm Mika.
+  head: Wilcume on Hrǽw.
+  body: |
+        This is [GEÞEODAN :: hraew :: Hrǽw], [GEÞEODAN :: mika :: Mika Naylor]'s project and personal
+        information repository.
+
+mika:
+  name: Mika Naylor
+  bleoh: bearht
+  head: Mika is a haphazard assemblage of biological processes.
   body: |
         I’m a software developer currently alive in Berlin, Germany.
         Professionally, I am an engineer at
