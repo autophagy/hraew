@@ -127,7 +127,7 @@ regn:
   brief: Weather Station
   project: true
   status: In Dev
-  bleoh: deorc
+  bleoh: bearht
   head: Regn is a microcontroller based weather station.
   body: |
         This project consists of 2 main components, the server side and the
@@ -223,7 +223,7 @@ getheode:
   brief: Conlanging Tool
   project: true
   status: In Dev
-  bleoh: deorc
+  bleoh: bearht
   head: Geþeóde is a tool for language construction.
   body: |
         Geþeóde is a conlanging tool I am building with
