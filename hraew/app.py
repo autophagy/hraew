@@ -2,6 +2,7 @@
 
 from flask import Flask, abort, render_template
 from .leomu import leomu, faereld_data, faereld_index_data
+from .utils import format_timedelta
 
 VERSION = '0.1.0'
 
@@ -38,6 +39,10 @@ def internalServerError(error):
 @application.context_processor
 def inject_version():
     return dict(version=VERSION)
+
+@application.template_filter('format_timedelta')
+def format_timedelta_filter(delta):
+  return format_timedelta(delta)
 
 if __name__ == "__main__":
     application.run(host='0.0.0.0')

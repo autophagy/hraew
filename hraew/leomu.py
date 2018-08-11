@@ -95,7 +95,7 @@ class FaereldLim(object):
         daily_times = [None] * 365
 
         for i in range(365):
-            daily_times[i] = [today - dt.timedelta(i), {}, 0]
+            daily_times[i] = [today - dt.timedelta(i), {}, dt.timedelta()]
 
         for row in faereld_data:
             start = row["START"]
@@ -104,10 +104,10 @@ class FaereldLim(object):
             if 0 <= today_ord - start.toordinal() < 365:
                 days = today_ord - start.toordinal()
                 if daily_times[days][1].get(row["AREA"]) is None:
-                    daily_times[days][1][row["AREA"]] = (end - start).seconds
+                    daily_times[days][1][row["AREA"]] = end - start
                 else:
-                    daily_times[days][1][row["AREA"]] += (end - start).seconds
-                daily_times[days][2] += (end - start).seconds
+                    daily_times[days][1][row["AREA"]] += end - start
+                daily_times[days][2] += end - start
 
             if first_entry is None:
                 first_entry = start
@@ -134,32 +134,23 @@ class FaereldLim(object):
             )
         )
 
-        def threshold(amnt):
-
-            if amnt >= 90 * 60:
+        def threshold(delta):
+            seconds = delta.total_seconds()
+            if seconds >= 90 * 60:
                 return "high-activity"
-            elif 60 <= amnt < 90 * 60:
+            elif 60 <= seconds < 90 * 60:
                 return "medium-activity"
-            elif 0 > amnt < 30 * 60:
+            elif 0 > seconds < 30 * 60:
                 return "low-activity"
             return "no-activity"
 
-        def format_time_dict(dict):
-            for key, item in dict.items():
-                dict[key] = self.formatted_time(item)
-            return dict
 
         self.count = len(faereld_data)
         self.daily_times = list(
-            map(lambda x: (x[0], format_time_dict(x[1]), threshold(x[2])), daily_times)
+            map(lambda x: (x[0], x[1], threshold(x[2])), daily_times)
         )
         self.first_entry = first_entry.strftime("{daeg} {month} {gere}")
         self.last_entry = last_entry.strftime("{daeg} {month} {gere}")
-
-    def formatted_time(self, seconds):
-        hours, remainder = divmod(seconds, 3600)
-        minutes = floor(remainder / 60)
-        return "{0}h{1}m".format(floor(hours), minutes)
 
 
 class FaereldBisen(Bisen):

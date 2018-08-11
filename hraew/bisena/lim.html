@@ -25,7 +25,7 @@
                     <div class="tooltip" id="tooltip-{{loop.index-1}}">
                         <div class="tooltip-date">{{ "{}.{}.{}".format(time[0].day, time[0].month, time[0].year) }}</div>
                         {% for area, duration in time[1].items() %}
-                        <span class="tooltip-area">{{area}} :: {{duration}}</span>
+                        <span class="tooltip-area">{{area}} :: {{duration|format_timedelta}}</span>
                         {% endfor %}
                     </div>
                 {% endif %}
@@ -50,7 +50,7 @@
         </div>
         {% if faereld_data %}
         <p id="faereld-string" class="gast">
-            {{faereld_data.formatted_time(faereld_data.total_time.total_seconds())}} ({{faereld_data.count}} logs) from {{faereld_data.first_entry}} to {{faereld_data.last_entry}}.
+            {{faereld_data.total_time|format_timedelta}} ({{faereld_data.count}} logs) from {{faereld_data.first_entry}} to {{faereld_data.last_entry}}.
         </p>
         {% endif %}
         {{ lim.to_html()|safe}}
