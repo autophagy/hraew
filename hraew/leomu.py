@@ -38,6 +38,40 @@ class Lim(object):
         return self._body_html
 
 
+class FaereldIndex(object):
+
+    PROJECT_AREAS = ["RES", "DES", "DEV", "DOC", "TST"]
+
+    def __init__(self, faereld_data):
+        self.total_time = dt.timedelta()
+        self.total_logs = 0
+        self.project_time = dt.timedelta()
+        self.project_logs = 0
+        self.days = 0
+        self.populate_stats(faereld_data)
+
+    def populate_stats(self, faereld_data):
+        today = datarum.wending.now()
+        earliest = datarum.wending.now()
+
+        for row in faereld_data:
+            self.total_time += row["END"] - row["START"]
+            self.total_logs += 1
+            if row["AREA"] in self.PROJECT_AREAS:
+                self.project_time += row["END"] - row["START"]
+                self.project_logs += 1
+            if row["START"] < earliest:
+                earliest = row["START"]
+        self.days = (today - earliest).days + 1
+        self.total_time = self.formatted_time(self.total_time)
+        self.project_time = self.formatted_time(self.project_time)
+
+    def formatted_time(self, delta):
+        hours, remainder = divmod(delta.total_seconds(), 3600)
+        minutes = floor(remainder / 60)
+        return "{0}h{1}m".format(floor(hours), minutes)
+
+
 class FaereldLim(object):
 
     PROJECT_AREAS = ["RES", "DES", "DEV", "DOC", "TST"]
@@ -171,3 +205,5 @@ faereld_data = get_projects_faereld_data(
         filter_func=lambda x: x["AREA"] in project_areas and x["OBJECT"] in leomu.keys()
     )
 )
+
+faereld_index_data = FaereldIndex(hord.get_rows())

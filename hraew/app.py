@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask, abort, render_template
-from .leomu import leomu, faereld_data
+from .leomu import leomu, faereld_data, faereld_index_data
 
 VERSION = '0.1.0'
 
@@ -11,7 +11,8 @@ application = Flask(__name__, static_folder='faestlic', template_folder='bisena'
 def index():
     return render_template('index.html', lim_key='index',
                                           lim=leomu['index'],
-                                          leomu=leomu)
+                                          leomu=leomu,
+                                          faereld_data=faereld_index_data)
 
 @application.route("/<lim_key>/")
 def lim(lim_key):

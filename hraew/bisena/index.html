@@ -27,6 +27,10 @@
                             {{ lim.head }}
                         </div>
                         {{ lim.to_html()|safe}}
+                        <p id="faereld-summary">Over the last {{faereld_data.days}} days I have
+                        <a class="text" href="/faereld">tracked</a> {{faereld_data.total_time}}
+                        ({{faereld_data.total_logs}} logs) of productive work, of which {{faereld_data.project_time}}
+                        ({{faereld_data.project_logs}} entries) were spent on project specific tasks.</p>
                     </div>
 
                     <ul id="index-list">
