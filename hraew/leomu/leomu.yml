@@ -141,7 +141,7 @@ regn:
   project: true
   status: In Dev
   bleoh: bearht
-  head: Regn is a microcontroller based weather station.
+  head: Regn is a WiFi enabled weather station and visualisation dashboard.
   body: |
         This project consists of 2 main components - a custom weather
         station and a data ingestion, API and dashboard server.
