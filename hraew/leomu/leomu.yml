@@ -143,27 +143,58 @@ regn:
   bleoh: bearht
   head: Regn is a microcontroller based weather station.
   body: |
-        This project consists of 2 main components, the server side and the
-        weather station.
+        This project consists of 2 main components - a custom weather
+        station and a data ingestion, API and dashboard server.
 
-        The weather station is a small, WiFi enabled IoT device built with
+        The weather station is a WiFi enabled IoT device built with
         an [GEÞEODAN :: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-huzzah-esp8266-breakout.pdf :: Adafruit HUZZAH ESP8266],
         a [GEÞEODAN :: https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf :: DHT22 temperature + humidity sensor],
         a [GEÞEODAN :: https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf :: BMP180 barometric pressure sensor]
         and a [GEÞEODAN :: https://cdn-shop.adafruit.com/datasheets/TSL2561.pdf :: TSL2561 luminosity/lux/light sensor]
-        to read various environmental properties. It then connects to a
-        predefined endpoint and posts a JSON payload, with an API token.
+        to read various environmental properties.
 
-        The server side is a Flask instance serving up both a dashboard and an
-        api. Using the api (such as [GEÞEODAN :: https://regn.autophagy.io/api/latest :: /api/latest])
-        the dashboard constructs a real time graph of temperature/humidity/pressure/luminosity
-        over a day/week/month/year.
+        Upon start-up, the weather station exposes a WiFi access point with the
+        name [FRÆTWE :: REGOL :: Regn] and a predefined password. Connecting to
+        this AP and navigating to [FRÆTWE :: REGOL :: 192.168.4.1] lets me
+        set various internal settings, such as the MQTT endpoint and sensor read
+        frequency, after which the station will reboot, connect to the defined
+        WiFi point and begin to submit sensor data. It does this by connecting
+        to an MQTT endpoint with it's Client ID being the station's name and
+        publishing it's sensor values to a [FRÆTWE :: REGOL :: Regn] topic.
 
-        At the moment, the weather station is powered via the mains, but I will
-        soon make it autonomous with a LiPo battery and solar panel set up.
+        [BILIÞ]
+        [configuration_page.jpg :: Regn's first time boot configuration]
+
+        As part of the hardware side of this project, I also used
+        [GEÞEODAN :: https://www.autodesk.com/products/eagle/overview :: EAGLE]
+        to design a PCB which was then fabricated by [GEÞEODAN :: https://oshpark.com/ :: OSH Park].
+        At the moment it is only a basic PCB that links together the various
+        prototype boards, but future versions will embed the sensors, voltage regulators,
+        LEDs and other things directly.
+
+        [BILIÞ]
+        [pcb.jpg :: Version 0.1 PCB of Regn]
+
+        The server side is relatively independent of the station. It serves a
+        dashboard and an API for querying weather station data. It is a Flask
+        service, and subscribes to the aforementioned [FRÆTWE :: REGOL :: Regn]
+        MQTT topic and stores the sensor data in a database.
+
+        The dashboard serves a real time graph of temperature, humidity, pressure
+        and luminosity values over a chosen timespan of day, week, month or year.
+
+        [BILIÞ]
+        [dashboard.jpg :: Temperature over day dashboard]
+
+        On 6 Hát 226 I gave a
+        [GEÞEODAN :: https://docs.google.com/presentation/d/1_AbM_kBwQ0nn7c-X2RB3qPiicH1icRh3U2Suowrir1M/edit?usp=sharing :: talk]
+        at the Kafka, KSQL & IoT meetup in Berlin on this project and my
+        speculative work with multiple sensors, scalable ingestion frameworks,
+        CrateDB and Apache Kafka.
   externals:
     source: https://github.com/autophagy/regn
     website: https://regn.autophagy.io
+    talk: https://docs.google.com/presentation/d/1_AbM_kBwQ0nn7c-X2RB3qPiicH1icRh3U2Suowrir1M/edit?usp=sharing
 
 ametan:
   name: Ametan

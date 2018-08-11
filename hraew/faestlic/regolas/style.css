@@ -441,3 +441,9 @@ em {
 .gast {
     opacity: 0.5;
 }
+
+.regol {
+    font-family: 'Inconsolata', monospace;
+    background-color: #DADADA;
+    color: #000;
+}
