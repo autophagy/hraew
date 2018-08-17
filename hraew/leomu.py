@@ -55,13 +55,13 @@ class FaereldIndex(object):
         earliest = datarum.wending.now()
 
         for row in faereld_data:
-            self.total_time += row["END"] - row["START"]
+            self.total_time += row.end - row.start
             self.total_logs += 1
-            if row["AREA"] in self.PROJECT_AREAS:
-                self.project_time += row["END"] - row["START"]
+            if row.area in self.PROJECT_AREAS:
+                self.project_time += row.end - row.start
                 self.project_logs += 1
-            if row["START"] < earliest:
-                earliest = row["START"]
+            if row.start < earliest:
+                earliest = row.start
         self.days = (today - earliest).days + 1
         self.total_time = self.formatted_time(self.total_time)
         self.project_time = self.formatted_time(self.project_time)
@@ -98,15 +98,15 @@ class FaereldLim(object):
             daily_times[i] = [today - dt.timedelta(i), {}, dt.timedelta()]
 
         for row in faereld_data:
-            start = row["START"]
-            end = row["END"]
+            start = row.start
+            end = row.end
 
             if 0 <= today_ord - start.toordinal() < 365:
                 days = today_ord - start.toordinal()
-                if daily_times[days][1].get(row["AREA"]) is None:
-                    daily_times[days][1][row["AREA"]] = end - start
+                if daily_times[days][1].get(row.area) is None:
+                    daily_times[days][1][row.area] = end - start
                 else:
-                    daily_times[days][1][row["AREA"]] += end - start
+                    daily_times[days][1][row.area] += end - start
                 daily_times[days][2] += end - start
 
             if first_entry is None:
@@ -122,10 +122,10 @@ class FaereldLim(object):
 
             self.total_time += end - start
 
-            if area_time_map.get(row["AREA"]) is None:
-                area_time_map[row["AREA"]] = end - start
+            if area_time_map.get(row.area) is None:
+                area_time_map[row.area] = end - start
             else:
-                area_time_map[row["AREA"]] += end - start
+                area_time_map[row.area] += end - start
 
         self.percentages = dict(
             map(
@@ -158,10 +158,10 @@ class FaereldBisen(Bisen):
     __invoker__ = "Færeld"
     __description__ = "Productive task time tracking data produced by Færeld"
 
-    col1 = Sweor("AREA", wisdomhord.String)
-    col2 = Sweor("OBJECT", wisdomhord.String)
-    col3 = Sweor("START", wisdomhord.Wending)
-    col4 = Sweor("END", wisdomhord.Wending)
+    area = Sweor("AREA", wisdomhord.String)
+    object = Sweor("OBJECT", wisdomhord.String)
+    start = Sweor("START", wisdomhord.Wending)
+    end = Sweor("END", wisdomhord.Wending)
 
 
 def get_projects_faereld_data(faereld_rows):
@@ -169,10 +169,10 @@ def get_projects_faereld_data(faereld_rows):
     faereld_leomu = {}
 
     for row in faereld_rows:
-        if faereld_data.get(row["OBJECT"]) is None:
-            faereld_data[row["OBJECT"]] = [row]
+        if faereld_data.get(row.object) is None:
+            faereld_data[row.object] = [row]
         else:
-            faereld_data[row["OBJECT"]].append(row)
+            faereld_data[row.object].append(row)
 
     for k, v in faereld_data.items():
         faereld_leomu[k] = FaereldLim(v)
@@ -193,7 +193,7 @@ project_areas = ["RES", "DES", "DEV", "DOC", "TST"]
 
 faereld_data = get_projects_faereld_data(
     hord.get_rows(
-        filter_func=lambda x: x["AREA"] in project_areas and x["OBJECT"] in leomu.keys()
+        filter_func=lambda x: x.area in project_areas and x.object in leomu.keys()
     )
 )
 
