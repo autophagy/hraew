@@ -13,6 +13,7 @@ import wisdomhord
 from wisdomhord import Bisen, Sweor
 
 from .parser import Parser
+from .faereld import FaereldSummary
 
 
 class Lim(object):
@@ -32,44 +33,10 @@ class Lim(object):
 
     def to_html(self):
         if self._body_html is None:
-            parser = Parser(self.key, self.body)
+            parser = Parser(self.key, self.body, faereldSummary)
             self._body_html = parser.render_html()
 
         return self._body_html
-
-
-class FaereldIndex(object):
-
-    PROJECT_AREAS = ["RES", "DES", "DEV", "DOC", "TST"]
-
-    def __init__(self, faereld_data):
-        self.total_time = dt.timedelta()
-        self.total_logs = 0
-        self.project_time = dt.timedelta()
-        self.project_logs = 0
-        self.days = 0
-        self.populate_stats(faereld_data)
-
-    def populate_stats(self, faereld_data):
-        today = datarum.wending.now()
-        earliest = datarum.wending.now()
-
-        for row in faereld_data:
-            self.total_time += row.end - row.start
-            self.total_logs += 1
-            if row.area in self.PROJECT_AREAS:
-                self.project_time += row.end - row.start
-                self.project_logs += 1
-            if row.start < earliest:
-                earliest = row.start
-        self.days = (today - earliest).days + 1
-        self.total_time = self.formatted_time(self.total_time)
-        self.project_time = self.formatted_time(self.project_time)
-
-    def formatted_time(self, delta):
-        hours, remainder = divmod(delta.total_seconds(), 3600)
-        minutes = floor(remainder / 60)
-        return "{0}h{1}m".format(floor(hours), minutes)
 
 
 class FaereldLim(object):
@@ -197,4 +164,4 @@ faereld_data = get_projects_faereld_data(
     )
 )
 
-faereld_index_data = FaereldIndex(hord.get_rows())
+faereldSummary = FaereldSummary(leomu.keys(), project_areas, "faereld/faereld.hord")

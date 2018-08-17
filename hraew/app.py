@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask, abort, render_template
-from .leomu import leomu, faereld_data, faereld_index_data
+from .leomu import leomu, faereld_data, faereldSummary
 from .utils import format_timedelta
 
 VERSION = '0.1.0'
@@ -13,7 +13,7 @@ def index():
     return render_template('index.html', lim_key='index',
                                           lim=leomu['index'],
                                           leomu=leomu,
-                                          faereld_data=faereld_index_data)
+                                          dailyTimes=faereldSummary.get_statistic("index", "total daily times"))
 
 @application.route("/<lim_key>/")
 def lim(lim_key):

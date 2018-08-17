@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import unittest
-from hraew import Geþeodan, Biliþ, Cunnungarc, Gewissung, Frætwe, Paragraph
+from hraew import Geþeodan, Biliþ, Cunnungarc, Gewissung, Frætwe, Paragraph, Færeld
 
 
 class TestParagraphParse(unittest.TestCase):
@@ -177,3 +177,9 @@ Hello world!
         g.parse()
         parsed_block = "\n\n".join(g.template_options["elements"])
         self.assertEqual(parsed_block, self.gewissung_internal)
+
+class TestFæreldParser(unittest.TestCase):
+
+    def test_faereld_global_statistic(self):
+        f = Færeld("lim", "[FÆRELD :: total time")
+        f.parse()

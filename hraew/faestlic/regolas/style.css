@@ -279,7 +279,7 @@ pre {
 }
 
 #heatmap:hover > .square:hover > .tooltip {
-    display: block;
+    display: grid;
 }
 
 #heatmap .no-activity {

@@ -3,7 +3,6 @@ from flask import render_template
 import re
 import bleach
 
-
 class Element(ABC):
 
     template_options = {}
@@ -162,6 +161,26 @@ class Gewissung(BlockElement):
         self.strip_tags()
         self.template_options = {"elements": self.elements}
 
+class Færeld(Element):
+
+    html_template = "faereld_statistic.html"
+
+    def parse(self):
+        regex = re.compile("\[FÆRELD :: (.*?)\]")
+        desired_statistic = regex.search(self.text.strip()).group(1)
+
+        statistic = faereldSummary.get_statistic(self.key, desired_statistic.strip())
+
+        self.template_options = {
+            "statistic": statistic
+        }
+
+    @staticmethod
+    def match(text):
+        regex = re.compile("\[FÆRELD :: (.*?)\]")
+        if regex.search(str(text)):
+            return True
+        return False
 
 class Paragraph(Element):
 
@@ -169,7 +188,7 @@ class Paragraph(Element):
 
     def parse(self):
         element = bleach.clean(self.text)
-        regex = re.compile("(\[GEÞEODAN :: .*?\]|\[FRÆTWE :: .*? :: .*?\])")
+        regex = re.compile("(\[GEÞEODAN :: .*?\]|\[FRÆTWE :: .*? :: .*?\]|\[FÆRELD :: .*?\])")
 
         paragraph_elements = re.split(regex, element)
         paragraph = []
@@ -182,6 +201,10 @@ class Paragraph(Element):
                 frætwe = Frætwe(self.key, paragraph_element)
                 frætwe.parse()
                 paragraph.append(frætwe)
+            elif Færeld.match(paragraph_element):
+                færeld = Færeld(self.key, paragraph_element)
+                færeld.parse()
+                paragraph.append(færeld)
             else:
                 paragraph.append(paragraph_element)
 
@@ -199,9 +222,11 @@ class Paragraph(Element):
 
 
 class Parser(object):
-    def __init__(self, key, text):
+    def __init__(self, key, text, faereld):
         self.key = key
         self.text = text
+        global faereldSummary
+        faereldSummary = faereld
 
     def parse(self):
         elements = self.text.split("\n\n")
