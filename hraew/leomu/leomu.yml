@@ -2,7 +2,11 @@ index:
   head: Wilcume on Hrǽw.
   body: |
         This is [GEÞEODAN :: /hraew :: Hrǽw], [GEÞEODAN :: /mika :: Mika Naylor]'s project and personal
-        information repository.
+        information repository. Hrǽw was initialised on [FÆRELD :: global :: incept date].
+        Over the last [FÆRELD :: global :: days since incept] days, it has tracked
+        [FÆRELD :: global :: total time] ([FÆRELD :: global :: total logs] logs) of productive work, of
+        which [FÆRELD :: global :: total project time] ([FÆRELD :: global :: total project logs] logs)
+        were spent on project specific tasks.
 
 mika:
   name: Mika Naylor

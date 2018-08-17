@@ -9,9 +9,9 @@
                 </div>
             </div>
 
-            {% if faereld_data %}
+            {% if stats.get('total logs') > 0 %}
             <div class="project-activity">
-            {% for area, percentage in faereld_data.percentages.items() %}
+            {% for area, percentage in stats.get('percentages').items() %}
                 <div class="activity-line">
                     <div class="faereld-area">{{area}}</div>
                     <div class="faereld-bar"><progress value="{{percentage}}"" max="1"></progress></div>
@@ -19,12 +19,12 @@
             {% endfor %}
             </div>
             <div id="heatmap" class="project-activity">
-                {% for time in faereld_data.daily_times %}
-                <div id="day-{{loop.index-1}}" class="square {{ time[2] }}">
-                {% if time[2] != "no-activity" %}
+                {% for time in stats.get('daily times') %}
+                <div id="day-{{loop.index-1}}" class="square {{ time.activity }}">
+                {% if time.activity != "no-activity" %}
                     <div class="tooltip" id="tooltip-{{loop.index-1}}">
-                        <div class="tooltip-date">{{ "{}.{}.{}".format(time[0].day, time[0].month, time[0].year) }}</div>
-                        {% for area, duration in time[1].items() %}
+                        <div class="tooltip-date">{{ "{}.{}.{}".format(time.date.day, time.date.month, time.date.year) }}</div>
+                        {% for area, duration in time.area_time_map.items() %}
                         <span class="tooltip-area">{{area}} :: {{duration|format_timedelta}}</span>
                         {% endfor %}
                     </div>
@@ -48,9 +48,9 @@
         <div id="lim-head">
             {{ lim.head }}
         </div>
-        {% if faereld_data %}
+        {% if stats.get('total logs') > 0 %}
         <p id="faereld-string" class="gast">
-            {{faereld_data.total_time|format_timedelta}} ({{faereld_data.count}} logs) from {{faereld_data.first_entry}} to {{faereld_data.last_entry}}.
+            {{ stats.get('total time') }} ({{ stats.get('total logs') }} logs) from {{ stats.get('first entry') }} to {{ stats.get('last entry') }}.
         </p>
         {% endif %}
         {{ lim.to_html()|safe}}
