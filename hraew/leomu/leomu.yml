@@ -228,7 +228,7 @@ wisdomhord:
   name: Wísdómhord
   brief: Flat File DB
   project: true
-  status: 0.2.3
+  status: 0.2.4
   bleoh: bearht
   head: Wísdómhord is a flat file database tool for internal project use.
   body: |
