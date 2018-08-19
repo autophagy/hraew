@@ -13,7 +13,7 @@ import wisdomhord
 from wisdomhord import Bisen, Sweor
 
 from .parser import Parser
-from .faereld import FaereldSummary
+from .faereld import FaereldService
 
 
 class Lim(object):
@@ -33,7 +33,7 @@ class Lim(object):
 
     def to_html(self):
         if self._body_html is None:
-            parser = Parser(self.key, self.body, faereldSummary)
+            parser = Parser(self.key, self.body, faereldService)
             self._body_html = parser.render_html()
 
         return self._body_html
@@ -111,7 +111,6 @@ class FaereldLim(object):
                 return "low-activity"
             return "no-activity"
 
-
         self.count = len(faereld_data)
         self.daily_times = list(
             map(lambda x: (x[0], x[1], threshold(x[2])), daily_times)
@@ -164,4 +163,4 @@ faereld_data = get_projects_faereld_data(
     )
 )
 
-faereldSummary = FaereldSummary(leomu.keys(), project_areas, "faereld/faereld.hord")
+faereldService = FaereldService(leomu.keys(), project_areas, "faereld/faereld.hord")
