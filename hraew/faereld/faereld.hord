@@ -1,11 +1,28 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 25 Hát 226 // 20.35
-// COUNT :: 496
+// UPDATED :: 3 Wæstm 226 // 00.16
+// COUNT :: 513
 
 [ AREA | OBJECT                                                                      | START                      | END                        ]
-[ EXR  | Bouldering (Bright Site)                                                    | 25 Hát 226 // 17.00.00     | 25 Hát 226 // 19.30.00     ]
+[ DEV  | hraew                                                                       | 2 Wæstm 226 // 23.02.00    | 3 Wæstm 226 // 00.15.00    ]
+[ BLD  | Bright Site                                                                 | 2 Wæstm 226 // 12.30.00    | 2 Wæstm 226 // 15.00.00    ]
+[ DEV  | hraew                                                                       | 2 Wæstm 226 // 01.27.00    | 2 Wæstm 226 // 01.57.00    ]
+[ DEV  | hraew                                                                       | 1 Wæstm 226 // 23.40.00    | 2 Wæstm 226 // 00.15.00    ]
+[ RDG  | Brian Massumi's A user's guide to Capitalism and Schizophrenia              | 1 Wæstm 226 // 20.43.00    | 1 Wæstm 226 // 21.28.00    ]
+[ RES  | regn                                                                        | 1 Wæstm 226 // 17.00.00    | 1 Wæstm 226 // 18.09.00    ]
+[ RES  | regn                                                                        | 1 Wæstm 226 // 03.40.00    | 1 Wæstm 226 // 04.19.00    ]
+[ DES  | hraew                                                                       | 1 Wæstm 226 // 01.25.00    | 1 Wæstm 226 // 01.56.00    ]
+[ RDG  | Brian Massumi's A user's guide to Capitalism and Schizophrenia              | 30 Hát 226 // 23.24.00     | 1 Wæstm 226 // 00.45.00    ]
+[ DEV  | faereld                                                                     | 30 Hát 226 // 21.25.00     | 30 Hát 226 // 21.59.00     ]
+[ TST  | wisdomhord                                                                  | 30 Hát 226 // 18.14.00     | 30 Hát 226 // 18.34.00     ]
+[ DEV  | faereld                                                                     | 29 Hát 226 // 20.39.00     | 29 Hát 226 // 21.36.00     ]
+[ BLD  | Boulderklub                                                                 | 29 Hát 226 // 15.40.00     | 29 Hát 226 // 17.50.00     ]
+[ DES  | regn                                                                        | 28 Hát 226 // 11.30.00     | 28 Hát 226 // 12.00.00     ]
+[ DES  | regn                                                                        | 28 Hát 226 // 00.01.00     | 28 Hát 226 // 00.57.00     ]
+[ RES  | regn                                                                        | 27 Hát 226 // 21.21.00     | 27 Hát 226 // 22.14.00     ]
+[ BLD  | Bouldergarten                                                               | 26 Hát 226 // 17.00.00     | 26 Hát 226 // 19.10.00     ]
+[ BLD  | Bright Site                                                                 | 25 Hát 226 // 17.00.00     | 25 Hát 226 // 19.30.00     ]
 [ DEV  | hraew                                                                       | 24 Hát 226 // 19.30.00     | 24 Hát 226 // 20.17.00     ]
 [ DOC  | hraew                                                                       | 24 Hát 226 // 16.50.00     | 24 Hát 226 // 17.55.00     ]
 [ DEV  | hraew                                                                       | 24 Hát 226 // 13.57.00     | 24 Hát 226 // 14.55.00     ]
