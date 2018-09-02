@@ -135,9 +135,15 @@ pre {
     margin-bottom: 1em;
 }
 
+code {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
 #lim, body, html {
     height: 100%;
     line-height: 150%;
+    min-width: 490px;
 }
 
 #lim-header {
@@ -385,7 +391,7 @@ ul#index-list {
 ul#index-list li {
     margin: 0 20px;
     margin-bottom: 20px;
-    width: 200px;
+    width: 180px;
 }
 
 ul#index-list li a{
