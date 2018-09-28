@@ -1,10 +1,22 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 9 Wæstm 226 // 19.03
-// COUNT :: 525
+// UPDATED :: 7 Hærfest 227 // 21.40
+// COUNT :: 537
 
 [ AREA | OBJECT                                                                      | START                      | END                        ]
+[ DES  | feorhspell                                                                  | 7 Hærfest 227 // 21.29.00  | 7 Hærfest 227 // 21.40.00  ]
+[ DEV  | feorhspell                                                                  | 7 Hærfest 227 // 20.48.00  | 7 Hærfest 227 // 21.21.00  ]
+[ DEV  | wisdomhord                                                                  | 7 Hærfest 227 // 18.22.00  | 7 Hærfest 227 // 19.02.00  ]
+[ LNG  | Japanese                                                                    | 5 Wending 226 // 18.00.00  | 5 Wending 226 // 18.43.00  ]
+[ DEV  | wisdomhord                                                                  | 5 Wending 226 // 15.29.00  | 5 Wending 226 // 16.31.00  ]
+[ LNG  | Japanese                                                                    | 4 Wending 226 // 13.42.00  | 4 Wending 226 // 14.42.00  ]
+[ DEV  | wisdomhord                                                                  | 4 Wending 226 // 13.18.00  | 4 Wending 226 // 13.41.00  ]
+[ TST  | wisdomhord                                                                  | 4 Wending 226 // 12.40.00  | 4 Wending 226 // 12.59.00  ]
+[ LNG  | Japanese                                                                    | 23 Wæstm 226 // 21.57.00   | 23 Wæstm 226 // 22.26.00   ]
+[ DEV  | hraew                                                                       | 16 Wæstm 226 // 22.30.00   | 16 Wæstm 226 // 23.20.00   ]
+[ DES  | northanwind                                                                 | 12 Wæstm 226 // 15.36.00   | 12 Wæstm 226 // 15.48.00   ]
+[ RDG  | Guy Debord's Society of the Spectacle                                       | 12 Wæstm 226 // 12.30.00   | 12 Wæstm 226 // 13.10.00   ]
 [ DES  | northanwind                                                                 | 9 Wæstm 226 // 17.40.00    | 9 Wæstm 226 // 18.13.00    ]
 [ BLD  | Bouldergarten                                                               | 9 Wæstm 226 // 13.30.00    | 9 Wæstm 226 // 16.15.00    ]
 [ DES  | northanwind                                                                 | 8 Wæstm 226 // 22.20.00    | 8 Wæstm 226 // 23.57.00    ]
