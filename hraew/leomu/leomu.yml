@@ -39,6 +39,28 @@ mika:
 
 # Project Leomu
 
+northanwind:
+  name: Norþanwind
+  brief: Soldering Station Ventiliation
+  project: true
+  status: Completed
+  bleoh: bearht
+  head: Norþanwind is a DIY soldering station ventilation fan.
+  body: |
+        This project was created in order to to improve the air quality of my
+        workstation where I do many of my soldering projects. There was very little
+        air circulation or ventilation, which led to health worries concerning
+        fumes from melted solder and flux.
+
+        This project consists of 3 components: a 12V brushless fan scavanged from
+        a discarded PC case spliced to a DC power supply, a carbon sponge filter from
+        an aquarium and a laser cut housing made from MDF.
+
+        [BILIÞ]
+        [northanwind.png :: The assembled project]
+  externals:
+    source: https://github.com/autophagy/northanwind
+
 tid:
   name: Tíd
   brief: Cooking Tool
