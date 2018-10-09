@@ -27,6 +27,10 @@ def lim(lim_key):
 def dat_well_known():
   return application.send_static_file('regolas/dat')
 
+@application.route("/.well-known/keybase.txt")
+def keybase_well_known():
+  return application.send_static_file('regolas/keybase.txt')
+
 @application.errorhandler(404)
 def pageNotFound(error):
     return render_template('gedwola.html', error_code='404', error_message='Not Found'), 404

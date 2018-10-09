@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/autophagy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hraew.autophagy.io
+  * I am autophagy (https://keybase.io/autophagy) on keybase.
+  * I have a public key with fingerprint D7DE 7C51 9E26 926C 5D89  5CB2 48A4 E913 F723 6FBA
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200380ff1e4808672e03878eb8d5a793af63644438719b682a7fc6f3d5921c68fe0a",
+      "fingerprint": "d7de7c519e26926c5d895cb248a4e913f7236fba",
+      "host": "keybase.io",
+      "key_id": "48a4e913f7236fba",
+      "kid": "01016a6a48e2b46622d486be45bf0c9b67c0d9de9b77a04aacadca83d12f72737fc20a",
+      "uid": "464600198571778106e77ed23a7bb419",
+      "username": "autophagy"
+    },
+    "service": {
+      "hostname": "hraew.autophagy.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1539087797,
+  "expire_in": 157680000,
+  "prev": "6e19c4050fbb44f9691bb1afb012bac950754b86857e36a1978f78e3b900694c",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtUmtoFUcYvVetRqHWKD4QbckqvkjizO7sPG6pioVS0YK2tipG1pnZ2WRJsnvd
+3cTcmpS2EIoKIkkfqNGWolBKsWmDCL5p4wMTxEcg+iMmljY2ICioBH/4mI2mvzp/
+hvnmnPOd883sfX1spij7/uGhacPzwhPZriGR2Xzq4MkdhgjdgpHbYVSrkU3VuCpO
+nGrfNXIGgCYAFgWeBxWigGJiKn0mVAnq2pwwi3vYwgghXYRMYGpy4knsWa7NTCgx
+9RTgRqnh+UGlivKRHyRa1iWuItKGTJmYmVjaLmW2FCaiHCkGLY+YFvZESqwK45Sh
+zQkeq3I/1DV9cEbs/Q9+1DeAmGOOqDIFwtg0XUSxUMgWHpDaJ5HAZa5ighAOEOeS
+u5JTy4Wm1iKWzmCO+K572QcjDABk1CaQEAoBVoQo17Q4EQJBlgJjFQW8Vmk0r0vC
+fBWvLBhNpYYu1/tSpZNNo7yCVEVcbS//D/gyVj4Kk1CGNel9kuTjXMpPCvmUsF0J
+55WUI/zA1ePUjHoVxX4YGDmokTLxU21oWwxQQhgpNVRD3o+U46cIm2AK9Er7qHot
+6WAFmUTABp4OgTyGGRQCck/oVxdcMhsQGwmKdWplYQ4ZoZ5+eUswADBD0kjTbQtC
+I6dbJbxSa8Z+ZcCTukgZTZN2Zq1xmWxRZu6MknG9txvXHVrQUrNlZ8Xvo1/wtTHp
+/8tMmjhltPJ264Tntcv96rPD0eofrz1uXPhZVNb+79SOlrb2wWbS++GjeO7Kr++1
+9hWa/3bW8pb+0reaL50rn977TsPQvZKrcz5aE5/5dc7nnR0zr+87/sPWjmMH2gS3
+6N0DHXtmv3ejqfHm8vt36nZ1758ya17Zwu+tvutF32z66ZOrpy+cb9/95+rxX1lP
+z6wvvrW5uicXHD00+fHlwSX94aL+7MUvhrvGP/puYmF3T9/6o2u27Opc9qBi1ane
+n1e01c5fmS859vTbuxsHLv315sDHt7vltMUb/3lyf0brrXcntzxTnR/YPW90Ff9R
+FlR8uWHgyrKq8NOtS39ZRzzHWdW9yDkys/xsQw3aO2g/fHhi9jYZFv/2Ag==
+=0zo2
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/autophagy
+
+==================================================================
