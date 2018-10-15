@@ -39,6 +39,35 @@ mika:
 
 # Project Leomu
 
+forebodere:
+  name: Forebodere
+  brief: Discord Quote Bot
+  project: true
+  status: In Dev
+  bleoh: bearht
+  head: Forebodere is a quotation bot that inhabits Discord.
+  body: |
+        This project was created to provide a Discord server with quotations from
+        the users that had accumulated the years, in the style of an IRC bot that
+        used to fulfil the same purpose.
+
+        The bot reacts to commands prefixed with the [FRÆTWE :: REGOL :: !]
+        character, like [FRÆTWE :: REGOL :: !status] and [FRÆTWE :: REGOL :: !quote].
+
+        [BILIÞ]
+        [example.png :: The !status command]
+
+        Upon start up, the bot builds a [GEÞEODAN :: https://whoosh.readthedocs.io/en/latest/ :: Whoosh]
+        index from a [GEÞEODAN :: /wisdomhord :: hord], which it then uses to
+        search and deliver quotes when a user submits a request to it. The help
+        for the bot's various features are built from the docstrings of the functions
+        which implement those features.
+
+        [BILIÞ]
+        [example2.png :: The !help command]
+  externals:
+    source: https://github.com/autophagy/forebodere
+
 northanwind:
   name: Norþanwind
   brief: Soldering Station Ventiliation
