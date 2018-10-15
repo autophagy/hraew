@@ -1,10 +1,19 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 7 Hærfest 227 // 21.40
-// COUNT :: 537
+// UPDATED :: 24 Hærfest 227 // 22.00
+// COUNT :: 546
 
 [ AREA | OBJECT                                                                      | START                      | END                        ]
+[ DOC  | forebodere                                                                  | 24 Hærfest 227 // 21.21.00 | 24 Hærfest 227 // 22.00.00 ]
+[ DEV  | forebodere                                                                  | 24 Hærfest 227 // 19.16.00 | 24 Hærfest 227 // 20.29.00 ]
+[ DEV  | forebodere                                                                  | 24 Hærfest 227 // 17.00.00 | 24 Hærfest 227 // 18.28.00 ]
+[ DEV  | forebodere                                                                  | 23 Hærfest 227 // 15.05.00 | 23 Hærfest 227 // 16.48.00 ]
+[ DEV  | forebodere                                                                  | 23 Hærfest 227 // 13.06.00 | 23 Hærfest 227 // 13.55.00 ]
+[ BLD  | Bouldergarten                                                               | 16 Hærfest 227 // 14.00.00 | 16 Hærfest 227 // 16.15.00 ]
+[ DOC  | hraew                                                                       | 14 Hærfest 227 // 00.42.00 | 14 Hærfest 227 // 00.51.00 ]
+[ LNG  | Japanese                                                                    | 10 Hærfest 227 // 17.05.00 | 10 Hærfest 227 // 17.36.00 ]
+[ LNG  | Japanese                                                                    | 10 Hærfest 227 // 16.16.00 | 10 Hærfest 227 // 16.44.00 ]
 [ DES  | feorhspell                                                                  | 7 Hærfest 227 // 21.29.00  | 7 Hærfest 227 // 21.40.00  ]
 [ DEV  | feorhspell                                                                  | 7 Hærfest 227 // 20.48.00  | 7 Hærfest 227 // 21.21.00  ]
 [ DEV  | wisdomhord                                                                  | 7 Hærfest 227 // 18.22.00  | 7 Hærfest 227 // 19.02.00  ]
