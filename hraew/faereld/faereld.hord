@@ -1,10 +1,17 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 24 Hærfest 227 // 22.00
-// COUNT :: 546
+// UPDATED :: 1 Mist 227 // 20.13
+// COUNT :: 553
 
 [ AREA | OBJECT                                                                      | START                      | END                        ]
+[ DEV  | forebodere                                                                  | 30 Hærfest 227 // 02.00.00 | 30 Hærfest 227 // 02.55.00 ]
+[ DEV  | forebodere                                                                  | 29 Hærfest 227 // 23.20.00 | 30 Hærfest 227 // 00.27.00 ]
+[ BLD  | Bright Site                                                                 | 29 Hærfest 227 // 20.45.00 | 29 Hærfest 227 // 22.20.00 ]
+[ DEV  | forebodere                                                                  | 29 Hærfest 227 // 15.15.00 | 29 Hærfest 227 // 16.11.00 ]
+[ BLD  | Bright Site                                                                 | 27 Hærfest 227 // 18.00.00 | 27 Hærfest 227 // 19.50.00 ]
+[ DEV  | datarum                                                                     | 26 Hærfest 227 // 21.45.00 | 26 Hærfest 227 // 22.35.00 ]
+[ DEV  | forebodere                                                                  | 25 Hærfest 227 // 15.12.00 | 25 Hærfest 227 // 15.51.00 ]
 [ DOC  | forebodere                                                                  | 24 Hærfest 227 // 21.21.00 | 24 Hærfest 227 // 22.00.00 ]
 [ DEV  | forebodere                                                                  | 24 Hærfest 227 // 19.16.00 | 24 Hærfest 227 // 20.29.00 ]
 [ DEV  | forebodere                                                                  | 24 Hærfest 227 // 17.00.00 | 24 Hærfest 227 // 18.28.00 ]
