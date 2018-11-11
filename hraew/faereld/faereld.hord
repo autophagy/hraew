@@ -1,10 +1,30 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 1 Mist 227 // 20.13
-// COUNT :: 553
+// UPDATED :: 21 Mist 227 // 16.54
+// COUNT :: 571
 
 [ AREA | OBJECT                                                                      | START                      | END                        ]
+[ RDG  | China Miéville's Embassytown                                                | 19 Mist 227 // 08.00.00    | 19 Mist 227 // 09.40.00    ]
+[ RDG  | China Miéville's Embassytown                                                | 18 Mist 227 // 13.00.00    | 18 Mist 227 // 15.00.00    ]
+[ RDG  | China Miéville's Embassytown                                                | 17 Mist 226 // 13.00.00    | 17 Mist 226 // 14.30.00    ]
+[ RDG  | China Miéville's Embassytown                                                | 13 Mist 227 // 10.00.00    | 13 Mist 227 // 13.10.00    ]
+[ DEV  | scieldas                                                                    | 9 Mist 227 // 14.24.00     | 9 Mist 227 // 14.43.00     ]
+[ DEV  | scieldas                                                                    | 9 Mist 227 // 11.34.00     | 9 Mist 227 // 12.13.00     ]
+[ DEV  | scieldas                                                                    | 8 Mist 227 // 23.35.00     | 9 Mist 227 // 00.13.00     ]
+[ DEV  | scieldas                                                                    | 8 Mist 227 // 22.00.00     | 8 Mist 227 // 23.07.00     ]
+[ DES  | scieldas                                                                    | 8 Mist 227 // 20.00.00     | 8 Mist 227 // 20.36.00     ]
+[ DES  | scieldas                                                                    | 8 Mist 227 // 16.15.00     | 8 Mist 227 // 17.36.00     ]
+[ DOC  | scieldas                                                                    | 8 Mist 227 // 10.57.00     | 8 Mist 227 // 11.18.00     ]
+[ DEV  | scieldas                                                                    | 8 Mist 227 // 02.21.00     | 8 Mist 227 // 03.07.00     ]
+[ DEV  | scieldas                                                                    | 8 Mist 227 // 00.40.00     | 8 Mist 227 // 01.48.00     ]
+[ DEV  | scieldas                                                                    | 7 Mist 227 // 19.04.00     | 7 Mist 227 // 19.40.00     ]
+[ DOC  | forebodere                                                                  | 6 Mist 227 // 01.45.00     | 6 Mist 227 // 02.37.00     ]
+[ DEV  | forebodere                                                                  | 3 Mist 227 // 17.20.00     | 3 Mist 227 // 17.51.00     ]
+[ DEV  | forebodere                                                                  | 3 Mist 227 // 13.13.00     | 3 Mist 227 // 14.07.00     ]
+[ DOC  | forebodere                                                                  | 3 Mist 227 // 00.13.00     | 3 Mist 227 // 00.36.00     ]
+[ DEV  | forebodere                                                                  | 2 Mist 227 // 15.20.00     | 2 Mist 227 // 16.50.00     ]
+[ DEV  | forebodere                                                                  | 1 Mist 227 // 20.36.00     | 1 Mist 227 // 21.53.00     ]
 [ DEV  | forebodere                                                                  | 30 Hærfest 227 // 02.00.00 | 30 Hærfest 227 // 02.55.00 ]
 [ DEV  | forebodere                                                                  | 29 Hærfest 227 // 23.20.00 | 30 Hærfest 227 // 00.27.00 ]
 [ BLD  | Bright Site                                                                 | 29 Hærfest 227 // 20.45.00 | 29 Hærfest 227 // 22.20.00 ]
@@ -21,8 +41,6 @@
 [ DOC  | hraew                                                                       | 14 Hærfest 227 // 00.42.00 | 14 Hærfest 227 // 00.51.00 ]
 [ LNG  | Japanese                                                                    | 10 Hærfest 227 // 17.05.00 | 10 Hærfest 227 // 17.36.00 ]
 [ LNG  | Japanese                                                                    | 10 Hærfest 227 // 16.16.00 | 10 Hærfest 227 // 16.44.00 ]
-[ DES  | feorhspell                                                                  | 7 Hærfest 227 // 21.29.00  | 7 Hærfest 227 // 21.40.00  ]
-[ DEV  | feorhspell                                                                  | 7 Hærfest 227 // 20.48.00  | 7 Hærfest 227 // 21.21.00  ]
 [ DEV  | wisdomhord                                                                  | 7 Hærfest 227 // 18.22.00  | 7 Hærfest 227 // 19.02.00  ]
 [ LNG  | Japanese                                                                    | 5 Wending 226 // 18.00.00  | 5 Wending 226 // 18.43.00  ]
 [ DEV  | wisdomhord                                                                  | 5 Wending 226 // 15.29.00  | 5 Wending 226 // 16.31.00  ]
