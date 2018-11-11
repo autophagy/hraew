@@ -38,6 +38,7 @@ class Lim(object):
 
         return self._body_html
 
+
 with open(join(dirname(__file__), "leomu/leomu.yml"), "r") as leomu_yml:
     leomu = yaml.load(leomu_yml)
     for key, value in leomu.items():
@@ -45,4 +46,4 @@ with open(join(dirname(__file__), "leomu/leomu.yml"), "r") as leomu_yml:
 
 project_areas = ["RES", "DES", "DEV", "DOC", "TST"]
 
-faereldService = FaereldService(leomu.keys(), project_areas, "faereld/faereld.hord")
+faereldService = FaereldService(leomu.keys(), project_areas, "horda/faereld.hord")

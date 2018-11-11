@@ -1,5 +1,9 @@
+appdirs==1.4.3
+attrs==18.1.0
+black==18.6b4
 bleach==2.1.2
 click==6.7
+datarum==0.5.1
 docutils==0.14
 Flask==0.12.2
 gunicorn==19.7.1
@@ -7,9 +11,10 @@ html5lib==1.0.1
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
-PyYAML==3.12
+parse==1.8.4
+PyYAML==3.13
 six==1.11.0
+toml==0.9.4
 webencodings==0.5.1
 Werkzeug==0.14.1
-wisdomhord==0.2.4
-datarum==0.5.0
+wisdomhord==0.3.1
