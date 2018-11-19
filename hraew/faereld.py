@@ -15,6 +15,7 @@ class FaereldBisen(wisdomhord.Bisen):
     object = wisdomhord.Sweor("OBJECT", wisdomhord.String)
     start = wisdomhord.Sweor("START", wisdomhord.Wending)
     end = wisdomhord.Sweor("END", wisdomhord.Wending)
+    purpose = wisdomhord.Sweor("PURPOSE", wisdomhord.String)
 
 
 class LocationBisen(wisdomhord.Bisen):
