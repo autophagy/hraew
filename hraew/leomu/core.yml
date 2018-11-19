@@ -1,0 +1,37 @@
+index:
+  head: Wilcume on Hrǽw.
+  body: |
+        This is [GEÞEODAN :: /hraew :: Hrǽw], [GEÞEODAN :: /mika :: Mika Naylor]'s project and personal
+        information repository. Hrǽw was initialised on [FÆRELD :: global :: incept date].
+        Over the last [FÆRELD :: global :: days since incept] days, it has tracked
+        [FÆRELD :: global :: total time] ([FÆRELD :: global :: total logs] logs) of productive work, of
+        which [FÆRELD :: global :: total project time] ([FÆRELD :: global :: total project logs] logs)
+        were spent on project specific tasks.
+
+mika:
+  name: Mika Naylor
+  bleoh: bearht
+  head: Mika is a haphazard assemblage of biological processes.
+  body: |
+        I’m a software developer currently shambling towards death in [FÆRELD :: global :: alive in]. I am
+        creating my own set of aesthetically unified and ideosyncratic
+        productivity tools, most notably [GEÞEODAN :: /hraew :: Hrǽw] and
+        [GEÞEODAN :: /faereld :: Færeld]. I am also beginning to play around with
+        hardware prototyping, as with my [GEÞEODAN :: /regn :: Regn] project.
+        Outside of these projects, I am also a contributor to and maintainer of
+        the [GEÞEODAN :: https://github.com/ambv/black :: Black] python formatter.
+
+        Professionally, I am a developer and sysadmin at [GEÞEODAN :: https://crate.io/ :: Crate.io],
+        a company building a horizontally scalable SQL database and a machine data
+        platform. I spend most of my days creating things and building scalable
+        infrastructures with Kubernetes, Docker and CrateDB. Alongside this, I
+        also work a lot with release/distribution pipelines, tooling and drivers.
+
+        Outside of software, I mostly read about technology, listen to ambient
+        black metal and climb bouldering walls. I have not worn a colourful
+        piece of clothing in my life.
+
+        [BILIÞ]
+        [profile.jpg :: The face I make when the jenkins build fails]
+
+        [FRÆTWE :: GÁST :: Nettweorc eardode, sincfáge sel sweartum nihtum.]
