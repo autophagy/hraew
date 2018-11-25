@@ -1,10 +1,22 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 28 Mist 227 // 15.05
-// COUNT :: 582
+// UPDATED :: 5 Forst 227 // 02.50
+// COUNT :: 594
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ RDG  | China Miéville's Perdido Street Station                                     | 5 Forst 227 // 01.59.00    | 5 Forst 227 // 02.49.00    |                                                                                                             ]
+[ RDG  | China Miéville's Perdido Street Station                                     | 4 Forst 227 // 22.39.00    | 4 Forst 227 // 23.44.00    |                                                                                                             ]
+[ RDG  | China Miéville's Perdido Street Station                                     | 4 Forst 227 // 18.33.00    | 4 Forst 227 // 19.15.00    |                                                                                                             ]
+[ BLD  | Bright Site                                                                 | 2 Forst 227 // 18.00.00    | 2 Forst 227 // 20.30.00    |                                                                                                             ]
+[ TST  | hraew                                                                       | 2 Forst 227 // 16.49.00    | 2 Forst 227 // 17.01.00    | Setting up test case for the Limspræc reader.                                                               ]
+[ BLD  | Bouldergarten                                                               | 1 Forst 227 // 18.30.00    | 1 Forst 227 // 20.00.00    |                                                                                                             ]
+[ DES  | hraew                                                                       | 30 Mist 227 // 23.40.00    | 1 Forst 227 // 00.26.00    | Further Hraew formatting language design, styling blockquotes.                                              ]
+[ TST  | hraew                                                                       | 30 Mist 227 // 20.34.00    | 30 Mist 227 // 21.23.00    | Drafting up the test cases for the new Lim body parser.                                                     ]
+[ DES  | hraew                                                                       | 29 Mist 227 // 19.48.00    | 29 Mist 227 // 20.32.00    | Designing the new language for lim bodies.                                                                  ]
+[ DEV  | hraew                                                                       | 29 Mist 227 // 16.11.00    | 29 Mist 227 // 16.18.00    | Altering leomu definition loading behaviour to load from all .yml files in the leomu folder.                ]
+[ BLD  | Bright Site                                                                 | 28 Mist 227 // 20.30.00    | 28 Mist 227 // 22.10.00    |                                                                                                             ]
+[ RDG  | Invisible Planets: 13 Visions of the Future from China                      | 28 Mist 227 // 15.11.00    | 28 Mist 227 // 15.48.00    |                                                                                                             ]
 [ DEV  | scieldas                                                                    | 28 Mist 227 // 14.07.00    | 28 Mist 227 // 15.05.00    | Using v2 of RTD's api, instead of v1. Fixing bugs, making the index a little nicer.                         ]
 [ DEV  | insegel                                                                     | 28 Mist 227 // 13.38.00    | 28 Mist 227 // 14.04.00    | Fixing a margin discrepancy in the footer. Rolling out new documentation theme to all projects that use it. ]
 [ DEV  | insegel                                                                     | 27 Mist 227 // 11.14.00    | 27 Mist 227 // 12.27.00    | Finished implementing new Insegel design. Updated documentation, and released version 1.0.0.                ]

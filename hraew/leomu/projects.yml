@@ -395,7 +395,7 @@ insegel:
   name: Insegel
   brief: Sphinx Theme
   project: true
-  status: 0.3.0
+  status: 1.0.1
   bleoh: deorc
   head: Insegel is a theme for the Sphinx documentation engine.
   body: |
