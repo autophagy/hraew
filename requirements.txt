@@ -12,7 +12,6 @@ itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
 parse==1.8.4
-PyYAML==3.13
 six==1.11.0
 toml==0.9.4
 webencodings==0.5.1

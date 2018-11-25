@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import yaml
 from os.path import dirname, join, splitext
 from os import listdir
 import bleach
@@ -15,6 +14,8 @@ from wisdomhord import Bisen, Sweor
 
 from .parser import Parser
 from .faereld import FaereldService
+
+from .limspraec_raedere import LimspræcRædere
 
 
 class Lim(object):
@@ -40,14 +41,13 @@ class Lim(object):
         return self._body_html
 
 leomu = {}
-
+raedere = LimspræcRædere()
 for f in listdir(join(dirname(__file__), "leomu")):
     _, ext = splitext(f)
-    if ext == ".yml" or ext == ".yaml":
-        with open(join(dirname(__file__), "leomu", f), "r") as leomu_yml:
-            lim = yaml.load(leomu_yml)
-            for key, value in lim.items():
-                leomu[key] = Lim(key, value)
+    if ext == ".lim":
+        raed_leomu = raedere.raed(join(dirname(__file__), "leomu", f))
+        for key, value in raed_leomu.items():
+            leomu[key] = Lim(key, value)
 
 project_areas = ["RES", "DES", "DEV", "DOC", "TST"]
 
