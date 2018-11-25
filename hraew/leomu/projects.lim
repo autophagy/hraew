@@ -1,7 +1,7 @@
 [ forebodere ]
 name      :: Forebodere
 brief     :: Discord Quote Bot
-project   :: True
+project   :: Soþ
 status    :: 0.1.0
 bleoh     :: bearht
 head      :: Forebodere is a quotation bot that inhabits Discord.
@@ -28,7 +28,7 @@ externals :: source :: https://github.com/autophagy/forebodere
 [ northanwind ]
 name      :: Norþanwind
 brief     :: Soldering Station Ventiliation
-project   :: True
+project   :: Soþ
 status    :: Completed
 bleoh     :: bearht
 head      :: Norþanwind is a DIY soldering station ventilation fan.
@@ -48,7 +48,7 @@ externals :: source :: https://github.com/autophagy/northanwind
 [ tid ]
 name      :: Tíd
 brief     :: Cooking Tool
-project   :: True
+project   :: Soþ
 status    :: 0.1.0
 bleoh     :: bearht
 head      :: Tíd is a timer and general purpose cooking tool.
@@ -146,7 +146,7 @@ externals :: source  :: https://github.com/autophagy/tid
 [ regn ]
 name      :: Regn
 brief     :: Weather Station
-project   :: True
+project   :: Soþ
 status    :: In Dev
 bleoh     :: bearht
 head      :: Regn is a WiFi enabled weather station and visualisation dashboard.
@@ -205,7 +205,7 @@ externals :: source  :: https://github.com/autophagy/regn
 [ ametan ]
 name      :: Ametan
 brief     :: Android Scrum App
-project   :: True
+project   :: Soþ
 status    :: 1.1.0
 bleoh     :: bearht
 head      :: Ametan is an Android app for scrum estimation planning poker.
@@ -231,7 +231,7 @@ externals :: source            :: https://github.com/autophagy/ametan
 [ wisdomhord ]
 name      :: Wísdómhord
 brief     :: Flat File DB
-project   :: True
+project   :: Soþ
 status    :: 0.3.1
 bleoh     :: bearht
 head      :: Wísdómhord is a flat file database tool for internal project use.
@@ -267,7 +267,7 @@ externals :: source        :: https://github.com/autophagy/wisdomhord
 [ getheode ]
 name      :: Geþeóde
 brief     :: Conlanging Tool
-project   :: True
+project   :: Soþ
 status    :: In Dev
 bleoh     :: bearht
 head      :: Geþeóde is a tool for language construction.
@@ -284,7 +284,7 @@ externals :: source :: https://github.com/autophagy/getheode
 [ scieldas ]
 name      :: Scieldas
 brief     :: Metadata Badges
-project   :: True
+project   :: Soþ
 status    :: 0.1.0
 bleoh     :: bearht
 head      :: Scieldas is a service to provide metadata badges for Open Source projects.
@@ -309,7 +309,7 @@ externals :: source        :: https://github.com/autophagy/scieldas
 [ hraew ]
 name      :: Hrǽw
 brief     :: Project Information Engine
-project   :: True
+project   :: Soþ
 status    :: In Dev
 bleoh     :: bearht
 head      :: Hrǽw is a project information & documentation engine.
@@ -348,7 +348,7 @@ externals :: source  :: https://github.com/Autophagy/hraew
 [ faereld ]
 name      :: Færeld
 brief     :: Time Tracker
-project   :: True
+project   :: Soþ
 status    :: In Dev
 bleoh     :: bearht
 head      :: Færeld is a CLI time tracking tool.
@@ -374,7 +374,7 @@ externals :: source        :: https://github.com/autophagy/faereld
 [ insegel ]
 name      :: Insegel
 brief     :: Sphinx Theme
-project   :: True
+project   :: Soþ
 status    :: 1.0.1
 bleoh     :: bearht
 head      :: Insegel is a theme for the Sphinx documentation engine.
@@ -394,7 +394,7 @@ externals :: source        :: https://github.com/autophagy/insegel
 [ datarum ]
 name      :: Datárum
 brief     :: Calendar System
-project   :: True
+project   :: Soþ
 status    :: 0.5.1
 bleoh     :: bearht
 head      :: Datárum is a calendar system based on the French Republican Calendar.
@@ -430,7 +430,7 @@ externals :: source        :: https://github.com/Autophagy/datarum
 [ aerende ]
 name      :: Ærende
 brief     :: Console Notes
-project   :: True
+project   :: Soþ
 status    :: 0.2.0
 bleoh     :: deorc
 head      :: Ærende is a CLI note taking application.
@@ -446,7 +446,7 @@ externals :: source :: https://github.com/autophagy/aerende
 [ antimber ]
 name      :: Antimber
 brief     :: Arch Linux Themes
-project   :: True
+project   :: Soþ
 status    :: Ongoing
 bleoh     :: deorc
 head      :: Antimber is a set of configuration files for Arch Linux.
@@ -465,7 +465,7 @@ externals :: source :: https://github.com/autophagy/antimber
 [ completable-futures ]
 name      :: Completable Futures
 brief     :: Writing
-project   :: True
+project   :: Soþ
 status    :: Ongoing
 bleoh     :: bearht
 head      :: Completable Futures is a blog for miscellaneous writing.
@@ -478,7 +478,7 @@ externals :: website :: https://completablefutures.org/
 [ hwaete ]
 name      :: Hwǽte
 brief     :: Bread Diary
-project   :: True
+project   :: Soþ
 status    :: Ongoing
 bleoh     :: bearht
 head      :: Hwǽte is a project to document my bread baking.
@@ -498,7 +498,7 @@ externals :: source  :: https://github.com/autophagy/hwaete
 [ avari ]
 name      :: Avari
 brief     :: Wordpress Theme
-project   :: True
+project   :: Soþ
 status    :: Released
 bleoh     :: bearht
 head      :: Avari is a minimalist, emerald green wordpress theme.
@@ -515,7 +515,7 @@ externals :: source :: https://github.com/autophagy/avari-wp-theme
 [ mainframe ]
 name      :: MAINFRAME
 brief     :: Cyberpunk Game
-project   :: True
+project   :: Soþ
 status    :: 1.0
 bleoh     :: bearht
 head      :: MAINFRAME is a web game, inspired by Warioware and bad 90s movies about hacking.
@@ -535,7 +535,7 @@ externals :: source  :: https://github.com/autophagy/mainframe
 [ multitimer ]
 name      :: Multi/Timer
 brief     :: Egg Timers
-project   :: True
+project   :: Soþ
 status    :: 2.0
 bleoh     :: deorc
 head      :: Multi/Timer is a tool for timing multiple cooking processes simultaneously.
@@ -553,7 +553,7 @@ externals :: source  :: https://github.com/autophagy/multitimer
 [ twitter-bg-restorer ]
 name      :: Twitter Bg Restorer
 brief     :: Chrome Extension
-project   :: True
+project   :: Soþ
 status    :: 2.0.3
 bleoh     :: deorc
 head      :: Twitter Bg Restorer is a chrome extension to restore Twitter's background.
