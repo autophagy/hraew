@@ -1,10 +1,22 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 5 Forst 227 // 02.50
-// COUNT :: 594
+// UPDATED :: 12 Forst 227 // 15.30
+// COUNT :: 606
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ DEV  | insegel                                                                     | 12 Forst 227 // 15.15.00   | 12 Forst 227 // 15.29.00   | Adding CSS to distinguish code blocks within odd numbered table rows. Releasing 1.0.2.                      ]
+[ DES  | faereld                                                                     | 10 Forst 227 // 14.52.00   | 10 Forst 227 // 15.20.00   | Sketching logos.                                                                                            ]
+[ DOC  | ametan                                                                      | 10 Forst 227 // 14.45.00   | 10 Forst 227 // 14.49.00   | Updating documentation to reflect presence on Google Play store.                                            ]
+[ RDG  | China Miéville's Perdido Street Station                                     | 9 Forst 227 // 11.00.00    | 9 Forst 227 // 12.30.00    |                                                                                                             ]
+[ RDG  | China Miéville's Perdido Street Station                                     | 8 Forst 227 // 20.30.00    | 8 Forst 227 // 23.10.00    |                                                                                                             ]
+[ RDG  | China Miéville's Perdido Street Station                                     | 7 Forst 227 // 10.30.00    | 7 Forst 227 // 11.00.00    |                                                                                                             ]
+[ RDG  | China Miéville's Perdido Street Station                                     | 6 Forst 227 // 23.11.00    | 7 Forst 227 // 00.49.00    |                                                                                                             ]
+[ RDG  | China Miéville's Perdido Street Station                                     | 6 Forst 227 // 06.45.00    | 6 Forst 227 // 07.38.00    |                                                                                                             ]
+[ RDG  | China Miéville's Perdido Street Station                                     | 5 Forst 227 // 23.17.00    | 6 Forst 227 // 00.40.00    |                                                                                                             ]
+[ RDG  | China Miéville's Perdido Street Station                                     | 5 Forst 227 // 21.20.00    | 5 Forst 227 // 22.06.00    |                                                                                                             ]
+[ DEV  | hraew                                                                       | 5 Forst 227 // 15.43.00    | 5 Forst 227 // 17.55.00    | Bulding prototype of Limspraec reader.                                                                      ]
+[ DES  | hraew                                                                       | 5 Forst 227 // 14.39.00    | 5 Forst 227 // 15.18.00    | Syncing project versions, creating a new header for Insegel.                                                ]
 [ RDG  | China Miéville's Perdido Street Station                                     | 5 Forst 227 // 01.59.00    | 5 Forst 227 // 02.49.00    |                                                                                                             ]
 [ RDG  | China Miéville's Perdido Street Station                                     | 4 Forst 227 // 22.39.00    | 4 Forst 227 // 23.44.00    |                                                                                                             ]
 [ RDG  | China Miéville's Perdido Street Station                                     | 4 Forst 227 // 18.33.00    | 4 Forst 227 // 19.15.00    |                                                                                                             ]
