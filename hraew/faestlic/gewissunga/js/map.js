@@ -76,10 +76,7 @@ function GoogleMap(payload) {
 
     this.load = function(element, locations) {
         const map = new google.maps.Map(document.getElementById('map'), {
-            center: {
-                lat: 52.5200,
-                lng: 13.4050
-            },
+            center: locations[0].coordinates,
             zoom: 3.5,
             disableDefaultUI: true
         });
@@ -87,7 +84,7 @@ function GoogleMap(payload) {
         map.set('styles', this.style)
 
         const path = new google.maps.Polyline({
-            path: locations,
+            path: locations.map(x => x.coordinates),
             geodesic: true,
             strokeColor: '#F2F2F2',
             strokeOpacity: 0.3,
@@ -98,24 +95,36 @@ function GoogleMap(payload) {
         for (const id in locations) {
             addMarker(map, locations[id])
         }
-
-        setTimeout(() => {
-            this.show(element)
-        }, 1000)
     }
 
-    function addMarker(map, pos, icon = {
+    function addMarker(map, location, icon = {
         path: google.maps.SymbolPath.CIRCLE,
         scale: 3,
         strokeWeight: 0,
         fillOpacity: 1,
         fillColor: 'white'
     }) {
-        new google.maps.Marker({
-            position: pos,
+
+        const contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">' + location.location + '</h1>'+
+            '<div id="bodyContent">'+
+            '<p>(' + location.date + ') ' + location.purpose + '</p>'+
+            '</div>'+
+            '</div>';
+        const info = new google.maps.InfoWindow({
+          content: contentString
+        })
+        const marker = new google.maps.Marker({
+            position: location.coordinates,
             icon: icon,
             draggable: false,
-            map: map
+            map: map,
+            title: location.location
         })
+        marker.addListener('click', function() {
+          info.open(map, marker);
+        });
     }
 }

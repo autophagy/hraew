@@ -19,7 +19,12 @@ hord = wisdomhord.hladan(
 
 locations = list(
     map(
-        lambda x: {"lng": x.coordinates[0], "lat": x.coordinates[1]},
-        hord.get_rows(cols=["COORDINATES"]),
+        lambda x: {
+            "date": x.date.strftime("{daeg} {month} {gere}"),
+            "location": x.location,
+            "purpose": x.purpose,
+            "coordinates": {"lng": x.coordinates[0], "lat": x.coordinates[1]},
+        },
+        hord.get_rows(),
     )
 )
