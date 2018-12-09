@@ -3,6 +3,8 @@
 from flask import Flask, abort, render_template
 from .leomu import leomu, faereldService
 from .utils import format_timedelta
+from .locations import locations
+import os
 
 VERSION = "0.1.0"
 
@@ -37,6 +39,13 @@ def dat_well_known():
 @application.route("/.well-known/keybase.txt")
 def keybase_well_known():
     return application.send_static_file("regolas/keybase.txt")
+
+
+@application.route("/map/")
+def locmap():
+    return render_template(
+        "map.html", loc=locations, MAPS_API_KEY=os.environ["MAPS_API_KEY"]
+    )
 
 
 @application.errorhandler(404)

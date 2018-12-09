@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hrǽw :: Locations Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <script src="{{url_for('static', filename='gewissunga/js/map.js')}}"></script>
+    <style>
+      #map {
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script type="text/javascript">
+      const map = new GoogleMap({{ loc|tojson }})
+      function initMap(){
+        setTimeout(() => { map.install() },500)
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{MAPS_API_KEY}}&callback=initMap" async defer></script>
+  </body>
+</html>

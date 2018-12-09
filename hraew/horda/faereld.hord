@@ -1,10 +1,14 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 15 Forst 227 // 16.13
-// COUNT :: 609
+// UPDATED :: 19 Forst 227 // 22.00
+// COUNT :: 613
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ BLD  | Bouldergarten                                                               | 19 Forst 227 // 11.00.00   | 19 Forst 227 // 12.30.00   |                                                                                                             ]
+[ LRN  | Elm                                                                         | 17 Forst 227 // 16.36.00   | 17 Forst 227 // 16.59.00   |                                                                                                             ]
+[ RDG  | China Miéville's The Scar                                                   | 16 Forst 227 // 17.30.00   | 16 Forst 227 // 18.30.00   |                                                                                                             ]
+[ DES  | regn                                                                        | 15 Forst 227 // 23.00.00   | 15 Forst 227 // 23.30.00   | Designing LiPo battery mounting bracket for Regn case.                                                      ]
 [ DES  | regn                                                                        | 15 Forst 227 // 15.30.00   | 15 Forst 227 // 16.13.00   | Further OpenSCAD practice - making screw mounting posts for the PCB.                                        ]
 [ DES  | regn                                                                        | 14 Forst 227 // 22.25.00   | 14 Forst 227 // 23.31.00   | Learning OpenSCAD by creating the Autophagy and Regn sigils.                                                ]
 [ RDG  | China Miéville's The Scar                                                   | 13 Forst 227 // 17.00.00   | 13 Forst 227 // 18.00.00   |                                                                                                             ]
