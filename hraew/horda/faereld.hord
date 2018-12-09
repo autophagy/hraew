@@ -1,10 +1,11 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 19 Forst 227 // 22.00
-// COUNT :: 613
+// UPDATED :: 19 Forst 227 // 23.09
+// COUNT :: 614
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ DEV  | hraew                                                                       | 19 Forst 227 // 22.00.00   | 19 Forst 227 // 23.09.00   | Adding a basic Google Map chart from my locations hord data.                                                ]
 [ BLD  | Bouldergarten                                                               | 19 Forst 227 // 11.00.00   | 19 Forst 227 // 12.30.00   |                                                                                                             ]
 [ LRN  | Elm                                                                         | 17 Forst 227 // 16.36.00   | 17 Forst 227 // 16.59.00   |                                                                                                             ]
 [ RDG  | China Miéville's The Scar                                                   | 16 Forst 227 // 17.30.00   | 16 Forst 227 // 18.30.00   |                                                                                                             ]
