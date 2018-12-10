@@ -75,29 +75,30 @@ function GoogleMap(payload) {
     }
 
     this.load = function(element, locations) {
-        const map = new google.maps.Map(document.getElementById('map'), {
+        const loc = new google.maps.Map(document.getElementById('map'), {
             center: locations[0].coordinates,
             zoom: 3.5,
-            disableDefaultUI: true
+            disableDefaultUI: true,
+            backgroundColor: '#222222'
         });
 
-        map.set('styles', this.style)
+        loc.set('styles', this.style)
 
         const path = new google.maps.Polyline({
             path: locations.map(x => x.coordinates),
             geodesic: true,
             strokeColor: '#F2F2F2',
-            strokeOpacity: 0.3,
+            strokeOpacity: 0.2,
             strokeWeight: 1.5
         })
-        path.setMap(map)
+        path.setMap(loc)
 
         for (const id in locations) {
-            addMarker(map, locations[id])
+            addMarker(loc, locations[id])
         }
     }
 
-    function addMarker(map, location, icon = {
+    function addMarker(loc, location, icon = {
         path: google.maps.SymbolPath.CIRCLE,
         scale: 3,
         strokeWeight: 0,
@@ -113,18 +114,35 @@ function GoogleMap(payload) {
             '<p>(' + location.date + ') ' + location.purpose + '</p>'+
             '</div>'+
             '</div>';
-        const info = new google.maps.InfoWindow({
-          content: contentString
-        })
+        const info = new InfoBubble({
+              map: loc,
+              content: contentString,
+              shadowStyle: 0,
+              padding: 30,
+              backgroundColor: '#000000',
+              borderRadius: 0,
+              arrowSize: 10,
+              borderWidth: 1,
+              borderColor: '#ffffff',
+              color: '#ffffff',
+              disableAutoPan: true,
+              hideCloseButton: false,
+              arrowPosition: 30,
+              arrowStyle: 0,
+              disableAnimation: true,
+              minHeight: 85,
+              maxHeight: 85
+        });
+
         const marker = new google.maps.Marker({
             position: location.coordinates,
             icon: icon,
             draggable: false,
-            map: map,
+            map: loc,
             title: location.location
         })
         marker.addListener('click', function() {
-          info.open(map, marker);
+          info.open(loc, marker);
         });
     }
 }
