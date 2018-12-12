@@ -101,8 +101,9 @@ function GoogleMap(payload) {
     function addMarker(loc, location, icon = {
         path: google.maps.SymbolPath.CIRCLE,
         scale: 3,
-        strokeWeight: 0,
-        fillOpacity: 1,
+        strokeWeight: 2,
+        strokeColor: 'white',
+        fillOpacity: 0,
         fillColor: 'white'
     }) {
 
