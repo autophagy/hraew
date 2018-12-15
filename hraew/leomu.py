@@ -24,13 +24,13 @@ class Lim(object):
 
     def __init__(self, key, lim):
         self.key = key
-        self.name = lim.get("name", "")
-        self.brief = lim.get("brief", "")
-        self.project = lim.get("project", False)
-        self.status = lim.get("status", "n/a")
-        self.head = lim.get("head", "")
-        self.body = lim.get("body", "")
-        self.externals = lim.get("externals", None)
+        self.name = lim.get("nama", "")
+        self.brief = lim.get("mearcung", "")
+        self.project = lim.get("weorc", False)
+        self.status = lim.get("gewyrd", "n/a")
+        self.head = lim.get("beah", "")
+        self.body = lim.get("hand", "")
+        self.externals = lim.get("fingras", None)
         self.bleoh = lim.get("bleoh", "deorc")
 
     def to_html(self):
