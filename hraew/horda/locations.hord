@@ -5,6 +5,8 @@
 // COUNT :: 28
 
 [ COORDINATES     | DATE                      | LOCATION                                      | PURPOSE                                                                                                                             ]
+[ 13.354, 52.48   | 1 Snáw 227 // 16.30.00    | Berlin, Germany                               | Living and working.                                                                                                                 ]
+[ 9.742, 47.405   | 30 Forst 227 // 14.00.00  | Dornbirn, Austria                             | Drinking too much cider at the Crate.io christmas party.                                                                            ]
 [ 13.354, 52.48   | 11 Forst 227 // 17.00.00  | Berlin, Germany                               | Living and working.                                                                                                                 ]
 [ -1.467, 53.532  | 10 Forst 227 // 23.30.00  | Barnsley, United Kingdom                      | Visiting family.                                                                                                                    ]
 [ -4.081, 52.416  | 9 Forst 227 // 23.30.00   | Aberystwyth, United Kingdom                   | Visiting family.                                                                                                                    ]
