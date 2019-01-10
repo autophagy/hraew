@@ -1,10 +1,11 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 21 Snáw 227 // 20.23
-// COUNT :: 639
+// UPDATED :: 21 Snáw 227 // 21.14
+// COUNT :: 640
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ DOC  | hraew                                                                       | 21 Snáw 227 // 20.45.00    | 21 Snáw 227 // 21.14.00    | Adding a reading list.                                                                                      ]
 [ RDG  | Anthony Kenny's A New History of Western Philosophy                         | 21 Snáw 227 // 20.06.00    | 21 Snáw 227 // 20.23.00    |                                                                                                             ]
 [ RDG  | Anthony Kenny's A New History of Western Philosophy                         | 20 Snáw 227 // 23.00.00    | 21 Snáw 227 // 00.00.00    |                                                                                                             ]
 [ RDG  | Eugene Thacker's Infinite Resignation                                       | 20 Snáw 227 // 00.01.00    | 20 Snáw 227 // 00.42.00    |                                                                                                             ]
