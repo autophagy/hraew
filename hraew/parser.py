@@ -84,7 +84,7 @@ class Frætwe(Element):
     html_template = "fraetwe.html"
 
     def parse(self):
-        decorators = ["BRÆSNA", "GEAP", "GÁST", "REGOL"]
+        decorators = ["BRÆSNA", "GEAP", "GÁST", "REGOL", "HEAFOD"]
         regex = re.compile("\[FRÆTWE :: (.*? :: .*?)\]")
         decorator, text = map(
             str.strip, regex.search(self.text.strip()).group(1).split("::")
