@@ -133,7 +133,7 @@ class Cunnungarc(HeadElement):
 
     def parse(self):
         def create_element_list(cunnungarc_string):
-            regex = "\[(.*?)\]"
+            regex = "\[(.*?)\]$"
 
             element_list = (
                 re.match(regex, cunnungarc_string.strip()).group(1).split("|")
