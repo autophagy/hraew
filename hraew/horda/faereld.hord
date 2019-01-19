@@ -1,10 +1,18 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 21 Snáw 227 // 21.14
-// COUNT :: 640
+// UPDATED :: 30 Snáw 227 // 19.28
+// COUNT :: 648
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ RDG  | Peter Wolfendale's The Reformatting of Homo Sapiens                         | 30 Snáw 227 // 18.23.00    | 30 Snáw 227 // 19.28.00    |                                                                                                             ]
+[ RDG  | Eugene Thacker's Infinite Resignation                                       | 29 Snáw 227 // 23.10.00    | 29 Snáw 227 // 23.46.00    |                                                                                                             ]
+[ RDG  | Eugene Thacker's Infinite Resignation                                       | 29 Snáw 227 // 16.42.00    | 29 Snáw 227 // 17.49.00    |                                                                                                             ]
+[ RDG  | Anthony Kenny's A New History of Western Philosophy                         | 28 Snáw 227 // 22.48.00    | 29 Snáw 227 // 01.04.00    |                                                                                                             ]
+[ RDG  | Manuel DeLanda's A Thousand Years Of Nonlinear History                      | 27 Snáw 227 // 22.50.00    | 28 Snáw 227 // 00.02.00    |                                                                                                             ]
+[ RDG  | Anthony Kenny's A New History of Western Philosophy                         | 24 Snáw 227 // 14.50.00    | 24 Snáw 227 // 16.00.00    |                                                                                                             ]
+[ RDG  | Anthony Kenny's A New History of Western Philosophy                         | 22 Snáw 227 // 16.10.00    | 22 Snáw 227 // 16.48.00    |                                                                                                             ]
+[ RDG  | Anthony Kenny's A New History of Western Philosophy                         | 22 Snáw 227 // 12.25.00    | 22 Snáw 227 // 13.20.00    |                                                                                                             ]
 [ DOC  | hraew                                                                       | 21 Snáw 227 // 20.45.00    | 21 Snáw 227 // 21.14.00    | Adding a reading list.                                                                                      ]
 [ RDG  | Anthony Kenny's A New History of Western Philosophy                         | 21 Snáw 227 // 20.06.00    | 21 Snáw 227 // 20.23.00    |                                                                                                             ]
 [ RDG  | Anthony Kenny's A New History of Western Philosophy                         | 20 Snáw 227 // 23.00.00    | 21 Snáw 227 // 00.00.00    |                                                                                                             ]
