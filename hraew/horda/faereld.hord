@@ -1,10 +1,24 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 8 Regn 227 // 19.31
-// COUNT :: 665
+// UPDATED :: 14 Regn 227 // 21.18
+// COUNT :: 679
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ DOC  | stypelas                                                                    | 14 Regn 227 // 21.09.00    | 14 Regn 227 // 21.18.00    | Added README for the project.                                                                               ]
+[ DEV  | stypelas                                                                    | 14 Regn 227 // 19.06.00    | 14 Regn 227 // 19.53.00    | Adding the emergency exit stairs to the Beerpinsel.                                                         ]
+[ BLD  | Bright Site                                                                 | 13 Regn 227 // 18.30.00    | 13 Regn 227 // 20.00.00    |                                                                                                             ]
+[ DEV  | stypelas                                                                    | 12 Regn 227 // 16.32.00    | 12 Regn 227 // 17.33.00    | y                                                                                                           ]
+[ DEV  | stypelas                                                                    | 12 Regn 227 // 00.00.00    | 12 Regn 227 // 00.59.00    | More basic Bierpinsel modelling.                                                                            ]
+[ DEV  | stypelas                                                                    | 11 Regn 227 // 18.45.00    | 11 Regn 227 // 20.34.00    | Starting to model the Bierpinsel. Basic structure, figuring out the array modifier.                         ]
+[ BLD  | Bright Site                                                                 | 11 Regn 227 // 12.50.00    | 11 Regn 227 // 14.00.00    |                                                                                                             ]
+[ LRN  | 3D Modelling in Blender                                                     | 10 Regn 227 // 19.44.00    | 10 Regn 227 // 20.33.00    |                                                                                                             ]
+[ RDG  | Reza Negarestani's Intelligence and Spirit                                  | 10 Regn 227 // 16.40.00    | 10 Regn 227 // 17.12.00    |                                                                                                             ]
+[ RDG  | Anthony Kenny's A New History of Western Philosophy                         | 10 Regn 227 // 01.03.00    | 10 Regn 227 // 01.23.00    |                                                                                                             ]
+[ LRN  | 3D Modelling in Blender                                                     | 9 Regn 227 // 22.00.00     | 9 Regn 227 // 23.09.00     |                                                                                                             ]
+[ LRN  | 3D Modelling in Blender                                                     | 9 Regn 227 // 20.30.00     | 9 Regn 227 // 21.49.00     |                                                                                                             ]
+[ LRN  | Introduction to Logic                                                       | 8 Regn 227 // 21.10.00     | 8 Regn 227 // 21.49.00     |                                                                                                             ]
+[ RES  | stypelas                                                                    | 8 Regn 227 // 20.47.00     | 8 Regn 227 // 21.01.00     | Gathering reference photos of Berlin architectures.                                                         ]
 [ LRN  | 3D Modelling in Blender                                                     | 8 Regn 227 // 18.34.00     | 8 Regn 227 // 19.31.00     |                                                                                                             ]
 [ LRN  | Introduction to Logic                                                       | 8 Regn 227 // 17.00.00     | 8 Regn 227 // 18.20.00     |                                                                                                             ]
 [ RDG  | Anthony Kenny's A New History of Western Philosophy                         | 8 Regn 227 // 16.00.00     | 8 Regn 227 // 16.30.00     |                                                                                                             ]
