@@ -1,3 +1,21 @@
+[ stypelas ]
+nama      :: Stýpelas
+mearcung  :: Brutalist Models
+weorc     :: Soþ
+gewyrd    :: In Progress
+bleoh     :: bearht
+beah      :: Stýpelas is a project to model brutalist architecture in Blender.
+hand      :: This project was created to learn, practice and improve my skills
+          :: at modelling complex shapes in Blender, with an intent to model
+          :: video game assets at some point in the near future.
+          ::
+          :: The architectures I will model throughout this project are mostly
+          :: based in Berlin or London - architecture that I live near and have
+          :: been able to personally explore. I will also branch out and model
+          :: other piece of interesting architecture (not all existing in the
+          :: real world) too.
+fingras   :: source :: https://github.com/autophagy/stypelas
+
 [ forebodere ]
 nama      :: Forebodere
 mearcung  :: Discord Quote Bot
