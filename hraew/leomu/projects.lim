@@ -379,9 +379,6 @@ hand      :: Færeld is a tool built to facilitate tracking the time I spend on 
           :: and TeSTing), but is also being used to track my reading, languages
           :: and conference/meetup/etc engagements.
           ::
-          :: I have written up my motivations for making Færeld on
-          :: [GEÞEODAN :: https://completablefutures.org/time-tracking-with-faereld/ :: Completable Futures].
-          ::
           :: I began tracking my productive activity with Færeld on [FÆRELD :: global :: incept date]
           :: ([FÆRELD :: global :: days since incept] days ago), and since then have tracked
           :: [FÆRELD :: global :: total time] of producive work, over [FÆRELD :: global :: total logs] log entries.
@@ -478,19 +475,6 @@ hand      :: Antimber is a collection of themes that I built for my current
           :: Antimber also has a central install script used to quickly install or
           :: switch the currently used theme.
 fingras   :: source :: https://github.com/autophagy/antimber
-
-[ completable-futures ]
-nama      :: Completable Futures
-mearcung  :: Writing
-weorc     :: Soþ
-gewyrd    :: Ongoing
-bleoh     :: bearht
-beah      :: Completable Futures is a blog for miscellaneous writing.
-hand      :: Completable Futures is an ongoing project where I put writing on topics
-          :: like tech, labour politics, automation and cyberpunk. It also uses a
-          :: custom built Wordpress theme called
-          :: [GEÞEODAN :: https://github.com/completablefutures/wordpress-theme :: Homeostat].
-fingras   :: website :: https://completablefutures.org/
 
 [ hwaete ]
 nama      :: Hwǽte
