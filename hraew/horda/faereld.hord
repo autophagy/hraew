@@ -1,10 +1,21 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 14 Regn 227 // 21.18
-// COUNT :: 679
+// UPDATED :: 22 Regn 227 // 13.20
+// COUNT :: 690
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ RES  | byrgen                                                                      | 22 Regn 227 // 13.08.00    | 22 Regn 227 // 13.20.00    | Reading up on Ghost's handlebars API.                                                                       ]
+[ DES  | byrgen                                                                      | 21 Regn 227 // 18.23.00    | 21 Regn 227 // 18.43.00    | Designing individual post layout.                                                                           ]
+[ DOC  | byrgen                                                                      | 21 Regn 227 // 17.21.00    | 21 Regn 227 // 18.02.00    | Initialising project repository and framework.                                                              ]
+[ BLD  | Bouldergarten                                                               | 21 Regn 227 // 12.30.00    | 21 Regn 227 // 13.40.00    |                                                                                                             ]
+[ LRN  | Introduction to Logic                                                       | 17 Regn 227 // 23.03.00    | 18 Regn 227 // 00.12.00    |                                                                                                             ]
+[ BLD  | Boulderklub                                                                 | 17 Regn 227 // 16.30.00    | 17 Regn 227 // 17.30.00    |                                                                                                             ]
+[ RDG  | Anthony Kenny's A New History of Western Philosophy                         | 16 Regn 227 // 23.48.00    | 17 Regn 227 // 00.40.00    |                                                                                                             ]
+[ DEV  | stypelas                                                                    | 16 Regn 227 // 21.00.00    | 16 Regn 227 // 22.03.00    | Starting work on modelling St. Agnes church                                                                 ]
+[ RDG  | The Mechanical Mind in History                                              | 16 Regn 227 // 16.59.00    | 16 Regn 227 // 17.26.00    |                                                                                                             ]
+[ RES  | stypelas                                                                    | 16 Regn 227 // 13.00.00    | 16 Regn 227 // 13.30.00    | Taking reference photos of St. Agnes church.                                                                ]
+[ RDG  | Anthony Kenny's A New History of Western Philosophy                         | 15 Regn 227 // 18.00.00    | 15 Regn 227 // 18.35.00    |                                                                                                             ]
 [ DOC  | stypelas                                                                    | 14 Regn 227 // 21.09.00    | 14 Regn 227 // 21.18.00    | Added README for the project.                                                                               ]
 [ DEV  | stypelas                                                                    | 14 Regn 227 // 19.06.00    | 14 Regn 227 // 19.53.00    | Adding the emergency exit stairs to the Beerpinsel.                                                         ]
 [ BLD  | Bright Site                                                                 | 13 Regn 227 // 18.30.00    | 13 Regn 227 // 20.00.00    |                                                                                                             ]
