@@ -1,3 +1,20 @@
+[ byrgen ]
+nama      :: Byrgen
+mearcung  :: Writings & Ghost Theme
+weorc     :: Soþ
+gewyrd    :: In Progress
+bleoh     :: bearht
+beah      :: Byrgen is collection of writing and a theme for Ghost.
+hand      :: This project was initiated in order to encourage reflection on what
+          :: I read, watch and listen to - prompted by my beginning to properly
+          :: read philosophy. I wrote a small bit about the motivation behind
+          :: the project [GEÞEODAN :: https://byrgen.autophagy.io/whats-the-point/ :: here].
+          ::
+          :: It is also the name of the theme used on the blog, which is made
+          :: for the [GEÞEODAN :: https://ghost.org/ :: Ghost publishing platform].
+fingras   :: source :: https://github.com/autophagy/byrgen
+          :: website :: https://byrgen.autophagy.io
+
 [ stypelas ]
 nama      :: Stýpelas
 mearcung  :: Brutalist Models

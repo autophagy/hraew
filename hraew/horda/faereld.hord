@@ -1,10 +1,21 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 22 Regn 227 // 13.20
-// COUNT :: 690
+// UPDATED :: 30 Regn 227 // 19.45
+// COUNT :: 701
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ DEV  | byrgen                                                                      | 30 Regn 227 // 17.40.00    | 30 Regn 227 // 18.14.00    | Playing around with the styling of post headers.                                                            ]
+[ BLD  | Boulderklub                                                                 | 30 Regn 227 // 14.40.00    | 30 Regn 227 // 15.50.00    |                                                                                                             ]
+[ DEV  | byrgen                                                                      | 29 Regn 227 // 22.35.00    | 29 Regn 227 // 23.26.00    | Adding styling for pages, tidying up basic elements, deploying first (very) basic version to website.       ]
+[ DEV  | byrgen                                                                      | 29 Regn 227 // 15.23.00    | 29 Regn 227 // 16.04.00    | More styling, adding the content specific styling like lists, images, blockquotes, etc.                     ]
+[ DEV  | byrgen                                                                      | 29 Regn 227 // 12.44.00    | 29 Regn 227 // 13.35.00    | More styling, working on the post pages.                                                                    ]
+[ RDG  | Robert B. Brandom's Articulating Reasons: An Introduction to Inferentialism | 29 Regn 227 // 10.36.00    | 29 Regn 227 // 11.05.00    |                                                                                                             ]
+[ DEV  | byrgen                                                                      | 28 Regn 227 // 17.27.00    | 28 Regn 227 // 18.11.00    | Styling the index, headers and footers.                                                                     ]
+[ RDG  | Robert B. Brandom's Articulating Reasons: An Introduction to Inferentialism | 25 Regn 227 // 20.33.00    | 25 Regn 227 // 21.15.00    |                                                                                                             ]
+[ RDG  | Robert B. Brandom's Articulating Reasons: An Introduction to Inferentialism | 24 Regn 227 // 22.14.00    | 24 Regn 227 // 22.50.00    |                                                                                                             ]
+[ DEV  | byrgen                                                                      | 24 Regn 227 // 21.23.00    | 24 Regn 227 // 22.09.00    | Playing around with Handlebars, getting to grips with the templating.                                       ]
+[ DEV  | byrgen                                                                      | 24 Regn 227 // 17.16.00    | 24 Regn 227 // 17.43.00    | Added a dockerfile for rapid theme development.                                                             ]
 [ RES  | byrgen                                                                      | 22 Regn 227 // 13.08.00    | 22 Regn 227 // 13.20.00    | Reading up on Ghost's handlebars API.                                                                       ]
 [ DES  | byrgen                                                                      | 21 Regn 227 // 18.23.00    | 21 Regn 227 // 18.43.00    | Designing individual post layout.                                                                           ]
 [ DOC  | byrgen                                                                      | 21 Regn 227 // 17.21.00    | 21 Regn 227 // 18.02.00    | Initialising project repository and framework.                                                              ]
