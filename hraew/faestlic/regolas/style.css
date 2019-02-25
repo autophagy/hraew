@@ -100,12 +100,12 @@ a.icon.hraew {
     background-image: url('../bilitha/logos/leomu/hraew-logo-light.svg');
 }
 
-a.icon.autophagy-deorc {
-    background-image: url('../bilitha/logos/autophagy-logo-dark.svg');
+a.icon.hraew-deorc {
+    background-image: url('../bilitha/logos/leomu/hraew-logo-dark.svg');
 }
 
-a.icon.autophagy-bearht {
-    background-image: url('../bilitha/logos/autophagy-logo-light.svg');
+a.icon.hraew-bearht {
+    background-image: url('../bilitha/logos/leomu/hraew-logo-light.svg');
 }
 
 table {
@@ -191,17 +191,17 @@ h2 {
 
 #logo a {
     width: 40px;
-    height: 40px;
+    height: 38px;
     background-size: contain;
     display: block;
 }
 
 .deorc #logo a {
-    background-image: url('../bilitha/logos/autophagy-logo-dark.svg');
+    background-image: url('../bilitha/logos/leomu/hraew-logo-dark.svg');
 }
 
 .bearht #logo a {
-    background-image: url('../bilitha/logos/autophagy-logo-light.svg');
+    background-image: url('../bilitha/logos/leomu/hraew-logo-light.svg');
 }
 
 #lim-side-content {

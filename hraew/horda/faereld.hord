@@ -1,10 +1,23 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 30 Regn 227 // 19.45
-// COUNT :: 701
+// UPDATED :: 6 Wind 227 // 18.34
+// COUNT :: 714
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ RDG  | Robert B. Brandom's Articulating Reasons: An Introduction to Inferentialism | 6 Wind 227 // 17.41.00     | 6 Wind 227 // 18.34.00     |                                                                                                             ]
+[ WRI  | Apis Mellifera                                                              | 6 Wind 227 // 16.54.00     | 6 Wind 227 // 17.01.00     |                                                                                                             ]
+[ DOC  | byrgen                                                                      | 6 Wind 227 // 16.41.00     | 6 Wind 227 // 16.48.00     | Updating the project's README.                                                                              ]
+[ WRI  | Apis Mellifera                                                              | 6 Wind 227 // 15.55.00     | 6 Wind 227 // 16.17.00     |                                                                                                             ]
+[ DES  | byrgen                                                                      | 6 Wind 227 // 00.50.00     | 6 Wind 227 // 01.22.00     | Redesigning logo.                                                                                           ]
+[ RDG  | Peter Wolfendale's Object-Oriented Philosophy: The Noumenon's New Clothes   | 5 Wind 227 // 23.56.00     | 6 Wind 227 // 00.26.00     |                                                                                                             ]
+[ IRL  | Berlin Python Pizza                                                         | 5 Wind 227 // 09.40.00     | 5 Wind 227 // 18.00.00     |                                                                                                             ]
+[ RDG  | Karl Marx's Fragment on Machines                                            | 4 Wind 227 // 16.09.00     | 4 Wind 227 // 16.46.00     |                                                                                                             ]
+[ WRI  | Any Colour You Like, As Long As It's Black                                  | 3 Wind 227 // 21.00.00     | 3 Wind 227 // 21.56.00     |                                                                                                             ]
+[ BLD  | Bright Site                                                                 | 3 Wind 227 // 12.30.00     | 3 Wind 227 // 13.30.00     |                                                                                                             ]
+[ WRI  | Any Colour You Like, As Long As It's Black                                  | 2 Wind 227 // 11.10.00     | 2 Wind 227 // 12.08.00     |                                                                                                             ]
+[ WRI  | Apis Mellifera                                                              | 1 Wind 227 // 20.19.00     | 1 Wind 227 // 21.06.00     |                                                                                                             ]
+[ DOC  | hraew                                                                       | 30 Regn 227 // 20.20.00    | 30 Regn 227 // 20.49.00    | Add byrgen documentation.                                                                                   ]
 [ DEV  | byrgen                                                                      | 30 Regn 227 // 17.40.00    | 30 Regn 227 // 18.14.00    | Playing around with the styling of post headers.                                                            ]
 [ BLD  | Boulderklub                                                                 | 30 Regn 227 // 14.40.00    | 30 Regn 227 // 15.50.00    |                                                                                                             ]
 [ DEV  | byrgen                                                                      | 29 Regn 227 // 22.35.00    | 29 Regn 227 // 23.26.00    | Adding styling for pages, tidying up basic elements, deploying first (very) basic version to website.       ]
