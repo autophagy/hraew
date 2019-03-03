@@ -1,10 +1,27 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 6 Wind 227 // 18.34
-// COUNT :: 714
+// UPDATED :: 13 Wind 227 // 19.34
+// COUNT :: 731
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ DEV  | scieldas                                                                    | 13 Wind 227 // 17.58.00    | 13 Wind 227 // 19.33.00    | Further refactoring so that adding more services is much easier.                                            ]
+[ DEV  | scieldas                                                                    | 13 Wind 227 // 16.14.00    | 13 Wind 227 // 17.19.00    | Moving application routes to service folders.                                                               ]
+[ RDG  | Jeff Vandermeer's Annihilation                                              | 13 Wind 227 // 15.07.00    | 13 Wind 227 // 15.57.00    |                                                                                                             ]
+[ BLD  | Bouldergarten                                                               | 13 Wind 227 // 12.30.00    | 13 Wind 227 // 13.30.00    |                                                                                                             ]
+[ DEV  | scieldas                                                                    | 12 Wind 227 // 16.31.00    | 12 Wind 227 // 18.42.00    | Refactoring API calls, adding JSON/XML deserializers, added PyPi status and PyPi formats.                   ]
+[ DEV  | scieldas                                                                    | 11 Wind 227 // 20.15.00    | 11 Wind 227 // 20.46.00    | Creating own API client, removing slumber.                                                                  ]
+[ RDG  | Peter Wolfendale's Object-Oriented Philosophy: The Noumenon's New Clothes   | 11 Wind 227 // 15.39.00    | 11 Wind 227 // 16.03.00    |                                                                                                             ]
+[ DEV  | scieldas                                                                    | 11 Wind 227 // 14.35.00    | 11 Wind 227 // 14.52.00    | Adding type hints to existing APIs.                                                                         ]
+[ TST  | scieldas                                                                    | 10 Wind 227 // 21.20.00    | 10 Wind 227 // 22.16.00    | Adding tests for existing API endpoints, adding travis config.                                              ]
+[ DEV  | scieldas                                                                    | 10 Wind 227 // 20.26.00    | 10 Wind 227 // 21.12.00    | Moving API calls into their own service folders.                                                            ]
+[ DEV  | faereld                                                                     | 10 Wind 227 // 14.20.00    | 10 Wind 227 // 14.51.00    | Refactoring the shield svg to beter space fonts when Inconsolata is not available.                          ]
+[ RES  | scieldas                                                                    | 10 Wind 227 // 10.17.00    | 10 Wind 227 // 10.30.00    | Finalising what new services to add to scieldas.                                                            ]
+[ RES  | scieldas                                                                    | 9 Wind 227 // 21.00.00     | 9 Wind 227 // 21.57.00     | Researching what features shields.io offers that I would like to offer.                                     ]
+[ DEV  | scieldas                                                                    | 8 Wind 227 // 21.14.00     | 8 Wind 227 // 22.07.00     | Adding PePy total downloads and Coveralls test coverage shields.                                            ]
+[ RES  | scieldas                                                                    | 8 Wind 227 // 21.00.00     | 8 Wind 227 // 21.13.00     | Researching how to extract data from PePy's badges.                                                         ]
+[ RDG  | Robert B. Brandom's Articulating Reasons: An Introduction to Inferentialism | 7 Wind 227 // 23.55.00     | 8 Wind 227 // 00.27.00     |                                                                                                             ]
+[ RDG  | Robert B. Brandom's Articulating Reasons: An Introduction to Inferentialism | 7 Wind 227 // 21.31.00     | 7 Wind 227 // 22.03.00     |                                                                                                             ]
 [ RDG  | Robert B. Brandom's Articulating Reasons: An Introduction to Inferentialism | 6 Wind 227 // 17.41.00     | 6 Wind 227 // 18.34.00     |                                                                                                             ]
 [ WRI  | Apis Mellifera                                                              | 6 Wind 227 // 16.54.00     | 6 Wind 227 // 17.01.00     |                                                                                                             ]
 [ DOC  | byrgen                                                                      | 6 Wind 227 // 16.41.00     | 6 Wind 227 // 16.48.00     | Updating the project's README.                                                                              ]
