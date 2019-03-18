@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="{{url_for('static', filename='regolas/style.css')}}"/>
     <link rel="stylesheet" href="{{url_for('static', filename='regolas/mobile.css')}}"/>
 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hrǽw :: {{ lim.name }}" />
+    <meta name="twitter:description" content="{{ lim.head }}" />
+    <meta name="twitter:image" content="{{url_for('static', filename='bilitha/leomu/{0}/header.jpg'.format(lim_key), _external=True)}}" />
+    <meta name="twitter:site" content="@autophagian" />
+
     <style type="text/css" media="screen">
         #lim-image {
             background-image: url({{url_for('static', filename='bilitha/leomu/{0}/header.jpg'.format(lim_key))}});
