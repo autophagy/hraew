@@ -1,10 +1,26 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 27 Wind 227 // 17.40
-// COUNT :: 757
+// UPDATED :: 4 Sǽd 227 // 23.47
+// COUNT :: 773
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ RDG  | Iain M. Banks' Excession                                                    | 4 Sǽd 227 // 23.00.00      | 4 Sǽd 227 // 23.47.00      |                                                                                                             ]
+[ DEV  | scieldas                                                                    | 4 Sǽd 227 // 17.22.00      | 4 Sǽd 227 // 17.54.00      | Adding verification mechanism for bounded route parameters.                                                 ]
+[ DEV  | scieldas                                                                    | 4 Sǽd 227 // 16.13.00      | 4 Sǽd 227 // 17.05.00      | Adding some configuration.                                                                                  ]
+[ DEV  | scieldas                                                                    | 3 Sǽd 227 // 21.30.00      | 3 Sǽd 227 // 22.53.00      | Adding last remaining shields.                                                                              ]
+[ WRI  | Notes From BOB2019 Konferenz                                                | 2 Sǽd 227 // 21.39.00      | 2 Sǽd 227 // 23.08.00      |                                                                                                             ]
+[ IRL  | BOB Konferenz 2019                                                          | 2 Sǽd 227 // 09.00.00      | 2 Sǽd 227 // 18.00.00      |                                                                                                             ]
+[ DEV  | scieldas                                                                    | 1 Sǽd 227 // 19.45.00      | 1 Sǽd 227 // 21.06.00      | Adding more shields: Codecov and CircleCI.                                                                  ]
+[ DEV  | scieldas                                                                    | 1 Sǽd 227 // 13.24.00      | 1 Sǽd 227 // 13.54.00      | Adding Discourse shields.                                                                                   ]
+[ DEV  | scieldas                                                                    | 1 Sǽd 227 // 10.18.00      | 1 Sǽd 227 // 10.49.00      | Adding Jenkins plugin installs shield.                                                                      ]
+[ DEV  | scieldas                                                                    | 1 Sǽd 227 // 09.21.00      | 1 Sǽd 227 // 09.39.00      | Adding optional parameters to Travis and Coveralls shields.                                                 ]
+[ DEV  | scieldas                                                                    | 30 Wind 227 // 23.22.00    | 1 Sǽd 227 // 00.01.00      | Added optional branch/version parameters to RTD and Travis shields.                                         ]
+[ DEV  | scieldas                                                                    | 29 Wind 227 // 23.35.00    | 30 Wind 227 // 00.10.00    | Removing all shield suffix/prefix mutations, instead relying on an optional response tuple.                 ]
+[ DEV  | scieldas                                                                    | 29 Wind 227 // 20.20.00    | 29 Wind 227 // 21.40.00    | Some minor refactoring, adding a Makefile.                                                                  ]
+[ DEV  | scieldas                                                                    | 29 Wind 227 // 11.22.00    | 29 Wind 227 // 12.22.00    | Adding a module based registry that dynamically inits services.                                             ]
+[ RDG  | Iain M. Banks' Excession                                                    | 28 Wind 227 // 23.00.00    | 28 Wind 227 // 23.30.00    |                                                                                                             ]
+[ DEV  | scieldas                                                                    | 28 Wind 227 // 17.24.00    | 28 Wind 227 // 18.37.00    | Adding NPM shields.                                                                                         ]
 [ WRI  | The Open Use of Open Spaces                                                 | 27 Wind 227 // 17.00.00    | 27 Wind 227 // 17.40.00    |                                                                                                             ]
 [ RDG  | Iain M. Banks' Excession                                                    | 26 Wind 227 // 21.37.00    | 26 Wind 227 // 22.10.00    |                                                                                                             ]
 [ RDG  | Iain M. Banks' Excession                                                    | 26 Wind 227 // 18.25.00    | 26 Wind 227 // 19.05.00    |                                                                                                             ]
