@@ -1,10 +1,20 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 4 Sǽd 227 // 23.47
-// COUNT :: 773
+// UPDATED :: 12 Sǽd 227 // 00.42
+// COUNT :: 783
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ RDG  | Iain M. Banks' Excession                                                    | 11 Sǽd 227 // 23.42.00     | 12 Sǽd 227 // 00.42.00     |                                                                                                             ]
+[ IRL  | SO FAR \| 2368 The Word for World is Forest                                 | 10 Sǽd 227 // 19.30.00     | 10 Sǽd 227 // 22.00.00     |                                                                                                             ]
+[ IRL  | SO FAR \| 1500 The Weird and the Queer                                      | 10 Sǽd 227 // 14.00.00     | 10 Sǽd 227 // 17.00.00     |                                                                                                             ]
+[ RDG  | Shelley Jackson's Fat                                                       | 10 Sǽd 227 // 12.27.00     | 10 Sǽd 227 // 12.46.00     |                                                                                                             ]
+[ RDG  | Monique Wittig's The Lesbian Body                                           | 10 Sǽd 227 // 11.25.00     | 10 Sǽd 227 // 11.31.00     |                                                                                                             ]
+[ RDG  | Charlotte Stetson's The Yellow Wallpaper                                    | 10 Sǽd 227 // 11.12.00     | 10 Sǽd 227 // 11.24.00     |                                                                                                             ]
+[ RDG  | Mark Fisher's The Weird and the Eerie                                       | 9 Sǽd 227 // 20.06.00      | 9 Sǽd 227 // 20.26.00      |                                                                                                             ]
+[ RDG  | GLO's Theorizing Queer Inhumanisms                                          | 9 Sǽd 227 // 19.31.00      | 9 Sǽd 227 // 20.02.00      |                                                                                                             ]
+[ DEV  | scieldas                                                                    | 6 Sǽd 227 // 20.13.00      | 6 Sǽd 227 // 21.03.00      | Creating an experimental implementation of the github oauth infrastructure.                                 ]
+[ DEV  | scieldas                                                                    | 6 Sǽd 227 // 17.14.00      | 6 Sǽd 227 // 17.33.00      | Experimenting with SQLAlchemy, tokens, etc.                                                                 ]
 [ RDG  | Iain M. Banks' Excession                                                    | 4 Sǽd 227 // 23.00.00      | 4 Sǽd 227 // 23.47.00      |                                                                                                             ]
 [ DEV  | scieldas                                                                    | 4 Sǽd 227 // 17.22.00      | 4 Sǽd 227 // 17.54.00      | Adding verification mechanism for bounded route parameters.                                                 ]
 [ DEV  | scieldas                                                                    | 4 Sǽd 227 // 16.13.00      | 4 Sǽd 227 // 17.05.00      | Adding some configuration.                                                                                  ]
