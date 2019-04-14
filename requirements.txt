@@ -9,7 +9,7 @@ Flask==1.0.2
 gunicorn==19.7.1
 html5lib==1.0.1
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.10.1
 MarkupSafe==1.0
 parse==1.8.4
 six==1.11.0
