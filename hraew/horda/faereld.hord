@@ -1,10 +1,21 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 12 Sǽd 227 // 00.42
-// COUNT :: 783
+// UPDATED :: 25 Sǽd 227 // 22.47
+// COUNT :: 794
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ RDG  | Daniel Kahneman's Thinking, Fast and Slow                                   | 25 Sǽd 227 // 22.00.00     | 25 Sǽd 227 // 22.47.00     |                                                                                                             ]
+[ DEV  | faereld                                                                     | 25 Sǽd 227 // 18.50.00     | 25 Sǽd 227 // 19.31.00     | More refactoring, building up a basic inputs framework.                                                     ]
+[ RDG  | Daniel Kahneman's Thinking, Fast and Slow                                   | 24 Sǽd 227 // 02.00.00     | 24 Sǽd 227 // 02.25.00     |                                                                                                             ]
+[ DEV  | faereld                                                                     | 23 Sǽd 227 // 16.00.00     | 23 Sǽd 227 // 16.25.00     | Beginning refactoring of central controller.                                                                ]
+[ DEV  | faereld                                                                     | 23 Sǽd 227 // 00.10.00     | 23 Sǽd 227 // 00.48.00     | Some refactoring of the configuration and cli classes, bumping pyyaml.                                      ]
+[ RDG  | Peter Watts' Blindsight                                                     | 17 Sǽd 227 // 00.03.00     | 17 Sǽd 227 // 01.31.00     |                                                                                                             ]
+[ DEV  | twitter-bg-restorer                                                         | 15 Sǽd 227 // 17.28.00     | 15 Sǽd 227 // 17.59.00     | Preparing plugin for new twitter layout, fixing domain bugs, releasing 2.1.0.                               ]
+[ RDG  | Rosi Braidotti's The Posthuman                                              | 13 Sǽd 227 // 21.25.00     | 13 Sǽd 227 // 21.45.00     |                                                                                                             ]
+[ RDG  | Rosi Braidotti's The Posthuman                                              | 13 Sǽd 227 // 13.45.00     | 13 Sǽd 227 // 14.03.00     |                                                                                                             ]
+[ RDG  | Iain M. Banks' Excession                                                    | 12 Sǽd 227 // 23.26.00     | 13 Sǽd 227 // 00.43.00     |                                                                                                             ]
+[ RDG  | Iain M. Banks' Excession                                                    | 12 Sǽd 227 // 20.05.00     | 12 Sǽd 227 // 22.16.00     |                                                                                                             ]
 [ RDG  | Iain M. Banks' Excession                                                    | 11 Sǽd 227 // 23.42.00     | 12 Sǽd 227 // 00.42.00     |                                                                                                             ]
 [ IRL  | SO FAR \| 2368 The Word for World is Forest                                 | 10 Sǽd 227 // 19.30.00     | 10 Sǽd 227 // 22.00.00     |                                                                                                             ]
 [ IRL  | SO FAR \| 1500 The Weird and the Queer                                      | 10 Sǽd 227 // 14.00.00     | 10 Sǽd 227 // 17.00.00     |                                                                                                             ]
