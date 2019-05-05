@@ -1,10 +1,23 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 25 Sǽd 227 // 22.47
-// COUNT :: 794
+// UPDATED :: 16 Blóstm 227 // 18.25
+// COUNT :: 807
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ RDG  | Reza Negarestani's Intelligence and Spirit                                  | 16 Blóstm 227 // 18.00.00  | 16 Blóstm 227 // 18.25.00  |                                                                                                             ]
+[ RDG  | Cybernetic Culture Research Unit's Writings 1997-2003                       | 13 Blóstm 227 // 21.45.00  | 13 Blóstm 227 // 22.59.00  |                                                                                                             ]
+[ DOC  | datarum                                                                     | 11 Blóstm 227 // 17.17.00  | 11 Blóstm 227 // 17.43.00  | Fleshing out docstrings.                                                                                    ]
+[ DEV  | insegel                                                                     | 10 Blóstm 227 // 22.30.00  | 10 Blóstm 227 // 22.41.00  | Added support for html_logo switching.                                                                      ]
+[ DES  | insegel                                                                     | 10 Blóstm 227 // 20.59.00  | 10 Blóstm 227 // 21.35.00  | Adding styling for Sphinx autodocs.                                                                         ]
+[ DEV  | faereld                                                                     | 9 Blóstm 227 // 16.30.00   | 9 Blóstm 227 // 17.09.00   | Fixing a packaging/module bug, releasing 0.1.1.                                                             ]
+[ IRL  | PyLadies Berlin                                                             | 6 Blóstm 227 // 19.00.00   | 6 Blóstm 227 // 22.00.00   |                                                                                                             ]
+[ RDG  | Mark Fisher's Terminator vs Avatar                                          | 6 Blóstm 227 // 15.40.00   | 6 Blóstm 227 // 16.17.00   |                                                                                                             ]
+[ RDG  | Nick Land's Machinic Desire                                                 | 3 Blóstm 227 // 21.17.00   | 3 Blóstm 227 // 21.25.00   |                                                                                                             ]
+[ DEV  | faereld                                                                     | 2 Blóstm 227 // 17.24.00   | 2 Blóstm 227 // 18.05.00   | Some small refactoring, fixing up the README.                                                               ]
+[ DEV  | forebodere                                                                  | 1 Blóstm 227 // 19.40.00   | 1 Blóstm 227 // 20.00.00   | Adding a lol-tracker.                                                                                       ]
+[ RDG  | JG Ballard's The Drowned World                                              | 1 Blóstm 227 // 15.20.00   | 1 Blóstm 227 // 16.13.00   |                                                                                                             ]
+[ DEV  | scieldas                                                                    | 29 Sǽd 227 // 14.18.00     | 29 Sǽd 227 // 14.46.00     | Using pydash to simplify nested dict calls.                                                                 ]
 [ RDG  | Daniel Kahneman's Thinking, Fast and Slow                                   | 25 Sǽd 227 // 22.00.00     | 25 Sǽd 227 // 22.47.00     |                                                                                                             ]
 [ DEV  | faereld                                                                     | 25 Sǽd 227 // 18.50.00     | 25 Sǽd 227 // 19.31.00     | More refactoring, building up a basic inputs framework.                                                     ]
 [ RDG  | Daniel Kahneman's Thinking, Fast and Slow                                   | 24 Sǽd 227 // 02.00.00     | 24 Sǽd 227 // 02.25.00     |                                                                                                             ]
