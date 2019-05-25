@@ -1,10 +1,21 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 16 Blóstm 227 // 18.25
-// COUNT :: 807
+// UPDATED :: 6 Mǽdland 227 // 21.15
+// COUNT :: 818
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ DEV  | geard                                                                       | 5 Mǽdland 227 // 17.00.00  | 5 Mǽdland 227 // 19.00.00  | Creating hinged plexiglass lid for nursery, attaching it.                                                   ]
+[ DEV  | geard                                                                       | 4 Mǽdland 227 // 17.30.00  | 4 Mǽdland 227 // 18.15.00  | Adding CFC light suspension mechanism.                                                                      ]
+[ DES  | geard                                                                       | 2 Mǽdland 227 // 20.00.00  | 2 Mǽdland 227 // 21.30.00  | Designing hinge door and CFC light suspension mechanism                                                     ]
+[ DES  | geard                                                                       | 28 Blóstm 227 // 12.00.00  | 28 Blóstm 227 // 15.00.00  | Designing the initial set up.                                                                               ]
+[ DES  | faereld                                                                     | 24 Blóstm 227 // 22.40.00  | 24 Blóstm 227 // 23.18.00  | Designing a logo.                                                                                           ]
+[ RDG  | Rosi Braidotti's The Posthuman                                              | 23 Blóstm 227 // 23.03.00  | 23 Blóstm 227 // 23.27.00  |                                                                                                             ]
+[ RDG  | Wilfrid Sellars' Empericism & the Philosophy of Mind                        | 23 Blóstm 227 // 19.53.00  | 23 Blóstm 227 // 20.37.00  |                                                                                                             ]
+[ RDG  | Cybernetic Culture Research Unit's Writings 1997-2003                       | 22 Blóstm 227 // 16.00.00  | 22 Blóstm 227 // 19.00.00  |                                                                                                             ]
+[ RDG  | Scott Bakker's Neuropath                                                    | 20 Blóstm 227 // 17.00.00  | 20 Blóstm 227 // 19.00.00  |                                                                                                             ]
+[ RDG  | Scott Bakker's Neuropath                                                    | 17 Blóstm 227 // 23.34.00  | 18 Blóstm 227 // 00.17.00  |                                                                                                             ]
+[ RDG  | Scott Bakker's Neuropath                                                    | 17 Blóstm 227 // 19.25.00  | 17 Blóstm 227 // 21.03.00  |                                                                                                             ]
 [ RDG  | Reza Negarestani's Intelligence and Spirit                                  | 16 Blóstm 227 // 18.00.00  | 16 Blóstm 227 // 18.25.00  |                                                                                                             ]
 [ RDG  | Cybernetic Culture Research Unit's Writings 1997-2003                       | 13 Blóstm 227 // 21.45.00  | 13 Blóstm 227 // 22.59.00  |                                                                                                             ]
 [ DOC  | datarum                                                                     | 11 Blóstm 227 // 17.17.00  | 11 Blóstm 227 // 17.43.00  | Fleshing out docstrings.                                                                                    ]

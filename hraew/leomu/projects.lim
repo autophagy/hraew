@@ -1,3 +1,25 @@
+[ geard ]
+nama      :: Geard
+mearcung  :: Indoor Herb Garden
+weorc     :: Soþ
+gewyrd    :: In Progress
+bleoh     :: bearht
+beah      :: Geard is an indoor herb garden.
+hand      :: This project aims to provide fresh herbs for use in cooking. Since
+          :: the building in which I live gets no direct sunlight, Geard facilitates
+          :: growth with 2x 18W fluorescent lamps, on a 16 hours on/8 hours off cycle.
+          :: This light is suspended from chains so that the distance from the plants
+          :: can be adjusted. The nursery level also features a plexiglass lid to cut
+          :: down on glare, while still letting the plants be visible. Currently,
+          :: Geard has basil, mint, rosemary, parsley and oregano growing in its nursery.
+          ::
+          :: Future work will involve hooking up an arduino with sensors in order to
+          :: monitor and visualise various metrics, such as air humidity.
+          ::
+          :: [BILIÞ]
+          :: [basil.jpg :: Some baby basil growth]
+fingras   :: source :: https://github.com/autophagy/geard
+
 [ byrgen ]
 nama      :: Byrgen
 mearcung  :: Writings & Ghost Theme
