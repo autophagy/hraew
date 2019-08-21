@@ -15,5 +15,5 @@ parse==1.8.4
 six==1.11.0
 toml==0.9.4
 webencodings==0.5.1
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 wisdomhord==0.3.1
