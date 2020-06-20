@@ -1,8 +1,23 @@
+[ hlaf ]
+nama      :: Hláf
+mearcung  :: Meal Planning App
+weorc     :: Soþ
+gewyrd    :: In Progress
+bleoh     :: Soþ
+beah      :: Hláf is an meal planning and pantry tracking app.
+hand      :: This project aims to provide a web app, in which users can add recipes,
+          :: use those recipes to plan their upcoming cooking, and then produce a
+          :: shopping list based on the delta between the user's pantry and what is
+          :: expected to be used in the planned cooking.
+          ::
+          :: Currently in the design phase.
+fingras   :: source :: https://github.com/autophagy/hlaf
+
 [ geard ]
 nama      :: Geard
 mearcung  :: Indoor Herb Garden
 weorc     :: Soþ
-gewyrd    :: In Progress
+gewyrd    :: Discontinued
 bleoh     :: bearht
 beah      :: Geard is an indoor herb garden.
 hand      :: This project aims to provide fresh herbs for use in cooking. Since

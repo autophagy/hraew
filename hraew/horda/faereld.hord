@@ -1,10 +1,12 @@
 // INVOKER :: Færeld
 // DESCRIPTION :: Productive task time tracking data produced by Færeld
 // INCEPT :: 27 Mist 226 // 22.15
-// UPDATED :: 28 Ríp 227 // 22.23
-// COUNT :: 858
+// UPDATED :: 3 Ríp 228 // 16.03
+// COUNT :: 860
 
 [ AREA | OBJECT                                                                      | START                      | END                        | PURPOSE                                                                                                     ]
+[ DOC  | hraew                                                                       | 3 Ríp 228 // 15.49.00      | 3 Ríp 228 // 16.03.00      | Adding Hlaf to Hraew.                                                                                       ]
+[ DES  | hlaf                                                                        | 3 Ríp 228 // 14.10.00      | 3 Ríp 228 // 15.25.00      | Working on the design for the recipe listing page.                                                          ]
 [ LNG  | Japanese                                                                    | 28 Ríp 227 // 22.06.00     | 28 Ríp 227 // 22.23.00     |                                                                                                             ]
 [ LNG  | Japanese                                                                    | 28 Ríp 227 // 11.10.00     | 28 Ríp 227 // 11.42.00     |                                                                                                             ]
 [ LNG  | Japanese                                                                    | 27 Ríp 227 // 15.02.00     | 27 Ríp 227 // 15.06.00     |                                                                                                             ]
