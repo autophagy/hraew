@@ -11,7 +11,7 @@ hand :: This is [GEÞEODAN :: /hraew :: Hrǽw], [GEÞEODAN :: /mika :: Mika Nayl
 nama  :: Mika Naylor
 bleoh :: bearht
 beah  :: Mika is a haphazard assemblage of biological processes.
-hand  :: I’m a software developer currently shambling towards death in [FÆRELD :: global :: alive in]. I am
+hand  :: I’m a software developer currently living in Berlin. I am
       :: creating my own set of aesthetically unified and ideosyncratic
       :: productivity tools, most notably [GEÞEODAN :: /hraew :: Hrǽw] and
       :: [GEÞEODAN :: /faereld :: Færeld]. I am also beginning to play around with
@@ -25,112 +25,18 @@ hand  :: I’m a software developer currently shambling towards death in [FÆREL
       :: infrastructures with Kubernetes, Docker and CrateDB. Alongside this, I
       :: also work a lot with release/distribution pipelines, tooling and drivers.
       ::
-      :: Outside of software, I mostly [GEÞEODAN :: /readings :: read books], listen to ambient
+      :: Outside of software, I mostly read books, listen to ambient
       :: black metal and climb bouldering walls. At the moment, my reading is mostly geared towards history of philosophy,
       :: philosophy of mind/language and [GEÞEODAN :: https://deontologistics.wordpress.com/2018/02/11/on-neorationalism/ :: neorationalism],
       :: with a focus on reading Giles Deleuze, Robert Brandom, Reza Negarestani and Ludwig Wittgenstein.
       :: I have not worn a colourful piece of clothing in my life.
       ::
       :: If you'd like to contact me, you can find me on [GEÞEODAN :: https://twitter.com/autophagian :: Twitter],
-      :: [GEÞEODAN :: https://merveilles.town/@autophagy :: merveilles.town] and
-      :: [GEÞEODAN :: https://github.com/autophagy/ :: Github]. If email is more your thing, you can drop me one at
-      :: [GEÞEODAN :: mailto:init@autophagy.io :: init@autophagy.io].
+      :: and [GEÞEODAN :: https://github.com/autophagy/ :: Github]. If email is more your thing, you can drop me one at
+      :: [GEÞEODAN :: mailto:eala@autophagy.io :: eala@autophagy.io].
       ::
       :: [BILIÞ]
       :: [profile.jpg :: The face I make when the jenkins build fails]
       ::
       :: [FRÆTWE :: GÁST :: Nettweorc eardode, sincfáge sel sweartum nihtum.]
 
-[ readings ]
-nama  :: Readings
-bleoh :: bearht
-beah  :: A list of things I have read, am currently reading, or hope to read.
-hand  :: This list was begun [FÆRELD :: global :: days since incept] days ago,
-      :: and so does not account for all that I have read - just what I have read
-      :: recently.
-      ::
-      :: [FRÆTWE :: HEAFOD :: Currently Reading]
-      ::
-      :: [CUNNUNGARC]
-      :: [                                                                                 ]
-      :: [ Anthony Kenny's [ A New History of Western Philosophy ]                         ]
-      :: [ Robert B. Brandom's [ Articulating Reasons: An Introduction to Inferentialism ] ]
-      ::
-      :: [FRÆTWE :: HEAFOD :: To Read]
-      ::
-      :: [CUNNUNGARC]
-      :: [                                                                                                               ]
-      :: [ [ #Accelerate: The Accelerationist Reader ]                                                                   ]
-      :: [ Alan Turing's [ Intelligent Machinery, A Heretical Theory ]                                                   ]
-      :: [ Antonio Damasio's [ Descartes' Error: Emotion, Reason and the Human Brain ]                                   ]
-      :: [ Aristotle's [ Physics ]                                                                                       ]
-      :: [ Aristotle's [ Metaphysics ]                                                                                   ]
-      :: [ CCRU's [ Writings 1997-2003 ]                                                                                 ]
-      :: [ David Roden's [ Posthuman Life: Philosophy at the Edge of the Human ]                                         ]
-      :: [ D. S. Sivia's [ Data Analysis: A Bayesian Tutorial ]                                                          ]
-      :: [ Eugene Thacker's [ In The Dust of This Planet: Horror of Philosophy Vol. 1 ]                                  ]
-      :: [ Eugene Thacker's [ Starry Speculative Corpse: Horror Of Philosophy Vol. 2 ]                                   ]
-      :: [ Floris Cohen's [ The Rise of Modern Science Explained: A Comparative History ]                                ]
-      :: [ Foucault's [ Society Must be Defended: Lectures at the Collège de France, 1975-76 ]                           ]
-      :: [ Foucault's [ The Order of Things ]                                                                            ]
-      :: [ Gilles Deleuze's [ Difference and Repetition ]                                                                ]
-      :: [ Hegel's [ Phenomenology of Spirit ]                                                                           ]
-      :: [ Ian Hacking's [ Representing and Intervening ]                                                                ]
-      :: [ Immanuel Kant's [ Critique of Pure Reason ]                                                                   ]
-      :: [ Irving M. Copi's [ Introduction to Logic ]                                                                    ]
-      :: [ Ludwig Wittgenstein's [ Philosophical Investigations ]                                                        ]
-      :: [ Ludwig Wittgenstein's [ Tractatus Logico-Philosophicus ]                                                      ]
-      :: [ Manuel DeLanda and Graham Harman's [ The Rise of Realism ]                                                    ]
-      :: [ Manuel DeLanda's [ Assemblage Theory ]                                                                        ]
-      :: [ Manuel DeLanda's [ Intensive Science and Virtual Philosophy ]                                                 ]
-      :: [ Matthijs Krul's [ The New Institutionalist Economic History of Douglass C. North: A Critical Interpretation ] ]
-      :: [ Max More & Natasha Vita-More's [ The Transhumanist Reader ]                                                   ]
-      :: [ Nick Land's [ Fanged Noumena: Collected Writings 1978-2007 ]                                                  ]
-      :: [ Plato's [ Protagoras ]                                                                                        ]
-      :: [ Ray Brassier's [ Nihil Unbound: Enlightenment and Extinction ]                                                ]
-      :: [ Reza Negarestani's [ Intelligence and Spirit ]                                                                ]
-      :: [ Robert B. Brandom's [ Making It Explicit ]                                                                    ]
-      :: [ Robert B. Brandom's [ Reason in Philosophy: Animating Ideas ]                                                 ]
-      :: [ Robert B. Brandom's [ Between Saying and Doing: Towards an Analytic Pragmatism ]                              ]
-      :: [ Robyn M. Dawes' [ Rational Choice in an Uncertain World ]                                                     ]
-      :: [ Rosi Braidotti's [ The Posthuman ]                                                                            ]
-      :: [ Rosi Braidotti's [ Philosophy after Nature ]                                                                  ]
-      :: [ Rosi Braidotti's [ Posthuman Feminism ]                                                                       ]
-      :: [ Ruth Millikan [ Language: A Biological Model ]                                                                ]
-      :: [ Spinoza's [ Ethics ]                                                                                          ]
-      :: [ Timothy Taylor's [ The Artificial Ape ]                                                                       ]
-      :: [ Wilfrid Sellars' [ Empiricism and the Philosophy of Mind ]                                                    ]
-      ::
-      :: [FRÆTWE :: HEAFOD :: Have Read]
-      ::
-      :: [CUNNUNGARC]
-      :: [                                                                                 ]
-      :: [ Benjamin H. Bratton's [ The Stack: On Software and Sovereignty ]                ]
-      :: [ [ Beowulf ]                                                                     ]
-      :: [ Brian Massumi's [ A user's guide to Capitalism and Schizophrenia ]              ]
-      :: [ China Miéville's [ Embassytown ]                                                ]
-      :: [ China Miéville's [ Perdido Street Station ]                                     ]
-      :: [ China Miéville's [ The Scar ]                                                   ]
-      :: [ David Peak's [ The Spectacle of the Void ]                                      ]
-      :: [ Eugene Thacker's [ Tentacles Longer Than Night ]                                ]
-      :: [ Eugene Thacker's [ Infinite Resignation ]                                       ]
-      :: [ Guy Debord's [ Society of the Spectacle ]                                       ]
-      :: [ Helen Hester's [ Xenofeminism ]                                                 ]
-      :: [ Herman Hesse's [ Steppenwolf ]                                                  ]
-      :: [ Herman Meville's [ Moby Dick ]                                                  ]
-      :: [ Iain M. Bank's [ Look to Windward ]                                             ]
-      :: [ Ian M. Bank's [ Consider Phlebas ]                                              ]
-      :: [ Ian M. Bank's [ The Hydrogen Sonata ]                                           ]
-      :: [ [ Invisible Planets: 13 Visions of the Future from China ]                      ]
-      :: [ [ Iraq + 100: Stories from a Century After the Invasion ]                       ]
-      :: [ Italo Calvino's [ Our Ancestors ]                                               ]
-      :: [ Italo Calvino's [ The Complete Cosmicomics ]                                    ]
-      :: [ Jorge Luis Borge's [ Fictions ]                                                 ]
-      :: [ Kim Stanley Robinson's [ Red Mars ]                                             ]
-      :: [ Mark Fisher's [ Capitalist Realism ]                                            ]
-      :: [ Mark Fisher's [ Ghosts of My Life ]                                             ]
-      :: [ [ Mathematics: Its Content, Methods and Meaning ]                               ]
-      :: [ Reza Negarestani's [ Cyclonopedia: Complicity with Anonymous Materials ]        ]
-      :: [ Sophie Lee's [ Living with Plants ]                                             ]
-      :: [ [ Sunvault: Stories of Solarpunk and Eco-Speculation ]                          ]
-      :: [ Ursula K. Le Guin's [ The Word for World is Forest ]                            ]

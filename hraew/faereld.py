@@ -18,17 +18,6 @@ class FaereldBisen(wisdomhord.Bisen):
     purpose = wisdomhord.Sweor("PURPOSE", wisdomhord.String)
 
 
-class LocationBisen(wisdomhord.Bisen):
-
-    __invoker__ = "Færeld"
-    __description__ = "Where I've ended up"
-
-    date = wisdomhord.Sweor("DATE", wisdomhord.Wending)
-    location = wisdomhord.Sweor("LOCATION", wisdomhord.String)
-    coordinates = wisdomhord.Sweor("COORDINATES", wisdomhord.Coordinate)
-    purpose = wisdomhord.Sweor("PURPOSE", wisdomhord.String)
-
-
 class FaereldStatics(object):
     _statistic_keys = {}
 
@@ -53,11 +42,6 @@ class GeneralStatistics(FaereldStatics):
         self.total_project_logs = 0
         self.incept_date = datarum.wending.now()
 
-        hord = wisdomhord.hladan(
-            join(dirname(__file__), "horda/locations.hord"), bisen=LocationBisen
-        )
-        self.location = hord.get_rows(limit=1)[0].location
-
         self._statistic_keys = {
             "total time": lambda: format_timedelta(self.total_time),
             "total logs": lambda: self.total_logs,
@@ -65,7 +49,6 @@ class GeneralStatistics(FaereldStatics):
             "total project logs": lambda: self.total_project_logs,
             "incept date": lambda: self.incept_date.strftime("{daeg} {month} {gere}"),
             "days since incept": lambda: self.days_since_incept,
-            "alive in": lambda: self.location,
         }
 
     def update(self, entry, project_areas):
