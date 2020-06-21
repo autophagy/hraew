@@ -335,23 +335,6 @@ hand      :: The main goal of Wísdómhord is to create a flat file db format th
 fingras   :: source        :: https://github.com/autophagy/wisdomhord
           :: documentation :: https://wisdomhord.readthedocs.io/en/latest/
 
-[ getheode ]
-nama      :: Geþeóde
-mearcung  :: Conlanging Tool
-weorc     :: Soþ
-gewyrd    :: In Dev
-bleoh     :: bearht
-beah      :: Geþeóde is a tool for language construction.
-hand      :: Geþeóde is a conlanging tool I am building with
-          :: [GEÞEODAN :: https://twitter.com/McCaineNL :: Matthijs Krul] to be used,
-          :: initially, in the construction of lexicons.It is being built in a modular
-          :: way, allowing us to add functionality to the tool in order to support more
-          :: and more language creation aspects.
-          ::
-          :: It is being built with React and in the future will be an independent
-          :: Electron app.
-fingras   :: source :: https://github.com/autophagy/getheode
-
 [ scieldas ]
 nama      :: Scieldas
 mearcung  :: Metadata Badges
