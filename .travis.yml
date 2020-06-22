@@ -16,5 +16,6 @@ deploy:
   skip_cleanup: true
   region: eu-central-1
   local_dir: hraew/build
+  dot_match: true
 notifications:
   email: false
