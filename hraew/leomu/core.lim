@@ -19,11 +19,10 @@ hand  :: I’m a software developer currently living in Berlin. I am
       :: Outside of these projects, I am also a contributor to and maintainer of
       :: the [GEÞEODAN :: https://github.com/ambv/black :: Black] python formatter.
       ::
-      :: Professionally, I am a developer and sysadmin at [GEÞEODAN :: https://crate.io/ :: Crate.io],
-      :: a company building a horizontally scalable SQL database and a machine data
-      :: platform. I spend most of my days creating things and building scalable
-      :: infrastructures with Kubernetes, Docker and CrateDB. Alongside this, I
-      :: also work a lot with release/distribution pipelines, tooling and drivers.
+      :: Professionally, I'm a software developer (mostly working in Python) and
+      :: am a fan of the devops mindset of caring about the software you write
+      :: all the way to deployment. To this end, I work a lot with container
+      :: infrastructures like Docker and Kubernetes.
       ::
       :: Outside of software, I mostly read books, listen to ambient
       :: black metal and climb bouldering walls. At the moment, my reading is mostly geared towards history of philosophy,
