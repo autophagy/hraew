@@ -1,7 +1,7 @@
 appdirs==1.4.3
 attrs==18.1.0
 black==18.6b4
-bleach==3.1.5
+bleach==3.3.0
 click==6.7
 datarum==0.5.1
 docutils==0.14
