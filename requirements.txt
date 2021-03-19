@@ -10,7 +10,7 @@ Frozen-Flask==0.15
 gunicorn==19.7.1
 html5lib==1.0.1
 itsdangerous==0.24
-Jinja2==2.10.1
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 parse==1.8.4
 six==1.11.0
